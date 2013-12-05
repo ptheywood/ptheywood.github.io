@@ -1,3 +1,15 @@
+source: .
+destination: ./_site
+include: ['.htaccess']
+exclue: []
+keep_files: ['.git']
+
+host: 0.0.0.0
+port: 4000
+baseurl: /
+url: http://localhost:4000
+lsi: false
+
 name: peethwd.net
 markdown: redcarpet
 pygments: true
