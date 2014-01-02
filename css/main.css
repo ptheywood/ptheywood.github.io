@@ -11,7 +11,7 @@ body {
 }
 
 .content {
-
+    padding: 12px 0;
 }
 
 /* Pushed down footer*/
@@ -34,3 +34,6 @@ body {
     padding-bottom: 12px;
 }
 
+a span.black {
+    color: #333;
+}

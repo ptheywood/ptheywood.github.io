@@ -2,10 +2,23 @@
 layout: default
 title: Blog
 ---
-
 <h2>Blog Posts</h2>
-<ul class="posts">
-{% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+<div class="row">
+    <div class="col-xs-4">
+        <div class="well">
+            <ul class="nav nav-pills nav-stacked posts">
+            {% for post in site.posts %}
+                <li><a href="{{ post.url }}"><span class="black">{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="col-xs-8">
+        <p>
+            From time to time I will might write about various things, which might be added to this page.
+            <br />
+            I'm not really sure what I will blog about at this point. This bit will be improved at some point.
+            <br />
+    </div>
+</div>
+            
