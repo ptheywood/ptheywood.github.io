@@ -1,53 +1,54 @@
             </div>
         </div>
-        <div class="footer navbar navbar-fixed-bottom">
-            <div class="container">
-                <div class="row">
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
 
-                    <div class="col-xs-6 contact">
-                        <p>
-                            Peter Heywood <br />
-                            Computer Scientist <br />
-                        </p>
-                    </div>
+                <div class="col-xs-6 contact">
+                    <p>
+                        Peter Heywood <br />
+                        Computer Scientist <br />
+                    </p>
+                </div>
 
-                    <div class="col-xs-6 contact">
-                        <p class="text-right">
-                            <a href="mailto:mail@peethwd.net">mail@peethwd.net</a> <br />
-                            <a href="https://github.com/peethwd">github.com/peethwd</a> <br />
-                            <a href="https://twitter.com/peethwd">twitter.com/peethwd</a> <br />
-                        </p>
-                    </div>
+                <div class="col-xs-6 contact">
+                    <p class="text-right">
+                        <a href="mailto:mail@peethwd.net">mail@peethwd.net</a> <br />
+                        <a href="https://github.com/peethwd">github.com/peethwd</a> <br />
+                        <a href="https://twitter.com/peethwd">twitter.com/peethwd</a> <br />
+                    </p>
                 </div>
             </div>
         </div>
-        <script type="text/javascript">
-            // Defer the loading of JS (Via: http://www.feedthebot.com/pagespeed/defer-loading-javascript.html, http://stackoverflow.com/questions/16647050/how-to-defer-javascript)
-            function downloadJS(src, success){
-                var element = document.createElement("script");
-                element.src = src;
-                done = false;
-                element.onload = element.onreadystatechange = function(){
-                    if ( !done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') ) {
-                        done=true;
-                        success();
-                        element.onload = element.onreadystatechange = null;
-                    }
-                };
-                document.body.appendChild(element);  
-            }
+    </div>
+    <script type="text/javascript">
+        // Defer the loading of JS (Via: http://www.feedthebot.com/pagespeed/defer-loading-javascript.html, http://stackoverflow.com/questions/16647050/how-to-defer-javascript)
+        function downloadJS(src, success){
+            var element = document.createElement("script");
+            element.src = src;
+            done = false;
+            element.onload = element.onreadystatechange = function(){
+                if ( !done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') ) {
+                    done=true;
+                    success();
+                    element.onload = element.onreadystatechange = null;
+                }
+            };
+            document.body.appendChild(element);  
+        }
 
-            function downloadJSAtOnload() {
-                downloadJS("//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", function(){
-                    downloadJS("/scripts/common.js", function() {});
-                });
-            }
+        function downloadJSAtOnload() {
+            downloadJS("//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", function(){
+                downloadJS("/scripts/common.js", function() {});
+            });
+        }
 
-            if (window.addEventListener)
-                window.addEventListener("load", downloadJSAtOnload, false);
-            else if (window.attachEvent)
-                window.attachEvent("onload", downloadJSAtOnload);
-            else window.onload = downloadJSAtOnload;
+        if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
 
-      </script>
-    </body>
+    </script>
+</body>
