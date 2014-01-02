@@ -13,3 +13,14 @@ lsi: false
 name: peethwd.net
 markdown: redcarpet
 pygments: true
+
+
+navigation:
+- text: Home
+  url: /
+- text: Portfolio
+  url: /portfolio/
+- text: Blog
+  url: /blog/
+- text: Twitter
+  url: "http://twitter.com/peethwd"
