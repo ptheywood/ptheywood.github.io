@@ -11,6 +11,7 @@ url: http://localhost:4000
 lsi: false
 
 name: peethwd.net
+permalink: /blog/:year/:month/:day/:title
 markdown: redcarpet
 pygments: true
 
