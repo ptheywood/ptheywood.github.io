@@ -1,72 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Peter Heywood<br />
-                Computer Scientist<br />
-                <a href="mailto:peethwd@gmail.com">peethwd@gmail.com</a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/peethwd">github.com/peethwd</a><br />
-                <a href="https://twitter.com/peethwd">twitter.com/peethwd</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript">
-            // Defer the loading of JS (Via: http://www.feedthebot.com/pagespeed/defer-loading-javascript.html, http://stackoverflow.com/questions/16647050/how-to-defer-javascript)
-            function downloadJS(src, success){
-                var element = document.createElement("script");
-                element.src = src;
-                done = false;
-                element.onload = element.onreadystatechange = function(){
-                    if ( !done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') ) {
-                        done=true;
-                        success();
-                        element.onload = element.onreadystatechange = null;
-                    }
-                };
-                document.body.appendChild(element);  
-            }
-
-            function downloadJSAtOnload() {
-                downloadJS("//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", function(){
-                    downloadJS("/scripts/common.js", function() {});
-                });
-            }
-
-            if (window.addEventListener)
-                window.addEventListener("load", downloadJSAtOnload, false);
-            else if (window.attachEvent)
-                window.attachEvent("onload", downloadJSAtOnload);
-            else window.onload = downloadJSAtOnload;
-
-      </script>
-    </body>
+    {% include head.html %}
+    {% include header.html %}
+        {{ content }}
+    {% include footer.html %}
 </html>
