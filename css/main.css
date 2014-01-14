@@ -1,13 +1,48 @@
 html,
 body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-    background: #ccc;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
 }
 
 .header {
-    background: #555;
+    background: #E66116;
+    color: #DFDFDF;
+    height: 280px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 48px auto 24px auto;
+    font-size: 2.2em;
+}
+
+.header h2 {
+    margin: 24px auto 48px auto;
+    font-size: 2.6em;
+}
+
+.header a {
+    color: #6F0909;
+}
+
+.header .nav {
+    margin: 32px auto;
+}
+
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:hover, 
+.nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #6F0909;
+}
+
+.nav>li>a:hover, 
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #CC5613;
+    color: #DFDFDF;
 }
 
 .content {
@@ -16,17 +51,22 @@ body {
 
 /* Pushed down footer*/
 .non-footer {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
 
-  margin: 0 auto -100px;
-  padding: 0 0 100px;
+    margin: 0 auto -160px;
+    padding: 0 0 160px;
 }
 
 .footer {
-    background: #555;
-    height: 100px;
+    background: #E66116;
+    color: #DFDFDF;
+    height: 160px;
+}
+
+.footer a {
+    color: #6F0909;
 }
 
 .footer .container {
