@@ -1,22 +1,8 @@
 {% assign url = page.url|remove:'index.html' %}
-<nav class="navbar navbar-inverse" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-
-    <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-        {% for link in site.navigation %}
-        <li {% if url == link.url %}class="active"{% endif %}>
-            <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
-        </li>
-        {% endfor %}
-        </ul>
-    </div>
-</nav>
-
+<ul class="nav nav-pills nav-justified">
+    {% for link in site.navigation %}
+    <li {% if url == link.url %}class="active"{% endif %}>
+        <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+    </li>
+    {% endfor %}
+</ul>
