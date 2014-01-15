@@ -67,14 +67,14 @@ body {
     height: auto !important;
     height: 100%;
 
-    margin: 0 auto -150px;
-    padding: 0 0 150px;
+    margin: 0 auto -160px;
+    padding: 0 0 160px;
 }
 
 .footer {
     background: #212121;
     color: #DFDFDF;
-    height: 150px;
+    min-height: 160px;
 }
 
 .footer a {
@@ -87,7 +87,7 @@ body {
 }
 
 .footer .footer-list li {
-    margin: 8% 0;
+    margin: 6% 0;
 }
 
 a span.black {
