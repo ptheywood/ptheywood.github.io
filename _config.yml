@@ -17,7 +17,7 @@ pygments: true
 
 
 navigation:
-- text: Home
+- text: About
   url: /
 - text: Portfolio
   url: /portfolio/
