@@ -93,3 +93,6 @@ body {
 a span.black {
     color: #333;
 }
+.img-responsive-center {
+    margin: 0 auto;
+}
