@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background: #212121 url(/img/blurred-python.png) center center;
+    background: #212121 url(/img/blurred-python.png) no-repeat center center;
     color: #DFDFDF;
     min-height: 240px;
     text-align: center;
