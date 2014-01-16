@@ -77,8 +77,18 @@ body {
     min-height: 160px;
 }
 
-.footer a {
-    color: #6F0909;
+.footer a.btn {
+    color: #ddd;
+    background-color: #3B1919;
+    background-color: rgba(100, 17, 17, 0.3);
+    border-color: #200606;
+}
+.footer a.btn:hover,
+.footer a.btn:active {
+    color: #eee;
+    background-color: #421818;
+    background-color: rgba(100, 17, 17, 0.6);
+    border-color: #200606;
 }
 
 .footer .container {
