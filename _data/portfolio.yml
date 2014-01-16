@@ -1,26 +1,32 @@
 - title: One
   description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   imgsrc: "http://placesheen.com/400/340"
+  path: "/portfolio/one/"
 
 - title: Two
   description: "Aliquam tincidunt mauris eu risus."
   imgsrc: "http://placehold.it/400x340"
+  path: "/portfolio/one/"
 
 - title: Three
   description: "Vestibulum auctor dapibus neque."
   imgsrc: "http://placekitten.com/400/340"
+  path: "/portfolio/one/"
 
 - title: Four
   description: "Nunc dignissim risus id metus."
   imgsrc: "http://placekitten.com/400/340"
+  path: "/portfolio/one/"
 
 - title: Five
   description: "Cras ornare tristique elit."
   imgsrc: "http://placesheen.com/400/340"
+  path: "/portfolio/one/"
 
 - title: Six
   description: "Vivamus vestibulum nulla nec ante."
   imgsrc: "http://placehold.it/400x340"
+  path: "/portfolio/one/"
 
 
 
