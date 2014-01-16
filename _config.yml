@@ -14,13 +14,3 @@ name: peethwd.net
 permalink: /notes/:title
 markdown: redcarpet
 pygments: true
-
-
-navigation:
-- text: About
-  url: /
-- text: Portfolio
-  url: /portfolio/
-- text: Notes
-  url: /notes/
-
