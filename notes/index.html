@@ -1,24 +1,45 @@
 ---
 layout: default
-title: Blog
+title: Notes
+
+iter:
+- "i"
+- "i"
+- "i"
+- "i"
+- "i"
+- "i"
+- "i"
+- "i"
+- "i"
 ---
-<h2>Blog Posts</h2>
 <div class="row">
-    <div class="col-xs-4">
-        <div class="well">
-            <ul class="nav nav-pills nav-stacked posts">
-            {% for post in site.posts %}
-                <li><a href="{{ post.url }}"><span class="black">{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</a></li>
-            {% endfor %}
-            </ul>
-        </div>
-    </div>
-    <div class="col-xs-8">
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+        <h2 class="text-center">Notes</h2>
         <p>
-            From time to time I will might write about various things, which might be added to this page.
-            <br />
-            I'm not really sure what I will blog about at this point. This bit will be improved at some point.
-            <br />
+            From time to time I write myself notes that sometimes other people might find useful, be it some php code, a shell script or anything else.
+        </p>
+        <p>
+            This is where you can find those notes, though they may not be very frequent
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+        <ul class="notes-list list-unstyled">
+        {% for i in page.iter %}
+            {% for post in site.posts %}
+            <li class="{% cycle 'bdr-color': 'bdr-red', 'bdr-red-dark', 'bdr-red-light', 'bdr-dark', 'bdr-purple', 'bdr-blue', 'bdr-green', 'bdr-yellow', 'bdr-orange' %}">
+                <a href="{{ post.url }}" >
+                    <h3>{{ post.title }}</h3>
+                    <p>
+                        Post Short description
+                    <p>
+                </a>
+            </li>
+            {% endfor %}
+        {% endfor %}
+        </ul>
     </div>
 </div>
             
