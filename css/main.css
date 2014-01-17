@@ -149,11 +149,14 @@ ul.notes-list li.bdr-light {
 ul.notes-list li.bdr-dark {
     border-color: #212121;
 }
-ul.notes-list li.bdr-red {
-    border-color: #6F0909;
+ul.notes-list li.bdr-very-red-light {
+    border-color: #D43F3A;
 }
 ul.notes-list li.bdr-red-light {
-    border-color: #D43F3A;
+    border-color: #A3312D;
+}
+ul.notes-list li.bdr-red {
+    border-color: #6F0909;
 }
 ul.notes-list li.bdr-red-dark {
     border-color: #3B1919;
