@@ -1,7 +1,7 @@
 source: .
 destination: ./_site
 include: ['.htaccess']
-exclue: []
+exclude: ['VagrantFile', 'bower.json', 'readme.md', ]
 keep_files: ['.git']
 
 host: 0.0.0.0
