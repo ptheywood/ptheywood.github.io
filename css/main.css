@@ -209,3 +209,28 @@ ul.notes-list li a:active h3 {
 }
 
 /* /Notes List */
+
+
+/* Error 404 */
+
+.error-page {
+
+}
+.error-page h2 {
+    font-size: 140%;
+    font-weight: bold;
+    padding: 12px 0 8px 24px;
+    border-left: 5px solid #6F0909;
+    color: #88312E;
+    margin-bottom: 16px;
+}
+.error-page p {
+    font-size: 124%;
+}
+.error-page p.ascii {
+    color: #6F0909;
+    font-size: 600%;
+    padding: 24px;
+    text-align: center;
+}
+/* /Error 404 */
