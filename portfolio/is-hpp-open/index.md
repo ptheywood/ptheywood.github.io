@@ -3,7 +3,7 @@ layout: portfolio-item
 title: is-hpp-open | Portfolio
 ---
 
-## is-hpp-open
+## is-hpp-open ([Live Site](http://peethwd.net/is-hpp-open/))
 
 Is-hpp-open is an object oriented PHP application making use of the [Rainchasers API](http://ranichasers.com) to predict if the artificial white water course [HPP](http://www.nwscnotts.com/) in Nottingham would be open or not based on river level data provided by the api.
 
