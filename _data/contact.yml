@@ -1,0 +1,11 @@
+- text: Email
+  alternative: mail@peethwd.net
+  url: mailto:mail@peethwd.net
+
+- text: Twitter
+  alternative: twitter/peethwd
+  url: http://twitter.com/peethwd/
+
+- text: Github
+  alternative: github/peethwd
+  url: http://github.com/peethwd/
