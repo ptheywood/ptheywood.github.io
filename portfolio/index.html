@@ -6,7 +6,9 @@ title: Portfolio
 <div class="row">
     <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <h2 class="text-center">Portfolio</h2>
-
+        <p class="text-center">
+            Click on a portfolio item for more information.
+        </p>
     </div>
 </div>
 <div class="portfolio-grid text-center">
@@ -37,11 +39,11 @@ title: Portfolio
             {{site.baseurl}}
                 <div class="col-xs-12 col-sm-4 {{offset}}">
                     <a href="{{ site.baseurl }}{{ item.path }}" class="portfolio-grid-link">
-                       <img src="{{ item.imgsrc }}" class="img-responsive img-responsive-center" />
-                       <h3>{{ item.title }}</h3>
-                       <p>
+                        <img src="{{ item.imgsrc }}" class="img-responsive img-responsive-center" />
+                        <h3>{{ item.title }}</h3>
+                        <p>
                            {{ item.description }}
-                       </p>
+                        </p>
                    </a>
                 </div>
         {% if columnsAfter == 0 %}
