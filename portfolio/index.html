@@ -34,9 +34,9 @@ title: Portfolio
             {% endif %}
             {% assign columnsAfter = columnCount | minus: 1 %}
         {% endif %}
-
+            {{site.baseurl}}
                 <div class="col-xs-12 col-sm-4 {{offset}}">
-                    <a href="{{ site.url }}{{item.path}}" class="portfolio-grid-link">
+                    <a href="{{ site.baseurl }}{{ item.path }}" class="portfolio-grid-link">
                        <img src="{{ item.imgsrc }}" class="img-responsive img-responsive-center" />
                        <h3>{{ item.title }}</h3>
                        <p>
