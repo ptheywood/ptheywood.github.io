@@ -16,4 +16,4 @@ permalink: /notes/:title
 markdown: redcarpet
 pygments: true
 
-ga_enabled: false
+ga_enabled: true
