@@ -3,6 +3,7 @@ destination: ./_site
 include: ['.htaccess']
 exclude: ['VagrantFile', 'bower.json', 'readme.md', ]
 keep_files: ['.git']
+timezone: Europe/London
 
 host: 0.0.0.0
 port: 4000
