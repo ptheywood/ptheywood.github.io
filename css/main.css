@@ -44,7 +44,7 @@ a:active {
 .nav-pills>li>a {
     color: #ddd;
     background-color: #3B1919;
-    background-color: rgba(100, 17, 17, 0.3);
+    background-color: rgba(100, 17, 17, 0.5);
     /* @todo >> This will probs need fixing for col-xs*/
     margin-left:7.5%;
     margin-right:7.5%;
