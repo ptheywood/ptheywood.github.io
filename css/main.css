@@ -88,7 +88,7 @@ a:active {
 .footer a.btn {
     color: #ddd;
     background-color: #3B1919;
-    background-color: rgba(100, 17, 17, 0.3);
+    background-color: rgba(100, 17, 17, 0.5);
     border-color: #200606;
 }
 .footer a.btn:hover,
