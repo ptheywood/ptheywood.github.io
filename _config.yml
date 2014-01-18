@@ -15,3 +15,5 @@ name: peethwd.net
 permalink: /notes/:title
 markdown: redcarpet
 pygments: true
+
+ga_enabled: false
