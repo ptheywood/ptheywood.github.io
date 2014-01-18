@@ -2,7 +2,7 @@
 <ul class="nav nav-pills nav-justified">
     {% for link in site.data.navigation %}
     <li {% if url == link.url %}class="active"{% endif %}>
-        <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+        <a href="{{site.baseurl}}{{link.url}}" title="{{link.title}}">{{link.text}}</a>
     </li>
     {% endfor %}
 </ul>
