@@ -119,8 +119,20 @@ a span.black {
     margin: 0 auto;
 }
 
+.larger-content {
+    margin: 6% 0 8% 0; 
+}
 
+.larger-content h2 {
+    font-weight: bold;
+    font-size: 240%;
+    margin: 24px 0 16px 0;
+}
 
+.larger-content p {
+    font-size: 120%;
+    margin: 12px 0 12px 0;
+}
 
 /* portfolio */
 .portfolio-grid {
