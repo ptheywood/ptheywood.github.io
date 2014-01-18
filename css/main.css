@@ -82,14 +82,14 @@ a:active {
     height: auto !important;
     height: 100%;
 
-    margin: 0 auto -160px;
-    padding: 0 0 160px;
+    margin: 0 auto -178px;
+    padding: 0 0 178px;
 }
 
 .footer {
     background: #212121;
     color: #DFDFDF;
-    min-height: 160px;
+    min-height: 178px;
 }
 
 .footer a.btn {
