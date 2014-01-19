@@ -21,7 +21,7 @@ a:active {
 }
 
 .header {
-    background: #212121 url(/img/poker-bkg.png) no-repeat bottom center;
+    background: #212121 url(/img/poker-bkg.png) no-repeat top center;
     /*background: #212121;*/
     color: #DFDFDF;
     min-height: 240px;
