@@ -21,6 +21,7 @@ pre code span,
 
 p {
     font-size: 1.1em;
+    margin: 8px 0 12px 0;
 }
 
 h2 {
@@ -173,6 +174,13 @@ a span.black {
 .portfolio-grid a:hover, 
 .portfolio-grid a:active {
     text-decoration: none;
+}
+
+.portfolio-item {
+
+}
+.portfolio-item img {
+    margin: 16px auto;
 }
 /* /portfolio */
 
