@@ -2,3 +2,8 @@
   description: "An experiment with the rainchasers.com API, estimating if the whitewater course in Nottingham will be open or not"
   imgsrc: "/img/portfolio/is-hpp-open-cover.png"
   path: "/portfolio/is-hpp-open/"
+
+- title: shefminesoc.co.uk
+  description: "Website for the Sheffield University Minecraft Society for 2012 & 2013"
+  imgsrc: "/img/portfolio/shefminesoc-cover.png"
+  path: "/portfolio/shefminesoc.co.uk/"
