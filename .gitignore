@@ -1,5 +1,8 @@
+!vendor/
+vendor/*
+!vendor/bootstrap
+
 _site
-vendor
 *.sublime-workspace
 .vagrant/*
 VagrantFile
