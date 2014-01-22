@@ -16,16 +16,16 @@ pre, code,
 pre code span,
 .highlight {
     font-family: 'Source Code Pro', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1.1rem;
     margin: 8px 0 12px 0;
 }
 
 h2 {
-    font-size: 3.1em;
+    font-size: 3.1rem;
 }
 
 a {
