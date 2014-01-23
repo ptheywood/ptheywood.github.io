@@ -7,3 +7,8 @@
   description: "Website for the Sheffield University Minecraft Society for 2012 & 2013"
   imgsrc: "/img/portfolio/shefminesoc-cover.png"
   path: "/portfolio/shefminesoc.co.uk/"
+
+- title: succ.co.uk
+  description: "Website for the Sheffield University Canoe Club for 2010 - 2014"
+  imgsrc: "/img/portfolio/succ-cover.png"
+  path: "/portfolio/succ.co.uk/"
