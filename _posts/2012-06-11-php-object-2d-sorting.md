@@ -6,7 +6,7 @@ categories: php oop
 excerpt: "Welcome to the latest iteration of my personal website."
 ---
 
-For a project at work I needed to sort an array of objects by multiple dimensions, so I experimentate with `uasort` to figure out an easy way of doing this. This is here more for when I forget how to do it than anything else.
+For a project at work I needed to sort an array of objects by multiple dimensions, so I experimented with `uasort` to figure out an easy way of doing this. This is here more for when I forget how to do it than anything else.
 
 First let's create a super simple test class and some test data.
 
