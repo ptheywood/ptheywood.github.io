@@ -1,6 +1,6 @@
 ---
 layout: portfolio-item
-title: is-hpp-open | Portfolio
+title: shefminesoc.co.uk | Portfolio
 ---
 
 ## Sheffield Minecraft Society 
