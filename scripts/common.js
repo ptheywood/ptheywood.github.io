@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    console.log("loaded");
+    $("html").removeClass("no-js");
 });
