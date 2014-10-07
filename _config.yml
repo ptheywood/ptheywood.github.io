@@ -13,7 +13,7 @@ lsi: false
 
 name: peethwd.net
 permalink: /notes/:title
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 
 ga_enabled: true
