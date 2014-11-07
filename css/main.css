@@ -19,9 +19,14 @@ pre code span,
     font-size: 14px;
 }
 
-p {
-    font-size: 1.1em;
+p, address {
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 140%;
     margin: 8px 0 12px 0;
+}
+address {
+    font-style: italic;
 }
 
 h2 {
@@ -29,11 +34,11 @@ h2 {
 }
 
 a {
-    color: #6F0909;
+    /*color: #DB2626;*/
 }
 a:hover ,
 a:active {
-    color: #A3312D;
+    /*color: #A3312D;*/
 }
 
 .header {
@@ -99,7 +104,7 @@ a:active {
 }
 
 .copyright {
-    color: #494444;
+    color: #565656;
 }
 
 a span.black {
@@ -254,6 +259,33 @@ footer {
 .sub-header {
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
+}
+
+section.content {
+  color: #eee;
+  min-height: 480px; /* fix for scrollspy */
+  padding: 16px 8px;
+
+}
+@media (min-width: 768px) {
+  section.content {
+    padding: 60px 60px 120px 60px;
+  }
+}
+section#about {
+  background: #292929;
+}
+
+section#contact {
+  background: #292929;
+}
+
+section#publications {
+  background: #555;
+}
+
+section#demonstrating {
+  background: #444;
 }
 
 /* Included syntax highlighting for one less http request */
