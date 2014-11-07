@@ -250,7 +250,12 @@ footer {
     padding: 24px;
     text-align: center;
 }
-/* /Error 404 */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
 /* Included syntax highlighting for one less http request */
 
 .highlight  { background: #ffffff; }
