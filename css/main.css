@@ -1,6 +1,5 @@
 html,
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
     background: #333;
@@ -91,16 +90,6 @@ a:active {
 
 .content {
     padding: 12px 0;
-}
-
-/* Pushed down footer*/
-.non-footer {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-
-    margin: 0 auto -178px;
-    padding: 0 0 178px;
 }
 
 .footer {
