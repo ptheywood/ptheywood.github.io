@@ -1,54 +1,29 @@
         </div>
     </div>
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center">
-                    <ul class="list-unstyled footer-list">
-                        {% for link in site.data.contact %}
-                         <li>
-                            <a class="btn btn-default btn-sm btn-block" href="{{ link.url }}">{{ link.alternative }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <p class="copyright text-center">
-                        &copy; Peter Heywood 2014
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-        // Defer the loading of JS (Via: http://www.feedthebot.com/pagespeed/defer-loading-javascript.html, http://stackoverflow.com/questions/16647050/how-to-defer-javascript)
-        function downloadJS(src, success){
-            var element = document.createElement("script");
-            element.src = src;
-            done = false;
-            element.onload = element.onreadystatechange = function(){
-                if ( !done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') ) {
-                    done=true;
-                    success();
-                    element.onload = element.onreadystatechange = null;
-                }
-            };
-            document.body.appendChild(element);  
-        }
+    <footer id="footer" class="text-center">
+        <ul class="social-media list-inline">
+            <li>
+                <a href="mailto:ptheywood1@sheffield.ac.uk">
+                    <img src="{{ site.baseurl }}/img/font-awesome/envelope_5ea9dd_64.png" alt="Email" />
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/peethwd">
+                    <img src="{{ site.baseurl }}/img/github/GitHub-Mark-64px.png" alt="Github" />
+                </a>
+            </li>
+            <li>
+                <a href="http://twitter.com/peethwd">
+                    <img src="{{ site.baseurl }}/img/twitter/Twitter_logo_blue.png" alt="Twitter" />
+                </a>
+            </li>
+        </ul>
 
-        function downloadJSAtOnload() {
-            downloadJS("//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", function(){
-                downloadJS("/scripts/common.js", function() {});
-            });
-        }
-
-        if (window.addEventListener)
-            window.addEventListener("load", downloadJSAtOnload, false);
-        else if (window.attachEvent)
-            window.attachEvent("onload", downloadJSAtOnload);
-        else window.onload = downloadJSAtOnload;
-
-    </script>
+        <p class="text-center copyright">
+            &copy; Peter Heywood 2014
+        </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/scripts/common.js"></script>
 </body>
