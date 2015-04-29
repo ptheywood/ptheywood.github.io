@@ -50,14 +50,15 @@ a:active {
     /*background: #212121 url(/img/poker-bkg.png) no-repeat top center;*/
     /*background: #212121;*/
     color: #DFDFDF;
-    min-height: 240px;
+    /*min-height: 240px;*/
     text-align: center;
 }
 
 .header h1 {
-    margin: 32px auto 24px auto;
-    font-size: 230%;
+    margin: 96px auto 32px auto;
+    font-size: 5em;
     font-variant: small-caps;
+    color:#2B6994;
 }
 
 .header h2 {
@@ -288,19 +289,19 @@ section.content {
   }
 }
 section#about {
-  background: #292929;
+  /*background: #292929;*/
 }
 
 section#contact {
-  background: #292929;
+  /*background: #292929;*/
 }
 
 section#publications {
-  background: #555;
+  /*background: #555;*/
 }
 
 section#demonstrating {
-  background: #444;
+  /*background: #444;*/
 }
 
 /* Included syntax highlighting for one less http request */
