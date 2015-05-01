@@ -79,11 +79,11 @@ footer {
   padding: 0px 16px 20px 8px;
 }
 .separator-top {
-    border-top: 1px solid #333;
+    border-top: 1px solid #5f5f5f;
 }
 
 footer .separator-top {
-    padding: 32px;
+    padding: 48px 0 16px;
 }
 
 .copyright {
@@ -120,7 +120,7 @@ a span.black {
 }
 
 .sub-header {
-    border-top: 1px solid #333;
+    border-top: 1px solid #5f5f5f;
     margin: 28px auto 0 auto;
     text-align: center;
 }
