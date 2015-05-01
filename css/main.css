@@ -19,7 +19,7 @@ pre code span,
     font-size: 14px;
 }
 
-p, address {
+p, address, ul li {
     font-size: 1.3em;
     font-weight: 140;
     line-height: 140%;
@@ -55,7 +55,7 @@ a:active {
 }
 
 .header h1 {
-    margin: 96px auto 32px auto;
+    margin: 48px auto 32px auto;
     font-size: 5em;
     font-variant: small-caps;
     color:#2B6994;
@@ -64,7 +64,6 @@ a:active {
 .header h2 {
     margin: 24px auto 32px auto;
     font-size: 170%;
-    /*font-variant: small-caps;*/
 }
 
 .header a {
@@ -284,7 +283,7 @@ section.content {
 }
 @media (min-width: 768px) {
   section.content {
-    padding: 60px 60px 120px 60px;
+    padding: 32px 32px 48px 32px;
   }
 }
 
