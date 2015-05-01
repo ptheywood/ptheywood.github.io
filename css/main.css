@@ -19,7 +19,7 @@ pre code span,
     font-size: 14px;
 }
 
-p, address, ul li {
+p, address {
     font-size: 1.3em;
     font-weight: 140;
     line-height: 140%;
@@ -48,9 +48,7 @@ a:active {
 
 .header {
     /*background: #212121 url(/img/poker-bkg.png) no-repeat top center;*/
-    /*background: #212121;*/
     color: #222;
-    /*min-height: 240px;*/
     text-align: center;
 }
 
@@ -73,43 +71,18 @@ a:active {
 .header .nav {
     margin: 16px auto;
 }
-
-.nav-pills>li>a {
-    color: #ddd;
-    background-color: #3B1919;
-    background-color: rgba(100, 17, 17, 0.5);
-    /* @todo >> This will probs need fixing for col-xs*/
-    margin-left:7.5%;
-    margin-right:7.5%;
-}
-
-.nav-pills>li>a:hover, 
-.nav-pills>li>a:focus {
-    color: #eee;
-    background-color: #421818;
-    background-color: rgba(100, 17, 17, 0.6);
-}
-
-.nav-pills>li.active>a, 
-.nav-pills>li.active>a:hover, 
-.nav-pills>li.active>a:focus {
-    color: #fff;
-    background-color: #6F0909;
-    background-color: rgba(100, 17, 17, 0.8);
-}
-
 .content {
     padding: 12px 0;
 }
 
 .footer {
-    background: #212121;
+    background: #4f4f4f;
     color: #DFDFDF;
     min-height: 178px;
 }
 
 .copyright {
-    color: #565656;
+    color: #888;
 }
 
 a span.black {
@@ -117,25 +90,6 @@ a span.black {
 }
 .img-responsive-center {
     margin: 0 auto;
-}
-
-.larger-content {
-    margin: 6% 0 8% 0; 
-}
-
-.larger-content h2 {
-    font-weight: bold;
-    font-size: 240%;
-    margin: 24px 0 16px 0;
-}
-
-.larger-content p {
-    font-size: 120%;
-    margin: 12px 0 12px 0;
-}
-
-p.meta {
-    font-style: italic;
 }
 
 footer {
@@ -181,6 +135,17 @@ footer {
     top: -28px;
 }
 
+.vertical-contact-list {
+    list-style: none;
+}
+
+.vertical-contact-list li {
+}
+.vertical-contact-list li a {
+}
+.vertical-contact-list li a img {
+    width: 24px;
+}
 section.content {
   color: #222;
   /*min-height: 480px;*/ /* fix for scrollspy */
