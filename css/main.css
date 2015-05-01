@@ -137,6 +137,10 @@ footer {
 
 .vertical-contact-list {
     list-style: none;
+    font-size: 1.3em;
+    font-weight: 140;
+    line-height: 140%;
+    margin: 8px 0 12px 0;
 }
 
 .vertical-contact-list li {
