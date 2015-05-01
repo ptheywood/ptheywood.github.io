@@ -74,17 +74,14 @@ a:active {
 .content {
     padding: 12px 0;
 }
-
-.footer {
-    background: #4f4f4f;
-    color: #DFDFDF;
-    min-height: 178px;
+footer {
+  background: #4f4f4f;
+  color: #DFDFDF;
+  padding: 32px 16px 20px 8px;
 }
-
 .copyright {
     color: #888;
 }
-
 a span.black {
     color: #333;
 }
@@ -92,12 +89,6 @@ a span.black {
     margin: 0 auto;
 }
 
-footer {
-  background: #333;
-  min-height: 0px;
-  color: #888;
-  padding: 32px 16px 20px 8px;
-}
 /* Error 404 */
 
 .error-page {
