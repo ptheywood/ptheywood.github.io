@@ -142,11 +142,14 @@ a span.black {
 }
 
 .vertical-contact-list li {
+  margin-bottom: 8px;
 }
 .vertical-contact-list li a {
 }
 .vertical-contact-list li a img {
-    width: 24px;
+  display: block;
+  width: 24px;
+  margin: auto;
 }
 section.content {
   color: #222;
@@ -154,9 +157,31 @@ section.content {
   padding: 16px 8px;
 
 }
+
+@media (max-width: 767px) {
+    .text-left-xs {
+        text-align: left;
+    }
+    .text-center-xs {
+        text-align: left;
+    }
+    .text-right-xs {
+        text-align: right;
+    }
+}
 @media (min-width: 768px) {
   section.content {
     padding: 32px 32px 48px 32px;
+  }
+
+  .vertical-contact-list li a {
+    overflow: auto;
+  }
+  .vertical-contact-list li a img {
+    display: inline-block;
+    width: 24px;
+    margin: 2px 4px;
+    float: right;
   }
 }
 
