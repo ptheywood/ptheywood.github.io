@@ -176,7 +176,7 @@ section.content {
 .demonstrating-list {
   padding: 0px;
   list-style: none;
-  margin: 8px auto;
+  margin: 24px auto 12px auto;
   width: 80%;
 }
 
@@ -185,6 +185,10 @@ section.content {
   list-style: none;
   margin: auto;
   text-align: center;
+}
+
+.demonstrating-list ul li {
+  font-size: 1.2em;
 }
 
 @media (max-width: 767px) {
