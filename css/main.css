@@ -30,7 +30,7 @@ address {
 }
 
 h2 {
-    font-size: 3.1em;
+    font-size: 2.5em;
 }
 
 a {
@@ -121,7 +121,7 @@ a span.black {
 
 .sub-header {
     border-top: 1px solid #5f5f5f;
-    margin: 28px auto 0 auto;
+    margin: 22px auto 0 auto;
     text-align: center;
 }
 
@@ -130,7 +130,7 @@ a span.black {
     display: inline-block;
     padding: 0 14px;
     position: relative;
-    top: -28px;
+    top: -22px;
 }
 
 .sub-sub-sub-header {
@@ -201,6 +201,18 @@ section.content {
 @media (min-width: 768px) {
   section.content {
     padding: 32px 32px 48px 32px;
+  }
+  h2 {
+    font-size: 3.1em;
+  }
+
+  .sub-header {
+    margin: 28px auto 0 auto;
+  }
+
+  .sub-header span {
+    padding: 0 14px;
+    top: -28px;
   }
 
   .vertical-contact-list li {
