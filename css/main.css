@@ -172,13 +172,16 @@ section.content {
     padding: 32px 32px 48px 32px;
   }
 
+  .vertical-contact-list li {
+    margin-bottom: 0px;
+  }
   .vertical-contact-list li a {
     overflow: auto;
   }
   .vertical-contact-list li a img {
     display: inline-block;
     width: 24px;
-    margin: 2px 4px;
+    margin: 0px 0px 0px 8px;
     float: right;
   }
 }
