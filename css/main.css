@@ -139,17 +139,15 @@ a span.black {
     font-weight: 140;
     line-height: 140%;
     margin: 8px 0 12px 0;
+    padding: 0;
 }
 
 .vertical-contact-list li {
   margin-bottom: 8px;
 }
-.vertical-contact-list li a {
-}
 .vertical-contact-list li a img {
-  display: block;
   width: 24px;
-  margin: auto;
+  margin: 0px 8px 0px 0px;
 }
 section.content {
   color: #222;
@@ -163,7 +161,7 @@ section.content {
         text-align: left;
     }
     .text-center-xs {
-        text-align: left;
+        text-align: center;
     }
     .text-right-xs {
         text-align: right;
