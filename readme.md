@@ -1,2 +1,3 @@
-# peethwd.net
-Jekyll powered portfolio style website.
+# [ptheywood.github.io](http://ptheywood.github.io)
+
+Jekyll powered personal / academic website.
