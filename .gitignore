@@ -6,3 +6,4 @@ _site
 *.sublime-workspace
 .vagrant/*
 VagrantFile
+serve/
