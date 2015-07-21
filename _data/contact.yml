@@ -1,11 +1,14 @@
 - text: Email
   alternative: ptheywood1@sheffield.ac.uk
   url: mailto:ptheywood1@sheffield.ac.uk
-
-- text: Twitter
-  alternative: twitter/ptheywood
-  url: http://twitter.com/ptheywood/
+  icon: /img/font-awesome/envelope_5ea9dd_64.png
 
 - text: Github
   alternative: github/ptheywood
   url: http://github.com/ptheywood/
+  icon: /img/github/GitHub-Mark-64px.png
+
+- text: Twitter
+  alternative: twitter/ptheywood
+  url: http://twitter.com/ptheywood/
+  icon: /img/twitter/Twitter_logo_blue.png
