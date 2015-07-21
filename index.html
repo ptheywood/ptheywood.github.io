@@ -45,21 +45,15 @@ title: Peter Heywood | Computer Science PhD Student
                     <p class="text-left text-center-xs">
                         So far I have demonstrated for the following:
                         <ul class="demonstrating-list">
+                        {% for year in site.data.demonstrating %}
                             <li>
-                                <h4 class="sub-sub-sub-header"><span>2014/2015</span></h4>
+                                <h4 class="sub-sub-sub-header"><span>{{ year.year }}</span></h4>
                                 <ul>
+                                    {% for event in year.events %}
                                     <li>
-                                        <a href="http://staffwww.dcs.shef.ac.uk/people/S.Maddock/campus_only/com1008/">COM1008 Web and Internet Technology</a>
+                                        {{ event }}
                                     </li>
-                                    <li>
-                                        <a href="http://staffwww.dcs.shef.ac.uk/people/S.Maddock/campus_only/com3503/">COM3503/COM4503/COM650 3D Computer Graphics</a>
-                                    </li>
-                                    <li>
-                                        <strong>Outreach event</strong>: Javascript/Canvas with <a href="http://staffwww.dcs.shef.ac.uk/people/S.Maddock/">Dr Steve Maddock</a> (2015-01-21)
-                                    </li>
-                                    <li>
-                                        <strong>Outreach event</strong>:  Optical Characater Recognition with <a href="http://staffwww.dcs.shef.ac.uk/people/J.Barker/">Dr Jon Barker</a> (2015-03-04)
-                                    </li>
+                                    {% endfor %}
                                 </ul>
                             </li>
                         </ul>
