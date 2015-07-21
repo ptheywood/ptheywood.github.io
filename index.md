@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Peter Heywood | Computer Science PhD Student
+title: Peter Heywood | Computer Science Research Student
 ---
 
 <section id="about" class="content">
@@ -31,7 +31,6 @@ title: Peter Heywood | Computer Science PhD Student
         </div>
     </div>
 </section>
-
 <section id="demonstrating" class="content">
     <div class="wrapper">
         <div class="container-fluid">
@@ -56,6 +55,7 @@ title: Peter Heywood | Computer Science PhD Student
                                     {% endfor %}
                                 </ul>
                             </li>
+                        {% endfor %}
                         </ul>
                     </p>
                 </div>
