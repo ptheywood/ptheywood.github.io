@@ -98,12 +98,16 @@ title: Peter Heywood | Computer Science PhD Student
                 <div class="col-xs-12">
                     <h2 class="sub-header"><span>Talks</span></h2>
                     <ul class="list-unstyled">
+                        {% for talk in site.data.talks %}
                         <li>
-                        2015-07-01: 
-                        <a href="http://emit.manchester.ac.uk/" target="_blank">EMiT2015</a>
-                        <strong>Complex system simulations on the GPU</strong>
-                        on behalf of <a href="http://www.paulrichmond.staff.shef.ac.uk/" target="_blank">Dr Paul Richmond</a> 
+                            {{ talk.date }}:
+                            <a href="{{ talk.event_url }}">
+                            {{ talk.event }}
+                            </a>
+                            <strong>{{ talk.title }}</strong>
+                            {{ talk.note }}
                         </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
