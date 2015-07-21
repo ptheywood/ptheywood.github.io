@@ -15,7 +15,7 @@ title: Peter Heywood | Computer Science Research Student
 
                     <p class="text-left text-center-xs">
                         My research is in GPU accelerated microsimulation of transport systems, working towards a Ph.D. under the supervision of <a href="http://www.paulrichmond.staff.shef.ac.uk/">Dr Paul Richmond</a> and <a href="http://staffwww.dcs.shef.ac.uk/people/S.Maddock/">Dr Steve Maddock</a>.
-                    </p class="text-left text-center-xs">
+                    </p>
 
                     <p class="text-left text-center-xs">
                         When I manage to find some free time I work on my own code projects and regurally go kayaking (and very occasionaly compete).
@@ -31,38 +31,7 @@ title: Peter Heywood | Computer Science Research Student
         </div>
     </div>
 </section>
-<section id="demonstrating" class="content">
-    <div class="wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2 class="sub-header"><span>Demonstrating</span></h2>
 
-                    <p class="text-left text-center-xs">
-                        As a PhD student I have the opportunity to demonstrate lab sessions for taught students and outreach events.
-                    </p>
-                    <p class="text-left text-center-xs">
-                        So far I have demonstrated for the following:
-                        <ul class="demonstrating-list">
-                        {% for year in site.data.demonstrating %}
-                            <li>
-                                <h4 class="sub-sub-sub-header"><span>{{ year.year }}</span></h4>
-                                <ul>
-                                    {% for event in year.events %}
-                                    <li>
-                                        {{ event }}
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                        {% endfor %}
-                        </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section id="publications" class="content">
     <div class="wrapper">

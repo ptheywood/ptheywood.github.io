@@ -1,8 +1,8 @@
 - text: About
-  url: "#about"
+  url: "/"
 
 - text: Demonstrating
-  url: "#demonstrating"
+  url: "/demonstrating"
 
 - text: Contact
   url: "#contact"
