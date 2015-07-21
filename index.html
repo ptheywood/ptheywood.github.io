@@ -77,13 +77,29 @@ title: Peter Heywood | Computer Science PhD Student
                 <div class="col-xs-12">
                     <h2 class="sub-header"><span>Publications</span></h2>
                     <ul class="list-unstyled">
+                    {% for year in site.data.publications %}
                         <li>
-                            <h3>2015</h3>
+                            <h3>{{ year.year }}</h3>
                             <ul>
-                                <li><em>Coming Soon...</em></li>
+                                {% for publication in year.publications %}
+                                <li>
+                                    {% if publication.authors %}
+                                        {{ publication.authors }}
+                                    {% endif %}
+                                    {% if publication.title %}
+                                        "{{ publication.title }}"
+                                    {% endif %}
+                                    {% if publication.journal %}
+                                        {{ publication.journal }}
+                                    {% endif %}
+                                    {% if publication.href %}
+                                        (<a href="{{ publication.link }}" target="_blank">View</a>)
+                                    {% endif %}
+                                </li>
+                                {% endfor %}
                             </ul>
                         </li>
-
+                    {% endfor %}
                     </ul>
                 </div>
             </div>
