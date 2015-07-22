@@ -2,9 +2,10 @@
   url: "/"
 
 - text: Demonstrating
-  url: "/demonstrating"
+  url: "/demonstrating/"
+
 - text: Publications &amp; Talks
-  url: "/publications-and-talks"
+  url: "/publications-and-talks/"
 
 - text: Contact
-  url: "/contact"
+  url: "/contact/"
