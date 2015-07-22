@@ -8,7 +8,7 @@ title: Demonstrating | ptheywood.uk
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="sub-header"><span>Demonstrating</span></h2>
+                    <h2 class="sub-header">Demonstrating</h2>
                     <p class="text-left text-center-xs">
                         As a PhD student I have the opportunity to demonstrate lab sessions for taught students and outreach events.
                     </p>
@@ -17,7 +17,7 @@ title: Demonstrating | ptheywood.uk
                         <ul class="demonstrating-list">
                         {% for year in site.data.demonstrating %}
                             <li>
-                                <h4 class="sub-sub-sub-header"><span>{{ year.year }}</span></h4>
+                                <h4 class="sub-header">{{ year.year }}</h4>
                                 <ul>
                                     {% for event in year.events %}
                                     <li>

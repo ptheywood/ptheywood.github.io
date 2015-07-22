@@ -8,7 +8,7 @@ title: Publications &amp; Talks | ptheywood.uk
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="sub-header"><span>Publications</span></h2>
+                    <h2 class="sub-header">Publications</h2>
                     <ul class="list-unstyled">
                     {% for year in site.data.publications %}
                         <li>
@@ -45,7 +45,7 @@ title: Publications &amp; Talks | ptheywood.uk
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="sub-header"><span>Talks</span></h2>
+                    <h2 class="sub-header">Talks</h2>
                     <ul class="list-unstyled">
                         {% for talk in site.data.talks %}
                         <li>

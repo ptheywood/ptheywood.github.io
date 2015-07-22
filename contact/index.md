@@ -8,7 +8,7 @@ title: Contact | ptheywood.uk
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="sub-header"><span>Contact</span></h2>
+                    <h2 class="sub-header">Contact</h2>
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 text-right text-center-xs">
                         <p>
