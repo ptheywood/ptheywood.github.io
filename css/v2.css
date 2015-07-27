@@ -1,0 +1,308 @@
+/******************
+ * Core Styling 
+ *****************/
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+}
+
+/* Pushed-down footer vie flexbox, the main element occupies any spare space vertically*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+section {
+  overflow: auto;
+}
+
+/* Page sizing */
+body {
+  margin: 0 auto;
+  max-width: 92%;
+  width: 720px;
+}
+
+/* Fonts*/
+html, body,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+p, span, a {
+  font-family: 'Ubuntu', sans-serif;
+}
+p.meta, 
+pre, code, 
+pre code span,
+.highlight {
+  font-family: 'Source Code Pro', sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Padding / font styling for general elements*/
+p, address {
+  font-size: 1.3em;
+  font-weight: 140;
+  line-height: 140%;
+  margin: 8px 0 12px 0;
+}
+address {
+  font-style: italic;
+}
+
+/* Header stlying */
+h2 {
+    font-size: 2.5em;
+}
+/* Horizontal line via http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+.sub-header {
+    overflow: hidden;
+    text-align: center;
+}
+.sub-header:before,
+.sub-header:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.sub-header:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.sub-header:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+h4.sub-header {
+  font-size:1.2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+/******************
+ * Header
+ *****************/
+.header {
+    color: #222;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 48px auto 32px auto;
+    font-size: 5em;
+    font-variant: small-caps;
+    color:#2B6994;
+    text-align: center;
+}
+
+#header h2 {
+    margin: 24px auto 32px auto;
+    font-size: 170%;
+    text-align: center;
+}
+
+#header a {
+    color: #6F0909;
+}
+/******************
+ * Nav
+ *****************/
+#navigation {
+  margin: 16px auto;
+}
+
+
+
+/******************
+ * General Content
+ *****************/
+
+/******************
+ * Footer
+ *****************/
+footer {
+  color: #DFDFDF;
+  padding: 16px 16px 20px 8px;
+}
+footer .separator-top {
+    padding: 48px 0 16px;
+}
+footer .copyright {
+    color: #888;
+}
+#footer {
+  border-top: 1px solid #5f5f5f;
+  margin-top: 48px;
+  text-align: center;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+}
+#footer ul>li {
+  display: inline-block;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+#footer ul>li:first-child {
+  padding-left: 0;
+}
+#footer ul>li:last-child {
+  padding-right: 0;
+}
+#footer ul>li>a {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/******************
+ * Page Specifics
+ *****************/
+
+
+/******************
+ * Error Page
+ *****************/
+.error-page h2 {
+  font-size: 140%;
+  font-weight: bold;
+  padding: 12px 0 8px 24px;
+  border-left: 5px solid #6F0909;
+  color: #88312E;
+  margin-bottom: 16px;
+}
+.error-page p {
+  font-size: 124%;
+}
+.error-page p.ascii {
+  color: #6F0909;
+  font-size: 600%;
+  padding: 24px;
+  text-align: center;
+}
+
+
+/******************
+ * Contact Page
+ *****************/
+#contact address {
+  text-align: center;
+}
+
+.vertical-contact-list {
+  list-style: none;
+  font-size: 1.3em;
+  font-weight: 140;
+  line-height: 140%;
+  margin: 8px 0 12px 0;
+  padding: 0;
+  text-align: center;
+}
+.vertical-contact-list li {
+  margin-bottom: 8px;
+}
+.vertical-contact-list li a img {
+  width: 24px;
+  margin: 0px 8px 0px 0px;
+}
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.iframe-container iframe, 
+.iframe-container object, 
+.iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#contact .iframe-container {
+  clear: both;
+}
+
+/******************
+ * Demonstrating Page
+ *****************/
+.demonstrating-list {
+  padding: 0px;
+  list-style: none;
+  margin: 24px auto 12px auto;
+  width: 80%;
+}
+.demonstrating-list ul {
+  padding: 0px;
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
+.demonstrating-list ul li {
+  font-size: 1.2em;
+}
+
+
+/******************
+ * Responsive styling
+ *****************/
+ 
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 3.1em;
+  }
+
+  #contact address {
+    width: 50%;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+  }
+  .vertical-contact-list {
+    width: 50%;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: right;
+  }
+  .vertical-contact-list li {
+    margin-bottom: 0px;
+  }
+  .vertical-contact-list li a {
+    overflow: auto;
+  }
+  .vertical-contact-list li a img {
+    display: inline-block;
+    width: 24px;
+    margin: 0px 0px 0px 8px;
+    float: right;
+  }
+}
