@@ -407,6 +407,23 @@ footer .copyright {
     font-size: 3.1em;
   }
 
+  #navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #navigation ul > li {
+    display: flex;
+    width: 100%;
+    flex: 1;
+  }
+  #navigation ul > li > a {
+    border-radius: 0;
+    width: 100%;
+  }
+
   #contact address {
     width: 50%;
     float: left;

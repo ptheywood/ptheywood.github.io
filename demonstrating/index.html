@@ -7,21 +7,18 @@ title: Demonstrating | ptheywood.uk
     <p>
         As a PhD student I have the opportunity to demonstrate lab sessions for taught students and outreach events.
     </p>
-    <p>
-        So far I have demonstrated for the following:
-        <ul class="demonstrating-list">
-        {% for year in site.data.demonstrating %}
-            <li>
-                <h3>{{ year.year }}</h3>
-                <ul>
-                    {% for event in year.events %}
-                    <li>
-                        {{ event }}
-                    </li>
-                    {% endfor %}
-                </ul>
-            </li>
-        {% endfor %}
-        </ul>
-    </p>
+    <ul class="demonstrating-list">
+    {% for year in site.data.demonstrating %}
+        <li>
+            <h3>{{ year.year }}</h3>
+            <ul>
+                {% for event in year.events %}
+                <li>
+                    {{ event }}
+                </li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
 </section>
