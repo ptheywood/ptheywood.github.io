@@ -1,13 +1,9 @@
 {% assign url = page.url|remove:'index.html' %}
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <a class="" href="{{site.baseurl}}/posts/">Posts</a>
-    </div>
-    <div class="list-group">
-        {% for post in site.posts %}
-        <a class="list-group-item {% if url == post.url %}active{% endif %}" href="{{post.url}}" title="{{post.title}}">
+<nav class="post-nav">
+    <a href="{{site.baseurl}}/posts/">Posts</a>
+    {% for post in site.posts %}
+        <a class="{% if url == post.url %}active{% endif %}" href="{{post.url}}" title="{{post.title}}">
             {{post.title}}
         </a>
-        {% endfor %}
-    </div>
-</div>
+    {% endfor %}
+</nav>

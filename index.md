@@ -4,30 +4,18 @@ title: Peter Heywood | Computer Science Research Student
 ---
 
 <section id="about" class="content">
-    <div class="wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2 class="sub-header"><span>About</span></h2>
-                    <p class="text-left text-center-xs">
-                        I'm <strong>Peter Heywood</strong>, research student in the <a href="https://www.shef.ac.uk/dcs/research/groups/graphics">VRGraphicS research group</a> of the <a href="http://www.sheffield.ac.uk/dcs">Department of Computer Science</a> at <a href="http://shef.ac.uk/dcs/">the University of Sheffield</a>.
-                    </p>
+    <h2 class="sub-header">About</h2>
+    <p>
+        I'm <strong>Peter Heywood</strong>, research student in the <a href="https://www.shef.ac.uk/dcs/research/groups/graphics">VRGraphicS research group</a> of the <a href="http://www.sheffield.ac.uk/dcs">Department of Computer Science</a> at <a href="http://shef.ac.uk/dcs/">the University of Sheffield</a>.
+    </p>
 
-                    <p class="text-left text-center-xs">
-                        My research is in GPU accelerated microsimulation of transport systems, working towards a Ph.D. under the supervision of <a href="http://www.paulrichmond.staff.shef.ac.uk/">Dr Paul Richmond</a> and <a href="http://staffwww.dcs.shef.ac.uk/people/S.Maddock/">Dr Steve Maddock</a>.
-                    </p>
+    <p>
+        My research is in GPU accelerated microsimulation of transport systems, working towards a Ph.D. under the supervision of <a href="http://www.paulrichmond.staff.shef.ac.uk/">Dr Paul Richmond</a> and <a href="http://staffwww.dcs.shef.ac.uk/people/S.Maddock/">Dr Steve Maddock</a>.
+    </p>
 
-                    <p class="text-left text-center-xs">
-                        When I manage to find some free time I work on my own code projects and regurally go kayaking (and very occasionaly compete).
-                    </p>
+    <p>
+        When I manage to find some free time I work on my own code projects and regurally go kayaking (and very occasionaly compete).
+    </p>
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5 text-center">
-                    <img src="http://www.gravatar.com/avatar/e15abb930864d454213ab1bad7f002e6.png?s=256" class="img-responsive img-responsive-center"/>
-                </div>
-            </div>
-        </div>
-    </div>
+    <img src="http://www.gravatar.com/avatar/e15abb930864d454213ab1bad7f002e6.png?s=256" />
 </section>
