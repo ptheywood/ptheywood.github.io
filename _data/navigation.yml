@@ -1,8 +1,14 @@
-- text: About
-  url: "#about"
+- text: "About"
+  url: "/"
 
-- text: Demonstrating
-  url: "#demonstrating"
+- text: "Demonstrating"
+  url: "/demonstrating/"
 
-- text: Contact
-  url: "#contact"
+- text: "Publications &amp; Talks"
+  url: "/publications-and-talks/"
+
+- text: "Posts"
+  url: "/posts/"
+
+- text: "Contact"
+  url: "/contact/"

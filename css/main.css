@@ -10,7 +10,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
 p, span, a {
     font-family: 'Ubuntu', sans-serif;
 }
-
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
 p.meta, 
 pre, code, 
 pre code span,
@@ -119,35 +126,34 @@ a span.black {
     text-align: center;
 }
 
+/* Horizontal line via http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 .sub-header {
-    border-top: 1px solid #5f5f5f;
-    margin: 22px auto 0 auto;
+    overflow: hidden;
     text-align: center;
 }
-
-.sub-header span {
-    background: #fff;
+.sub-header:before,
+.sub-header:after {
+    background-color: #000;
+    content: "";
     display: inline-block;
-    padding: 0 14px;
+    height: 1px;
     position: relative;
-    top: -22px;
+    vertical-align: middle;
+    width: 50%;
+}
+.sub-header:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.sub-header:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 
-.sub-sub-sub-header {
-    font-size:1.2em;
-    text-align: center;
-    font-weight: bold;
-    border-top: 1px solid #5f5f5f;
-    margin: 16px auto 0 auto;
-    text-align: center;
-}
-
-.sub-sub-sub-header span {
-    background: #fff;
-    display: inline-block;
-    padding: 0 8px;
-    position: relative;
-    top: -8px;
+h4.sub-header {
+  font-size:1.2em;
+  text-align: center;
+  font-weight: bold;
 }
 
 .vertical-contact-list {
@@ -191,6 +197,23 @@ section.content {
   font-size: 1.2em;
 }
 
+.iframe-responsive-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.iframe-responsive-container iframe, 
+.iframe-responsive-container object, 
+.iframe-responsive-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 767px) {
     .text-left-xs {
         text-align: left;
@@ -208,15 +231,6 @@ section.content {
   }
   h2 {
     font-size: 3.1em;
-  }
-
-  .sub-header {
-    margin: 28px auto 0 auto;
-  }
-
-  .sub-header span {
-    padding: 0 14px;
-    top: -28px;
   }
 
   .vertical-contact-list li {

@@ -1,0 +1,41 @@
+---
+layout: skeleton
+---
+<main>
+    <section id="post" class="content">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="sub-header">{{page.title}}</h2>
+                    </div>
+                    <div class="col-xs-3">
+                        {% include post-nav.html %}
+                    </div>
+                    <div class="col-xs-9">
+                        <aside>
+                            <em>{{page.date | date: '%d %B %Y'}}</em>
+                        </aside>
+                        {{ content }}
+                        <aside>
+                            <div class="btn-group btn-group-sm">
+                            {% if page.previous %}
+                                <a href="{{site.baseurl}}{{page.previous.url}}" class="btn btn-default">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    Previous
+                                </a>
+                            {% endif %}
+                            {% if page.next %}
+                                <a href="{{site.baseurl}}{{page.next.url}}" class="btn btn-default">
+                                    Next
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            {% endif %}
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
