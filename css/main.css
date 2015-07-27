@@ -10,7 +10,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
 p, span, a {
     font-family: 'Ubuntu', sans-serif;
 }
-
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
 p.meta, 
 pre, code, 
 pre code span,
