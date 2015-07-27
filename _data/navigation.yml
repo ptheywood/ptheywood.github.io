@@ -1,14 +1,14 @@
-- text: About
+- text: "About"
   url: "/"
 
-- text: Demonstrating
+- text: "Demonstrating"
   url: "/demonstrating/"
 
-- text: Publications &amp; Talks
+- text: "Publications &amp; Talks"
   url: "/publications-and-talks/"
 
-- text: Posts
+- text: "Posts"
   url: "/posts/"
 
-- text: Contact
+- text: "Contact"
   url: "/contact/"
