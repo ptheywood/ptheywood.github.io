@@ -7,17 +7,19 @@ title: Posts | ptheywood.uk
 <p>
 </p>
 {% if site.posts.size > 0 %}
-    <ul>
-    {% for post in site.posts %}
-        <li class="{% if url == post.url %}active{% endif %}>">    
-            <a href="{{post.url}}" title="{{post.title}}">
-                <em>{{post.date | date: '%d %B %Y'}}</em>
-                -
-                <strong>{{post.title}}</strong>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
+    <nav class="post-nav">
+        <ul>
+        {% for post in site.posts %}
+            <li class="{% if url == post.url %}active{% endif %}">    
+                <a href="{{post.url}}" title="{{post.title}}">
+                    <em>{{post.date | date: '%d %B %Y'}}</em>
+                    -
+                    <strong>{{post.title}}</strong>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
 {% else %}
     <p>
         Sorry, there are currently no posts to display.

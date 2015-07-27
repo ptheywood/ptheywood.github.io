@@ -1,9 +1,17 @@
 {% assign url = page.url|remove:'index.html' %}
 <nav class="post-nav">
-    <a href="{{site.baseurl}}/posts/">Posts</a>
+        <a class="heading" href="{{site.baseurl}}/posts/">Posts</a>
+    <ul>
     {% for post in site.posts %}
-        <a class="{% if url == post.url %}active{% endif %}" href="{{post.url}}" title="{{post.title}}">
-            {{post.title}}
-        </a>
+        <li>
+            <a class="{% if url == post.url %}active{% endif %}" href="{{post.url}}" title="{{post.title}}">
+                <span class="show-phone-inline">
+                    <em>{{post.date | date: '%d %B %Y'}}</em>
+                    -
+                </span>
+                {{post.title}}
+            </a>
+        </li>
     {% endfor %}
+    </ul>
 </nav>

@@ -321,13 +321,76 @@ footer .copyright {
   font-size: 1.2em;
 }
 
+/******************
+ * Posts Page
+ *****************/
+.post-nav a.heading {
+  display: block;
+  padding: 8px 16px;
+  color: #444;
+  border-bottom: 1px solid #777;
+  font-weight: bold;
+}
+.post-nav a.heading:focus ,
+.post-nav a.heading:hover {
+  background: #f5f5f5;
+}
+
+.post-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 4px auto 4px auto;
+  width: 100%;
+}
+.post-nav ul > li {
+  position: relative;
+  display: block;
+}
+.post-nav ul > li > a {
+  display: block;
+  padding: 8px 16px;
+  background: #eee;
+  border: 1px solid #ddd;
+  border-top: 0px;
+  color: #333;
+  text-align: left;
+}
+.post-nav ul > li:first-child > a {
+  border-radius: 4px 4px 0 0;
+  border-top: 1px solid #ddd;
+}
+.post-nav ul > li:last-child > a {
+  border-radius: 0 0 4px 4px;
+}
+.post-nav ul > li > a:focus ,
+.post-nav ul > li > a:hover {
+  background-color: #ddd;
+}
+.post-nav ul > li.active > a ,
+.post-nav ul > li.active > a:focus ,
+.post-nav ul > li.active > a:hover {
+  background-color: #2B6994;
+  color: #eee;
+}
+
+/******************
+ * Utility classes
+ *****************/
 
 /******************
  * Responsive styling
  *****************/
  
 @media (max-width: 767px) {
-
+  .hidden-phone {
+    display: none;
+  }
+  .show-phone {
+    display: block;  
+  }
+  .show-phone-inline {
+    display: inline;  
+  }
 }
 @media (min-width: 768px) {
   h2 {
@@ -359,5 +422,11 @@ footer .copyright {
     width: 24px;
     margin: 0px 0px 0px 8px;
     float: right;
+  }
+  .show-phone {
+    display: none;
+  }
+  .show-phone-inline {
+    display: none;
   }
 }
