@@ -17,3 +17,6 @@ markdown: kramdown
 highlighter: pygments
 
 ga_enabled: true
+
+kramdown:
+  input: GFM
