@@ -64,9 +64,14 @@ address {
   font-style: italic;
 }
 
-/* Header stlying */
+/* hn stlying */
+h1 {
+  font-size: 3.8em;
+  font-weight: 400;
+}
 h2 {
-    font-size: 2.5em;
+  font-size: 2.0em;
+  font-weight: 400;
 }
 /* Horizontal line via http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 .sub-header {
@@ -75,21 +80,21 @@ h2 {
 }
 .sub-header:before,
 .sub-header:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
 }
 .sub-header:before {
-    right: 0.5em;
-    margin-left: -50%;
+  right: 0.5em;
+  margin-left: -50%;
 }
 .sub-header:after {
-    left: 0.5em;
-    margin-right: -50%;
+  left: 0.5em;
+  margin-right: -50%;
 }
 
 h4.sub-header {
@@ -102,32 +107,64 @@ h4.sub-header {
  * Header
  *****************/
 .header {
-    color: #222;
-    text-align: center;
+  color: #222;
+  text-align: center;
 }
 
 #header h1 {
-    margin: 48px auto 32px auto;
-    font-size: 5em;
-    font-variant: small-caps;
-    color:#2B6994;
-    text-align: center;
+  margin: 32px auto 16px auto;
+  font-variant: small-caps;
+  color:#2B6994;
+  text-align: center;
 }
 
 #header h2 {
-    margin: 24px auto 32px auto;
-    font-size: 170%;
-    text-align: center;
+  margin: 16px auto 8px auto;
+  text-align: center;
+  font-size: 1.7em;
 }
 
 #header a {
-    color: #6F0909;
+  color: #6F0909;
 }
 /******************
  * Nav
  *****************/
+nav ul {
+  list-style: none;
+}
 #navigation {
-  margin: 16px auto;
+  margin: 8px auto 4px auto;
+  width: 100%;
+}
+#navigation ul {
+  padding: 0;
+}
+
+#navigation ul > li {
+  position: relative;
+  display: block;
+  float: none;
+}
+
+#navigation ul > li > a {
+  display: block;
+  text-align: center;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background: #eee;
+  color: #333;
+}
+#navigation ul > li > a:focus ,
+#navigation ul > li > a:hover {
+  background-color: #ddd;
+}
+#navigation ul > li.active > a ,
+#navigation ul > li.active > a:focus ,
+#navigation ul > li.active > a:hover {
+  background-color: #2B6994;
+  color: #eee;
 }
 
 
@@ -135,7 +172,23 @@ h4.sub-header {
 /******************
  * General Content
  *****************/
+main {
 
+}
+
+main h2 {
+  font-size: 2.0em;
+  margin: 8px auto 16px auto;
+}
+
+main img {
+  display: block;
+  margin: auto;
+}
+
+main p {
+  text-align: center;
+}
 /******************
  * Footer
  *****************/
@@ -223,6 +276,8 @@ footer .copyright {
   margin-bottom: 8px;
 }
 .vertical-contact-list li a img {
+  display: inline;
+  vertical-align: middle;
   width: 24px;
   margin: 0px 8px 0px 0px;
 }
