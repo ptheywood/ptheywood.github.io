@@ -2,28 +2,25 @@
 layout: skeleton
 ---
 <main id="post">
-    <div class="flex-inner">
-        {% include post-nav.html %}
-        <article>
-            <h2 class="sub-header">{{page.title}}</h2>
-            <aside>
-                <em>{{page.date | date: '%d %B %Y'}}</em>
-            </aside>
-            <div class="content-wrapper">
-                {{ content }}
-            </div>
-            <nav class="prev-next">
-                {% if page.previous %}
-                    <a href="{{site.baseurl}}{{page.previous.url}}">
-                        Previous
-                    </a>
-                {% endif %}
-                {% if page.next %}
-                    <a href="{{site.baseurl}}{{page.next.url}}">
-                        Next
-                    </a>
-                {% endif %}
-            </nav>
-        </article>
-    </div>
+    <article>
+        <h2 class="sub-header">{{page.title}}</h2>
+        <aside>
+            <em>{{page.date | date: '%d %B %Y'}}</em>
+        </aside>
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
+        <nav class="prev-next">
+            {% if page.previous %}
+                <a href="{{site.baseurl}}{{page.previous.url}}">
+                    Previous
+                </a>
+            {% endif %}
+            {% if page.next %}
+                <a href="{{site.baseurl}}{{page.next.url}}">
+                    Next
+                </a>
+            {% endif %}
+        </nav>
+    </article>
 </main>
