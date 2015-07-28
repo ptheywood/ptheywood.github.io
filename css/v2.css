@@ -1,0 +1,587 @@
+/******************
+ * Core Styling 
+ *****************/
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+}
+
+/* Pushed-down footer vie flexbox, the main element occupies any spare space vertically*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+section {
+  overflow: auto;
+}
+
+/* Page sizing */
+body {
+  margin: 0 auto;
+  max-width: 92%;
+  width: 960px;
+}
+
+/* Fonts*/
+html, body,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+p, span, a {
+  font-family: 'Ubuntu', sans-serif;
+}
+pre, code, 
+pre code span,
+.highlight {
+  font-family: 'Source Code Pro', sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Padding / font styling for general elements*/
+p, address {
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 140%;
+  margin: 8px 0 12px 0;
+}
+article p  ,
+article li {
+  font-size: 1.2rem;
+}
+article pre ,
+article code ,
+article pre code span {
+  font-size: 1.0rem;
+}
+address {
+  font-style: italic;
+}
+
+/* hn stlying */
+h1 {
+  font-size: 3.8em;
+  font-weight: 400;
+}
+h2 {
+  font-size: 2.0em;
+  font-weight: 400;
+}
+/* Horizontal line via http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+.sub-header {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.sub-header:before,
+.sub-header:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+.sub-header:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.sub-header:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+h4.sub-header {
+  font-size:1.2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+blockquote {
+  padding: 2px 16px;
+  margin: 16px 0 16px 0;
+  font-size: 1.3em;
+  border-left: 4px solid #34A3F1;
+}
+
+/******************
+ * Header
+ *****************/
+.header {
+  color: #222;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 32px auto 16px auto;
+  font-variant: small-caps;
+  color:#2B6994;
+  text-align: center;
+}
+
+#header h2 {
+  margin: 16px auto 8px auto;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+#header a {
+  color: #6F0909;
+}
+/******************
+ * Nav
+ *****************/
+nav ul {
+  list-style: none;
+}
+#navigation {
+  margin: 8px auto 4px auto;
+  width: 100%;
+}
+#navigation ul {
+  padding: 0;
+}
+
+#navigation ul > li {
+  position: relative;
+  display: block;
+  float: none;
+}
+
+#navigation ul > li > a {
+  display: block;
+  text-align: center;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background: #eee;
+  color: #333;
+}
+#navigation ul > li > a:focus ,
+#navigation ul > li > a:hover {
+  background-color: #ddd;
+}
+#navigation ul > li.active > a ,
+#navigation ul > li.active > a:focus ,
+#navigation ul > li.active > a:hover {
+  background-color: #2B6994;
+  color: #eee;
+}
+
+/* Responsive menu styling */
+#navigation ul {
+  display: none;
+  transition: transform 0.3s;
+}
+
+#navigation .show-menu {
+  text-decoration: none;
+  color: #fff;
+  background: #2B6994;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+  cursor: pointer;
+}
+
+/*Hide checkbox*/
+#navigation input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+#navigation input[type=checkbox]:checked ~ ul {
+  display: block;
+}
+
+
+
+/******************
+ * General Content
+ *****************/
+main {
+
+}
+
+main h2 {
+  font-size: 2.0em;
+  margin: 8px auto 16px auto;
+}
+
+main img {
+  display: block;
+  margin: auto;
+}
+
+main p {
+  text-align: center;
+}
+/******************
+ * Footer
+ *****************/
+footer {
+  color: #DFDFDF;
+  padding: 16px 16px 20px 8px;
+}
+footer .separator-top {
+    padding: 48px 0 16px;
+}
+footer .copyright {
+    color: #888;
+}
+#footer {
+  border-top: 1px solid #5f5f5f;
+  margin-top: 48px;
+  text-align: center;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+}
+#footer ul>li {
+  display: inline-block;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+#footer ul>li:first-child {
+  padding-left: 0;
+}
+#footer ul>li:last-child {
+  padding-right: 0;
+}
+#footer ul>li>a {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/******************
+ * Page Specifics
+ *****************/
+
+
+/******************
+ * Error Page
+ *****************/
+.error-page h2 {
+  font-size: 140%;
+  font-weight: bold;
+  padding: 12px 0 8px 24px;
+  border-left: 5px solid #6F0909;
+  color: #88312E;
+  margin-bottom: 16px;
+}
+.error-page p {
+  font-size: 124%;
+}
+.error-page p.ascii {
+  color: #6F0909;
+  font-size: 600%;
+  padding: 24px;
+  text-align: center;
+}
+
+
+/******************
+ * Contact Page
+ *****************/
+#contact address {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.vertical-contact-list {
+  list-style: none;
+  font-size: 1.3em;
+  font-weight: 140;
+  line-height: 140%;
+  margin: 8px 0 24px 0;
+  padding: 0;
+  text-align: center;
+}
+.vertical-contact-list li {
+  margin-bottom: 8px;
+}
+.vertical-contact-list li a img {
+  display: inline;
+  vertical-align: middle;
+  width: 24px;
+  margin: 0px 8px 0px 0px;
+}
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.iframe-container iframe, 
+.iframe-container object, 
+.iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#contact .iframe-container {
+  clear: both;
+}
+
+/******************
+ * Demonstrating Page
+ *****************/
+.demonstrating-list {
+  padding: 0px;
+  list-style: none;
+  margin: 24px auto 12px auto;
+  width: 80%;
+}
+.demonstrating-list  ul {
+  padding: 0px;
+}
+.demonstrating-list ul li {
+  font-size: 1.2em;
+}
+
+/******************
+ * Posts Page
+ *****************/
+.post-nav a.heading {
+  display: block;
+  padding: 8px 16px;
+  color: #444;
+  /*border-bottom: 1px solid #777;*/
+  font-weight: bold;
+}
+.post-nav a.heading:focus ,
+.post-nav a.heading:hover {
+  background: #f5f5f5;
+}
+
+.post-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 4px auto 4px auto;
+  width: 100%;
+}
+.post-nav ul > li {
+  position: relative;
+  display: block;
+}
+.post-nav ul > li > a {
+  display: block;
+  padding: 8px 16px;
+  background: #eee;
+  border: 1px solid #ddd;
+  border-top: 0px;
+  color: #333;
+  text-align: left;
+}
+.post-nav ul > li:first-child > a {
+  border-radius: 4px 4px 0 0;
+  border-top: 1px solid #ddd;
+}
+.post-nav ul > li:last-child > a {
+  border-radius: 0 0 4px 4px;
+}
+.post-nav ul > li > a:focus ,
+.post-nav ul > li > a:hover {
+  background-color: #ddd;
+}
+.post-nav ul > li.active > a ,
+.post-nav ul > li.active > a:focus ,
+.post-nav ul > li.active > a:hover {
+  background-color: #2B6994;
+  color: #eee;
+}
+
+/******************
+ * Post Page
+ *****************/
+
+article {
+  display:flex;
+  flex-direction: column;
+  flex: 1;
+}
+article .content-wrapper {
+  flex: 1;
+}
+/*article > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
+}
+
+article > div .content-wrapper {
+  flex: 1;
+}*/
+
+.prev-next {
+  margin-top: 32px;
+  font-size: 0.9em;
+}
+.prev-next > a {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #34A3F1;
+  color: #eee;
+  border: 1px solid #1E7DBF;
+  margin-left: -4px;
+}
+.prev-next > a:focus ,
+.prev-next > a:hover {
+  background: #2D8CCE;
+  color: #f5f5f5;
+}
+.prev-next > a:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-left: 0;
+}
+.prev-next > a:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;}
+/******************
+ * Publications Page
+ *****************/
+#publications > ul {
+  list-style: none;
+}
+#publications ul > li {
+  font-size: 1.2em;
+}
+#publications ul > li {
+  font-size: 1.1em;
+}
+#talks ul >li {
+  font-size: 1.2em;
+}
+/******************
+ * Utility classes
+ *****************/
+
+/******************
+ * Responsive styling
+ *****************/
+ 
+@media (max-width: 767px) {
+  .sub-header:before, .sub-header:after {
+    /*Disable horizontal line for post titless on small layout*/
+    content: none;
+  }
+  .hidden-phone {
+    display: none;
+  }
+  .show-phone {
+    display: block;  
+  }
+  .show-phone-inline {
+    display: inline;  
+  }
+  /*Display 'show menu' link*/
+  #navigation .show-menu {
+    display:block;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    max-width: 80%;
+  }
+  h2 {
+    font-size: 3.1em;
+  }
+  main article p {
+    text-align: left;
+  }
+
+  #navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #navigation ul > li {
+    display: flex;
+    width: 100%;
+    flex: 1;
+  }
+  #navigation ul > li > a {
+    border-radius: 0;
+    width: 100%;
+  }
+  #navigation ul > li:first-child > a {
+    border-radius: 4px 0 0 4px;
+  }
+  #navigation ul > li:last-child > a {
+    border-radius: 0 4px 4px 0;
+  }
+
+  #contact address {
+    width: 50%;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+  }
+  .vertical-contact-list {
+    width: 50%;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: right;
+  }
+  .vertical-contact-list li {
+    margin-bottom: 0px;
+  }
+  .vertical-contact-list li a {
+    overflow: auto;
+  }
+  .vertical-contact-list li a img {
+    display: inline-block;
+    width: 24px;
+    margin: 0px 0px 0px 8px;
+    float: right;
+  }
+  .flex-inner {
+    flex-wrap: nowrap;
+  }
+  .flex-inner > nav {
+    width: 25%;
+    margin-left: 24px;
+    order: 1;
+  }
+  .flex-inner > article {
+    order: 0;
+    flex: 1 0 0;
+  }
+
+  .show-phone {
+    display: none;
+  }
+  .show-phone-inline {
+    display: none;
+  }
+}
