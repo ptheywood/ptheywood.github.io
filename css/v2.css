@@ -476,6 +476,12 @@ footer .copyright {
     border-radius: 0;
     width: 100%;
   }
+  #navigation ul > li:first-child > a {
+    border-radius: 4px 0 0 4px;
+  }
+  #navigation ul > li:last-child > a {
+    border-radius: 0 4px 4px 0;
+  }
 
   #contact address {
     width: 50%;
