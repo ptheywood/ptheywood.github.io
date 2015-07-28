@@ -114,6 +114,13 @@ h4.sub-header {
   font-weight: bold;
 }
 
+blockquote {
+  padding: 2px 16px;
+  margin: 16px 0 16px 0;
+  font-size: 1.3em;
+  border-left: 4px solid #34A3F1;
+}
+
 /******************
  * Header
  *****************/
