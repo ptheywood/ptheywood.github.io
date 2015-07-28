@@ -185,6 +185,32 @@ nav ul {
   color: #eee;
 }
 
+/* Responsive menu styling */
+#navigation ul {
+  display: none;
+  transition: transform 0.3s;
+}
+
+#navigation .show-menu {
+  text-decoration: none;
+  color: #fff;
+  background: #2B6994;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+  cursor: pointer;
+}
+
+/*Hide checkbox*/
+#navigation input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+#navigation input[type=checkbox]:checked ~ ul {
+  display: block;
+}
+
 
 
 /******************
@@ -473,6 +499,10 @@ article > div .content-wrapper {
   }
   .show-phone-inline {
     display: inline;  
+  }
+  /*Display 'show menu' link*/
+  #navigation .show-menu {
+    display:block;
   }
 }
 @media (min-width: 768px) {
