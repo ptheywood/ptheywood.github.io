@@ -33,7 +33,7 @@ section {
 body {
   margin: 0 auto;
   max-width: 92%;
-  width: 720px;
+  width: 960px;
 }
 
 /* Fonts*/
@@ -42,7 +42,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
 p, span, a {
   font-family: 'Ubuntu', sans-serif;
 }
-p.meta, 
 pre, code, 
 pre code span,
 .highlight {
@@ -56,9 +55,18 @@ a {
 /* Padding / font styling for general elements*/
 p, address {
   font-size: 1.3em;
-  font-weight: 140;
+  font-weight: 100;
   line-height: 140%;
   margin: 8px 0 12px 0;
+}
+article p  ,
+article li {
+  font-size: 1.2rem;
+}
+article pre ,
+article code ,
+article pre code span {
+  font-size: 1.0rem;
 }
 address {
   font-style: italic;
@@ -77,6 +85,7 @@ h2 {
 .sub-header {
     overflow: hidden;
     text-align: center;
+    width: 100%;
 }
 .sub-header:before,
 .sub-header:after {
@@ -456,8 +465,14 @@ footer .copyright {
   }
 }
 @media (min-width: 768px) {
+  body {
+    max-width: 80%;
+  }
   h2 {
     font-size: 3.1em;
+  }
+  main article p {
+    text-align: left;
   }
 
   #navigation ul {
@@ -513,12 +528,13 @@ footer .copyright {
     flex-wrap: nowrap;
   }
   .flex-inner > nav {
-    width: 33%;
+    width: 25%;
     margin-left: 24px;
     order: 1;
   }
   .flex-inner > article {
     order: 0;
+    flex: 1 0 0;
   }
 
   .show-phone {
