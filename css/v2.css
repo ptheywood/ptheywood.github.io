@@ -504,6 +504,15 @@ article > div .content-wrapper {
   #navigation .show-menu {
     display:block;
   }
+  /*Adjust nav on phone */
+  #navigation ul {
+    margin: 0;
+    border-top: 1px solid #333;
+  }
+  #navigation ul > li > a {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
 }
 @media (min-width: 768px) {
   body {
