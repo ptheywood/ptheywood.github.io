@@ -3,3 +3,8 @@
   event_url: http://emit.manchester.ac.uk/
   title: Complex system simulations on the GPU
   note: on behalf of <a href="http://www.paulrichmond.staff.shef.ac.uk" target="_blank">Dr Paul Richmond</a>
+- date: 2015-08-24
+  event: PADABS 2015
+  event_url: http://www.padabs.org/
+  title: Road Network Simulation using FLAME GPU
+  note: 

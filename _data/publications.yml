@@ -1,6 +1,7 @@
 - year: 2015
   publications:
-    - authors: <em>Coming Soon...</em>
-      title:
-      journal:
+    - authors: "Heywood P, Richmond P, Maddock S"
+      title: "Road Network Simulation using FLAME GPU"
+      journal: "To appear in LNCS Proceedings of PABABS 2015 workshop"
       href: 
+      bib: 
