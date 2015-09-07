@@ -8,3 +8,8 @@
   event_url: http://www.padabs.org/
   title: Road Network Simulation using FLAME GPU
   note: 
+- date: 2015-09-16
+  event: CGVC 2015
+  event_url: http://cgvc15.cs.ucl.ac.uk/
+  title: Visualising Real Time Large Scale Micro-Simulation of Transport Networks
+  note: 
