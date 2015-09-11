@@ -189,6 +189,7 @@ nav ul {
 #navigation ul {
   display: none;
   transition: transform 0.3s;
+  clear: both;
 }
 
 #navigation .show-menu {
@@ -196,9 +197,11 @@ nav ul {
   color: #fff;
   background: #2B6994;
   text-align: center;
-  padding: 10px 0;
+  padding: 8px 12px;
+  margin: 4px;
   display: none;
   cursor: pointer;
+  float: right;
 }
 
 /*Hide checkbox*/
@@ -208,6 +211,20 @@ nav ul {
 
 /*Show menu when invisible checkbox is checked*/
 #navigation input[type=checkbox]:checked ~ ul {
+  display: block;
+}
+
+#navigation input[type=checkbox] ~ label .icon-open {
+  display: block;
+}
+#navigation input[type=checkbox] ~ label .icon-close {
+  display: none;
+}
+
+#navigation input[type=checkbox]:checked ~ label .icon-open {
+  display: none;
+}
+#navigation input[type=checkbox]:checked ~ label .icon-close {
   display: block;
 }
 
@@ -502,12 +519,11 @@ article > div .content-wrapper {
   }
   /*Display 'show menu' link*/
   #navigation .show-menu {
-    display:block;
+    display: inline-block;
   }
   /*Adjust nav on phone */
   #navigation ul {
     margin: 0;
-    border-top: 1px solid #333;
   }
   #navigation ul > li > a {
     margin-bottom: 0;
