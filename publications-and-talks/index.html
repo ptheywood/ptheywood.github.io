@@ -24,6 +24,12 @@ title: Publications &amp; Talks | ptheywood.uk
                     {% if publication.href %}
                         (<a href="{{ publication.link }}" target="_blank">View</a>)
                     {% endif %}
+                    {% if publication.pdf %}
+                        [<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
+                    {% endif %}
+                    {% if publication.bib %}
+                        [<a href="{{ publication.bib }}" target="_blank">bib</a>]
+                    {% endif %}
                 </li>
             {% endfor %}
             </ul>
@@ -43,6 +49,9 @@ title: Publications &amp; Talks | ptheywood.uk
             </a>
             <strong>{{ talk.title }}</strong>
             {{ talk.note }}
+            {% if talk.pdf %}
+                [<a href="{{ talk.pdf }}" target="_blank">PDF</a>]
+            {% endif %}
         </li>
         {% endfor %}
     </ul>
