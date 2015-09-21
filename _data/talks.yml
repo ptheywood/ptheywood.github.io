@@ -3,13 +3,16 @@
   event_url: http://emit.manchester.ac.uk/
   title: Complex system simulations on the GPU
   note: on behalf of <a href="http://www.paulrichmond.staff.shef.ac.uk" target="_blank">Dr Paul Richmond</a>
+  pdf:
 - date: 2015-08-24
   event: PADABS 2015
   event_url: http://www.padabs.org/
   title: Road Network Simulation using FLAME GPU
   note: 
+  pdf: ./heywood-padabs15-presentation.pdf
 - date: 2015-09-16
   event: CGVC 2015
   event_url: http://cgvc15.cs.ucl.ac.uk/
   title: Visualising Real Time Large Scale Micro-Simulation of Transport Networks
   note: 
+  pdf: ./heywood-cgvc15-presentation.pdf
