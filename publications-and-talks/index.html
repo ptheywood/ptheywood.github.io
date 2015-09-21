@@ -27,6 +27,9 @@ title: Publications &amp; Talks | ptheywood.uk
                     {% if publication.pdf %}
                         [<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
                     {% endif %}
+                    {% if publication.bib %}
+                        [<a href="{{ publication.bib }}" target="_blank">bib</a>]
+                    {% endif %}
                 </li>
             {% endfor %}
             </ul>
