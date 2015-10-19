@@ -4,8 +4,10 @@
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
     {% include head.html %}
+    {% include bodystart.html %}
     {% include header.html %}
-    {% include navigation.html %}
         {{ content }}
     {% include footer.html %}
+    {% include sidebar-navigation.html %}
+    {% include bodyend.html %}
 </html>
