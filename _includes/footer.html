@@ -1,19 +1,16 @@
-    <footer id="footer">
-        <ul class="social-media">
-            {% for contact in site.data.contact %}
-                <li>
-                    <a href="{{ contact.url }}">
-                        <img src="{{ site.baseurl }}{{ contact.icon }}" alt="{{ contact.text }}" />
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
+<footer id="footer">
+    <ul class="social-media">
+        {% for contact in site.data.contact %}
+            <li>
+                <a href="{{ contact.url }}">
+                    <img src="{{ site.baseurl }}{{ contact.icon }}" alt="{{ contact.text }}" />
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 
-        <p class="copyright">
-            &copy; Peter Heywood 2015
-        </p>
-    </footer>
-    <!-- @todo - update js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/scripts/common.js"></script>
-</body>
+    <p class="copyright">
+        &copy; Peter Heywood 2015
+    </p>
+</footer>
+

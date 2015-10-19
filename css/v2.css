@@ -16,7 +16,7 @@ body {
 }
 
 /* Pushed-down footer vie flexbox, the main element occupies any spare space vertically*/
-body {
+.offcanvas-content {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -34,8 +34,8 @@ section {
 /* Page sizing */
 body {
   margin: 0 auto;
-  max-width: 92%;
-  width: 960px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /* Fonts*/
@@ -76,7 +76,7 @@ address {
 
 /* hn stlying */
 h1 {
-  font-size: 3.8em;
+  font-size: 3.4em;
   font-weight: 400;
 }
 h2 {
@@ -130,16 +130,16 @@ blockquote {
 }
 
 #header h1 {
-  margin: 32px auto 16px auto;
+  margin: 8px auto 4px auto;
   font-variant: small-caps;
   color:#2B6994;
   text-align: center;
 }
 
 #header h2 {
-  margin: 16px auto 8px auto;
+  margin: 8px auto 8px auto;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
 #header a {
@@ -499,6 +499,104 @@ article > div .content-wrapper {
  * Utility classes
  *****************/
 
+
+
+/******************
+ * New nav based on  http://codepen.io/rbardtke/pen/nfkdb/?editors=110
+ *****************/
+
+.offcanvas-wrapper {
+  display: flex;
+  min-height: 100%;
+}
+
+input[data-function*='swipe'] {
+  position: absolute;
+  opacity: 0;
+}
+
+label[data-function*='swipe'] {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 1;
+  display: block;
+  width: 24px;
+  height: 24px;
+  font: 24px/24px fontawesome;
+  text-align: center;
+  color: #444;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  transition: transform .3s;
+}
+
+input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
+  transform: translate3d(260px, 0, 0);
+}
+
+.offcanvas-content {
+  flex: 1;
+  padding: 0px 48px;
+  transform: translate3d(0, 0, 0);
+  transition: transform .3s;
+}
+
+input[data-function*='swipe']:checked ~ .offcanvas-content {
+  transform: translate3d(260px, 0px, 0px);
+}
+input[data-function*='swipe']:checked ~ .offcanvas-sidebar {
+  transform: translate3d(0px, 0px, 0px);
+}
+input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
+  width: 100%;
+}
+
+.offcanvas-sidebar {
+  transform: translate3d(-260px, 0px, 0px);
+  position: absolute;
+  width: 260px;
+  background: #333;
+  color: #f5f5f5;
+  left: 0;
+  height: 100%;
+  transition: all .3s;
+  padding: 0;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+.menu ul li {
+  list-style: none;
+  width: 0%;
+  border-bottom: 1px solid #777
+  ;
+}
+.menu ul li.active {
+  background: #2B6994;
+}
+
+.menu ul li a {
+  color: #f5f5f5;
+  display: block;
+  text-decoration: none;
+  padding: 16px;
+  margin: 0;
+  text-align: right;
+}
+.menu ul li a:hover {
+  color: #ddd;
+  background: #525252;
+}
+
+
+
+
+/*@todo - implement always onscreen nav for larger screens*/
+
+
 /******************
  * Responsive styling
  *****************/
@@ -531,9 +629,6 @@ article > div .content-wrapper {
   }
 }
 @media (min-width: 768px) {
-  body {
-    max-width: 80%;
-  }
   h2 {
     font-size: 3.1em;
   }
@@ -608,5 +703,17 @@ article > div .content-wrapper {
   }
   .show-phone-inline {
     display: none;
+  }
+}
+/* Switch content transform on really big screens */
+@media (min-width: 960px) {
+  .offcanvas-content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  input[data-function*='swipe']:checked ~ .offcanvas-content {
+    transform: none;
+    transition: all .3s;
+    padding-left: 260px;
   }
 }
