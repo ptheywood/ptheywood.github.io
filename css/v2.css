@@ -430,7 +430,7 @@ input[data-function*='swipe'] {
 }
 
 label[data-function*='swipe'] {
-  position: absolute;
+  position: fixed;
   top: 12px;
   left: 12px;
   z-index: 1;
@@ -468,7 +468,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
 
 .offcanvas-sidebar {
   transform: translate3d(-260px, 0px, 0px);
-  position: absolute;
+  position: fixed;
   width: 260px;
   background: #333;
   color: #f5f5f5;
