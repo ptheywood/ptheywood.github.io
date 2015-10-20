@@ -570,9 +570,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
 }
 .menu ul li {
   list-style: none;
-  width: 0%;
-  border-bottom: 1px solid #777
-  ;
+  border-bottom: 1px solid #777;
 }
 .menu ul li.active {
   background: #2B6994;
@@ -708,8 +706,20 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
 /* Switch content transform on really big screens */
 @media (min-width: 960px) {
   .offcanvas-content {
-    max-width: 960px;
+    max-width: 1140px;
     margin: 0 auto;
+    order: 2;
+  }
+  .offcanvas-sidebar {
+    order: 1;
+    transform: none;
+    position: relative;
+    left: auto;
+    height: auto;
+  }
+  label[data-function*='swipe'] {
+    overflow: hidden;
+    height: 0;
   }
   input[data-function*='swipe']:checked ~ .offcanvas-content {
     transform: none;
