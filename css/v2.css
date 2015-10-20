@@ -612,7 +612,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   }
 }
 /* Switch content transform on really big screens */
-@media (min-width: 960px) {
+@media (min-width: 900px) {
   .offcanvas-content {
     max-width: 1140px;
     margin: 0 auto;
