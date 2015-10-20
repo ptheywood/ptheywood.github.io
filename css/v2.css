@@ -146,91 +146,6 @@ blockquote {
   color: #6F0909;
 }
 /******************
- * Nav
- *****************/
-nav ul {
-  list-style: none;
-}
-#navigation {
-  margin: 8px auto 4px auto;
-  width: 100%;
-}
-#navigation ul {
-  padding: 0;
-}
-
-#navigation ul > li {
-  position: relative;
-  display: block;
-  float: none;
-}
-
-#navigation ul > li > a {
-  display: block;
-  text-align: center;
-  margin-bottom: 4px;
-  border-radius: 4px;
-  padding: 8px 16px;
-  background: #eee;
-  color: #333;
-}
-#navigation ul > li > a:focus ,
-#navigation ul > li > a:hover {
-  background-color: #ddd;
-}
-#navigation ul > li.active > a ,
-#navigation ul > li.active > a:focus ,
-#navigation ul > li.active > a:hover {
-  background-color: #2B6994;
-  color: #eee;
-}
-
-/* Responsive menu styling */
-#navigation ul {
-  display: none;
-  transition: transform 0.3s;
-  clear: both;
-}
-
-#navigation .show-menu {
-  text-decoration: none;
-  color: #fff;
-  background: #2B6994;
-  text-align: center;
-  padding: 8px 12px;
-  margin: 4px;
-  display: none;
-  cursor: pointer;
-  float: right;
-}
-
-/*Hide checkbox*/
-#navigation input[type=checkbox]{
-    display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-#navigation input[type=checkbox]:checked ~ ul {
-  display: block;
-}
-
-#navigation input[type=checkbox] ~ label .icon-open {
-  display: block;
-}
-#navigation input[type=checkbox] ~ label .icon-close {
-  display: none;
-}
-
-#navigation input[type=checkbox]:checked ~ label .icon-open {
-  display: none;
-}
-#navigation input[type=checkbox]:checked ~ label .icon-close {
-  display: block;
-}
-
-
-
-/******************
  * General Content
  *****************/
 main {
@@ -500,7 +415,6 @@ article > div .content-wrapper {
  *****************/
 
 
-
 /******************
  * New nav based on  http://codepen.io/rbardtke/pen/nfkdb/?editors=110
  *****************/
@@ -588,12 +502,6 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   color: #ddd;
   background: #525252;
 }
-
-
-
-
-/*@todo - implement always onscreen nav for larger screens*/
-
 
 /******************
  * Responsive styling
