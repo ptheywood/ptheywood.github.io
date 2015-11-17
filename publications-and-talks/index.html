@@ -12,23 +12,30 @@ title: Publications &amp; Talks | ptheywood.uk
             <ul>
             {% for publication in year.publications %}
                 <li>
-                    {% if publication.authors %}
-                        {{ publication.authors }}
-                    {% endif %}
-                    {% if publication.title %}
-                        "{{ publication.title }}"
-                    {% endif %}
-                    {% if publication.journal %}
-                        {{ publication.journal }}
-                    {% endif %}
+                    <h4>
+                        {% if publication.title %}
+                            "{{ publication.title }}"
+                        {% endif %}
+                    </h4>
+                    <h5>
+                        {% if publication.authors %}
+                            {{ publication.authors }}
+                        {% endif %}
+                    </h5>
+                    <p class="publication">
+                        {% if publication.journal %}
+                            {{ publication.journal }}
+                        {% endif %}
+                    </p>
                     {% if publication.href %}
-                        (<a href="{{ publication.link }}" target="_blank">View</a>)
+                        <a class="button" href="{{ publication.link }}" target="_blank">View</a>
+
                     {% endif %}
                     {% if publication.pdf %}
-                        [<a href="{{ publication.pdf }}" target="_blank">PDF</a>]
+                        <a class="button" href="{{ publication.pdf }}" target="_blank">PDF</a>
                     {% endif %}
                     {% if publication.bib %}
-                        [<a href="{{ publication.bib }}" target="_blank">bib</a>]
+                        <a class="button" href="{{ publication.bib }}" target="_blank">bib</a>
                     {% endif %}
                 </li>
             {% endfor %}
