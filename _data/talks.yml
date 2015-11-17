@@ -16,3 +16,9 @@
   title: Visualising Real Time Large Scale Micro-Simulation of Transport Networks
   note: 
   pdf: ./heywood-cgvc15-presentation.pdf
+- date: 2015-10-29
+  event: VRGraphicS Seminar
+  event_url: http://shef.ac.uk/dcs/research/groups/graphics
+  title: Road Network Simulation using FLAME GPU
+  note: 
+  pdf: ./heywood-vrgraphics15-presentation.pdf
