@@ -6,24 +6,15 @@ title: Contact | ptheywood.uk
 <section id="contact">
     <h2 class="sub-header">Contact</h2>
     <ul class="vertical-contact-list">
-        <li>
-            <a href="mailto:ptheywood1@sheffield.ac.uk">
-                <img src="{{ site.baseurl }}/img/font-awesome/envelope_5ea9dd_64.png" alt="Email"/>
-                ptheywood1@sheffield.ac.uk
-            </a>
-        </li>
-        <li>
-            <a href="http://twitter.com/ptheywood">
-                <img src="{{ site.baseurl }}/img/twitter/Twitter_logo_blue.png" alt="Twitter" />
-                twitter/ptheywood
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/ptheywood">
-                <img src="{{ site.baseurl }}/img/github/GitHub-Mark-64px.png" alt="Github" />
-                github/ptheywood
-            </a>
-        </li>
+        {% assign sorted_contact = (site.data.contact | sort: 'url') %}
+        {% for contact in sorted_contact reversed:%}
+            <li>
+                <a href="{{ contact.url }}">
+                    <img src="{{ site.baseurl }}{{ contact.icon }}" alt="{{ contact.text }}" />
+                    {{ contact.alternative }}
+                </a>
+            </li>
+        {% endfor %}
     </ul>
     <address>
         Peter Heywood, <br />
