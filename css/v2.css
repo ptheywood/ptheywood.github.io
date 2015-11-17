@@ -398,48 +398,48 @@ article > div .content-wrapper {
 /******************
  * Publications Page
  *****************/
-#publications > ul {
+ul.pt-list {
   list-style: none;
   padding-left: 0px;
   margin: 0 auto;
 }
-#publications > ul > li {
+ul.pt-list > li {
   list-style: none;
   padding: 8px 0px;
   margin: 16px auto;
 }
-#publications > ul > li h3 {
+ul.pt-list > li h3 {
   font-size: 20px;
   margin: 4px 0;
   color: #303030;
 }
-#publications > ul > li > ul {
+ul.pt-list > li > ul {
   list-style: none;
   padding: 0 0 0 40px;
 }
-#publications > ul > li > ul > li {
+ul.pt-list > li > ul > li {
   border-top: 1px solid #bbb;
   margin-bottom: 24px;
   padding-top: 12px;
 }
-#publications > ul > li > ul > li:first-child{
+ul.pt-list > li > ul > li:first-child{
   border-top: 0;
 }
-#publications > ul > li > ul > li h4 {
+ul.pt-list > li > ul > li h4 {
   font-size: 20px;
   margin: 4px 0;
 }
-#publications > ul > li > ul > li h5 {
+ul.pt-list > li > ul > li h5 {
   font-size: 16px;
   font-style: italic;
   margin: 4px 0 ;
 }
-#publications > ul > li > ul > li p {
+ul.pt-list > li > ul > li p {
   font-size: 16px;
   text-align: left;
   margin-bottom: 8px;
 }
-#publications > ul li .button {
+ul.pt-list li .button {
   color: #E2E2E2;
   display: inline-block;
   background: #2B6994;
@@ -450,15 +450,15 @@ article > div .content-wrapper {
   line-height: 14px;
   text-shadow:none;
 }
-#publications > ul li .button:hover {
+ul.pt-list li .button:hover {
   color: #E2E2E2;
   background: #3178A9;
 }
 
-
-#talks ul >li {
-  font-size: 1.2em;
+ul.talk-list > li > ul > li {
+  margin-bottom: 16px;
 }
+
 /******************
  * Utility classes
  *****************/

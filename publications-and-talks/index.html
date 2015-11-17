@@ -5,7 +5,7 @@ title: Publications &amp; Talks | ptheywood.uk
 
 <section id="publications">
     <h2 class="sub-header">Publications</h2>
-    <ul>
+    <ul class="pt-list publication-list">
     {% for year in site.data.publications %}
         <li>
             <h3>{{ year.year }}</h3>
@@ -47,19 +47,29 @@ title: Publications &amp; Talks | ptheywood.uk
 
 <section id="talks">
     <h2 class="sub-header">Talks</h2>
-    <ul>
-        {% for talk in site.data.talks %}
+    <ul class="pt-list talk-list">
+    {% for year in site.data.talks %}
         <li>
-            {{ talk.date }}:
-            <a href="{{ talk.event_url }}">
-            {{ talk.event }}
-            </a>
-            <strong>{{ talk.title }}</strong>
-            {{ talk.note }}
-            {% if talk.pdf %}
-                [<a href="{{ talk.pdf }}" target="_blank">PDF</a>]
-            {% endif %}
+            <h3>{{ year.year }}</h3>
+            <ul>
+                {% for talk in year.talks %}
+                <li>
+                    <h4>
+                        "{{ talk.title }}"
+                    </h4>
+                    <h5>
+                        <time>{{ talk.date }}</time>
+                        -
+                        <a href="{{ talk.event_url}}" >{{ talk.event }}</a>
+                    </h5>
+                    <p>{{ talk.note }}</p>
+                    {% if talk.pdf %}
+                        <a class="button" href="{{ talk.pdf }}" target="_blank">PDF</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
         </li>
-        {% endfor %}
+    {% endfor %}
     </ul>
 </section>
