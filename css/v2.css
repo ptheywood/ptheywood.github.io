@@ -284,14 +284,9 @@ footer .copyright {
  * Demonstrating Page
  *****************/
 .demonstrating-list {
-  padding: 0px;
   list-style: none;
-  margin: 24px auto 12px auto;
-  width: 80%;
 }
-.demonstrating-list  ul {
-  padding: 0px;
-}
+
 .demonstrating-list ul li {
   font-size: 1.2em;
 }
