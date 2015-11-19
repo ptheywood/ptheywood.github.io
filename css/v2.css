@@ -490,7 +490,7 @@ label[data-function*='swipe'] {
   height: 24px;
   font: 24px/24px fontawesome;
   text-align: center;
-  color: #444;
+  color: #002b36;
   cursor: pointer;
   transform: translate3d(0, 0, 0);
   transition: transform .3s;
