@@ -1,0 +1,8 @@
+- year: 2016
+  posters:
+    - date: 2016-04-04
+      event: GPU Technology Conference 2016
+      event_url: http://www.gputechconf.com/
+      title: Accelerated Transport System Simulation using CUDA
+      note: Poster P6203
+      pdf:

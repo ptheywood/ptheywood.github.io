@@ -73,3 +73,33 @@ title: Publications &amp; Talks | ptheywood.uk
     {% endfor %}
     </ul>
 </section>
+
+<section id="posters">
+    <h2 class="sub-header">Posters</h2>
+    <ul class="pt-list poster-list">
+    {% for year in site.data.posters %}
+        <li>
+            <h3>{{ year.year }}</h3>
+            <ul>
+                {% assign sorted_posters = (year.posters | sort: 'date') %}
+                {% for posters in sorted_posters reversed %}
+                <li>
+                    <h4>
+                        "{{ posters.title }}"
+                    </h4>
+                    <h5>
+                        <time>{{ posters.date }}</time>
+                        -
+                        <a href="{{ posters.event_url}}" >{{ posters.event }}</a>
+                    </h5>
+                    <p>{{ posters.note }}</p>
+                    {% if posters.pdf %}
+                        <a class="button" href="{{ posters.pdf }}" target="_blank">PDF</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</section>
