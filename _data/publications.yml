@@ -2,13 +2,15 @@
   publications:
     - authors: "Heywood P, Richmond P, Maddock S"
       title: "Road Network Simulation using FLAME GPU"
-      journal: "To appear in LNCS Proceedings of PABABS 2015 workshop"
+      journal: "Euro-Par 2015: Parallel Processing Workshops, Volume 9523 of the series Lecture Notes in Computer Science pp 430-441"
       href: "http://www.springer.com/us/book/9783319273075"
-      bib: ./heywood2015road.bib
-      pdf:
+      bib: "./heywood2015road.bib"
+      pdf: "./papers/road-network-simulation-using-flame-gpu.pdf"
+      note: 'The final publication is available at <a href="link.springer.com">link.springer.com</a>'
     - authors: "Heywood P, Richmond P, Maddock S"
       title: "Visualising Real Time Large Scale Micro-Simulation of Transport Networks (Extended Abstract)"
       journal: "To appear in 'Proceedings of Computer Graphics and Visual Computing'"
       href: "http://diglib.eg.org/handle/10.2312/13226"
       bib: 
       pdf:
+      note:
