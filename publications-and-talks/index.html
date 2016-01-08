@@ -27,6 +27,11 @@ title: Publications &amp; Talks | ptheywood.uk
                             {{ publication.journal }}
                         {% endif %}
                     </p>
+                    <p class="publication">
+                        {% if publication.note %}
+                            {{ publication.note }}
+                        {% endif %}
+                    </p>
                     {% if publication.href %}
                         <a class="button" href="{{ publication.href }}" target="_blank">View</a>
                     {% endif %}
@@ -58,6 +63,10 @@ title: Publications &amp; Talks | ptheywood.uk
                         "{{ talk.title }}"
                     </h4>
                     <h5>
+                        {% if talk.authors %}
+                            {{ talk.authors }}
+                        <br />
+                        {% endif %}
                         <time>{{ talk.date }}</time>
                         -
                         <a href="{{ talk.event_url}}" >{{ talk.event }}</a>
@@ -82,19 +91,23 @@ title: Publications &amp; Talks | ptheywood.uk
             <h3>{{ year.year }}</h3>
             <ul>
                 {% assign sorted_posters = (year.posters | sort: 'date') %}
-                {% for posters in sorted_posters reversed %}
+                {% for poster in sorted_posters reversed %}
                 <li>
                     <h4>
-                        "{{ posters.title }}"
+                        "{{ poster.title }}"
                     </h4>
                     <h5>
-                        <time>{{ posters.date }}</time>
+                        {% if poster.authors %}
+                            {{ poster.authors }}
+                        <br />
+                        {% endif %}
+                        <time>{{ poster.date }}</time>
                         -
-                        <a href="{{ posters.event_url}}" >{{ posters.event }}</a>
+                        <a href="{{ poster.event_url}}" >{{ poster.event }}</a>
                     </h5>
-                    <p>{{ posters.note }}</p>
-                    {% if posters.pdf %}
-                        <a class="button" href="{{ posters.pdf }}" target="_blank">PDF</a>
+                    <p>{{ poster.note }}</p>
+                    {% if poster.pdf %}
+                        <a class="button" href="{{ poster.pdf }}" target="_blank">PDF</a>
                     {% endif %}
                 </li>
                 {% endfor %}
