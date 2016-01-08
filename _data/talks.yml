@@ -19,16 +19,16 @@
       event_url: http://www.padabs.org/
       title: Road Network Simulation using FLAME GPU
       note: 
-      pdf: ./heywood-padabs15-presentation.pdf
+      pdf: ./presentations/heywood-padabs15-presentation.pdf
     - date: 2015-09-16
       event: CGVC 2015
       event_url: http://cgvc15.cs.ucl.ac.uk/
       title: Visualising Real Time Large Scale Micro-Simulation of Transport Networks
       note: 
-      pdf: ./heywood-cgvc15-presentation.pdf
+      pdf: ./presentations/heywood-cgvc15-presentation.pdf
     - date: 2015-10-29
       event: VRGraphicS Seminar
       event_url: http://shef.ac.uk/dcs/research/groups/graphics
       title: Road Network Simulation using FLAME GPU
       note: 
-      pdf: ./heywood-vrgraphics15-presentation.pdf
+      pdf: ./presentations/heywood-vrgraphics15-presentation.pdf
