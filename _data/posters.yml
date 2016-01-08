@@ -1,8 +1,9 @@
 - year: 2016
   posters:
-    - date: 2016-04-04
-      event: GPU Technology Conference 2016
-      event_url: http://www.gputechconf.com/
-      title: Accelerated Transport System Simulation using CUDA
-      note: Poster P6203
+    - authors: "Heywood P, Richmond P, Maddock S, Jung M"
+      date: "2016-04-04"
+      event: "GPU Technology Conference 2016"
+      event_url: "http://www.gputechconf.com/"
+      title: "Accelerated Transport System Simulation using CUDA"
+      note: "Poster P6203"
       pdf:
