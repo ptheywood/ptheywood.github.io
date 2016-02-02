@@ -14,7 +14,7 @@ lsi: false
 name: ptheywood.github.io
 permalink: /posts/:title
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 ga_enabled: true
 
