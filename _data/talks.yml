@@ -1,5 +1,12 @@
 - year: 2016
   talks:
+      - authors: "Dr. Jennifer Crangle, Peter Heywood,  Prof. Dawn Hadley, Dr. Elizabeth Craig-Atkins, Dr. Steve Maddock, Dr. Robin Scott, Adam Wiles,  Tom Hodgson"
+      date: 2016-03-21
+      event: "Rothwell Charnel Chapel Open Day and Website Launch"
+      event_url: "http://www.rothwellcharnelchapel.group.shef.ac.uk/"
+      title: "The Digital Ossuary: Rothwell (Northamptonshire, UK)"
+      note: 
+      pdf:
     - authors: "Heywood P, Richmond P"
       date: 2016-04-04
       event: "GPU Technology Conference 2016"
