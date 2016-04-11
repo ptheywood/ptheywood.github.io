@@ -75,6 +75,9 @@ title: Publications &amp; Talks | ptheywood.uk
                     {% if talk.pdf %}
                         <a class="button" href="{{ talk.pdf }}" target="_blank">PDF</a>
                     {% endif %}
+                    {% if talk.recording %}
+                        <a class="button" href="{{ talk.recording }}" target="_blank">Watch Recording</a>
+                    {% endif %}
                 </li>
                 {% endfor %}
             </ul>

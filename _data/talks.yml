@@ -7,6 +7,7 @@
       title: "The Digital Ossuary: Rothwell (Northamptonshire, UK)"
       note: 
       pdf:
+      recording:
     - authors: "Heywood P, Richmond P"
       date: 2016-04-04
       event: "GPU Technology Conference 2016"
@@ -14,6 +15,7 @@
       title: "Accelerating Transport System Micro-Simulations Using CUDA"
       note: 'Session S6404'
       pdf:
+      recording: "http://on-demand.gputechconf.com/gtc/2016/video/S6404.html"
 - year: 2015
   talks:
     - authors: "Richmond P, Heywood P"
@@ -23,6 +25,7 @@
       title: "Complex system simulations on the GPU"
       note: 'Presented on behalf of <a href="http://www.paulrichmond.staff.shef.ac.uk" target="_blank">Dr Paul Richmond</a>'
       pdf:
+      recording:
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2015-08-24
       event: "PADABS 2015"
@@ -30,6 +33,7 @@
       title: "Road Network Simulation using FLAME GPU"
       note: ''
       pdf: './presentations/heywood-padabs15-presentation.pdf'
+      recording:
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2015-09-16
       event: "CGVC 2015"
@@ -37,6 +41,7 @@
       title: "Visualising Real Time Large Scale Micro-Simulation of Transport Networks"
       note: ''
       pdf: './presentations/heywood-cgvc15-presentation.pdf'
+      recording:
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2015-10-29
       event: "VRGraphicS Seminar"
@@ -44,3 +49,4 @@
       title: "Road Network Simulation using FLAME GPU"
       note: ''
       pdf: './presentations/heywood-vrgraphics15-presentation.pdf'
+      recording:
