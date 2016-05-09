@@ -16,6 +16,14 @@
       note: 'Session S6404'
       pdf: './presentations/heywood-gtc2016-presentation.pdf'
       recording: "http://on-demand.gputechconf.com/gtc/2016/video/S6404.html"
+    - authors: "Heywood P"
+      date: 2016-05-09
+      event: "COM4521 Guest Lecture"
+      event_url: "http://paulrichmond.shef.ac.uk/teaching/COM4521/"
+      title: "Accelerating Transport Demand Assignment using GPUs"
+      note: 
+      pdf: 
+      recording: 
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2016-06-02
       event: "Modelling World 2016"
