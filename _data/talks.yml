@@ -24,13 +24,13 @@
       note: 
       pdf: 
       recording: 
-    - authors: "Heywood P, Richmond P, Maddock S"
+    - authors: "Richmond P, Heywood P"
       date: 2016-06-02
       event: "Modelling World 2016"
       event_url: "http://landor.co.uk/modellingworld/2016/conference.php"
       title: "Alternative GPU friendly assignment algorithms"
       note: 
-      pdf: 
+      pdf: "./presentation/richmond-heywood-mw2016-presentation.pdf"
       recording: 
 - year: 2015
   talks:
