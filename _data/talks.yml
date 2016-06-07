@@ -30,7 +30,7 @@
       event_url: "http://landor.co.uk/modellingworld/2016/conference.php"
       title: "Alternative GPU friendly assignment algorithms"
       note: 
-      pdf: "./presentation/richmond-heywood-mw2016-presentation.pdf"
+      pdf: "./presentations/richmond-heywood-mw2016-presentation.pdf"
       recording: 
 - year: 2015
   talks:
