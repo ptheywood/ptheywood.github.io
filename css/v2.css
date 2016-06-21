@@ -497,7 +497,7 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
 
 .offcanvas-content {
   flex: 1;
-  padding: 0px 48px;
+  padding: 0px 24px;
   transform: translate3d(0, 0, 0);
   transition: transform .3s;
 }
@@ -617,15 +617,15 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   #contact address {
     width: 50%;
     float: left;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 8px;
+    padding-right: 0;
     text-align: left;
   }
   .vertical-contact-list {
     width: 50%;
     float: left;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0;
+    padding-right: 8px;
     text-align: right;
   }
   .vertical-contact-list li {
@@ -636,9 +636,9 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   }
   .vertical-contact-list li a img {
     display: inline-block;
-    width: 24px;
-    margin: 0px 0px 0px 8px;
-    float: right;
+    width: 22px;
+    margin: 0px 0px 0px 4px;
+    /*float: right;*/
   }
   .flex-inner {
     flex-wrap: nowrap;
@@ -664,6 +664,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
 @media (min-width: 900px) {
   .offcanvas-content {
     max-width: 1140px;
+    padding: 0px 1%;
     margin: 0 auto;
     order: 2;
   }
