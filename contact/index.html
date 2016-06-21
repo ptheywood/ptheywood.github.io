@@ -10,8 +10,8 @@ title: Contact | ptheywood.uk
         {% for contact in sorted_contact reversed:%}
             <li>
                 <a href="{{ contact.url }}">
-                    <img src="{{ site.baseurl }}{{ contact.icon }}" alt="{{ contact.text }}" />
                     {{ contact.alternative }}
+                    <img src="{{ site.baseurl }}{{ contact.icon }}" alt="{{ contact.text }}" />
                 </a>
             </li>
         {% endfor %}
