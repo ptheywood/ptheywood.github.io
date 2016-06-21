@@ -7,8 +7,8 @@
 - text: "Publications"
   url: "/publications-and-talks/"
 
-- text: "Posts"
-  url: "/posts/"
+# - text: "Posts"
+#   url: "/posts/"
 
 - text: "Contact"
   url: "/contact/"
