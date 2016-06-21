@@ -1,11 +1,11 @@
 - text: "About"
   url: "/"
 
-- text: "Demonstrating"
-  url: "/demonstrating/"
-
 - text: "Publications"
   url: "/publications-and-talks/"
+
+- text: "Demonstrating"
+  url: "/demonstrating/"
 
 # - text: "Posts"
 #   url: "/posts/"
