@@ -32,6 +32,13 @@
       note: 
       pdf: "./presentations/richmond-heywood-mw2016-presentation.pdf"
       recording: 
+    - authors: "McIlveen J, Maddock S, Heywood P, Richmond P"
+      date: 2016-09-16
+      event: "Computer Graphics & Visual Computing (CGVC) 2016"
+      event_url: "http://www.eguk.org.uk/CGVC2016/"
+      note: 
+      pdf: 
+      recording: 
 - year: 2015
   talks:
     - authors: "Richmond P, Heywood P"

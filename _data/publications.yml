@@ -14,3 +14,12 @@
       bib: 
       pdf:
       note:
+- year: 2016
+  publications:
+    - authors: "McIlveen J, Maddock S, Heywood P, Richmond P"
+      title: "PED: Pedestrian Environment Designer"
+      journal: "Computer Graphics & Visual Computing (CGVC) 2016"
+      href: "http://diglib.eg.org/handle/10.2312/2630862"
+      bib: 
+      pdf: "http://diglib.eg.org/bitstream/handle/10.2312/cgvc20161304/105-112.pdf"
+      note:
