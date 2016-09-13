@@ -54,7 +54,7 @@ title: Publications &amp; Talks | ptheywood.uk
     <h2 class="sub-header">Talks</h2>
     <ul class="pt-list talk-list">
     {% assign sorted_talk_years = (site.data.talks | sort: 'year') %}
-    {% for year in sorted_talk_years %}
+    {% for year in sorted_talk_years reversed %}
         <li>
             <h3>{{ year.year }}</h3>
             <ul>
@@ -91,7 +91,8 @@ title: Publications &amp; Talks | ptheywood.uk
 <section id="posters">
     <h2 class="sub-header">Posters</h2>
     <ul class="pt-list poster-list">
-    {% for year in site.data.posters %}
+    {% assign sorted_poster_years = (site.data.posters | sort: 'year') %}
+    {% for year in sorted_poster_years reversed %}
         <li>
             <h3>{{ year.year }}</h3>
             <ul>
