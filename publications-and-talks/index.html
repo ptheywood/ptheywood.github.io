@@ -6,7 +6,8 @@ title: Publications &amp; Talks | ptheywood.uk
 <section id="publications">
     <h2 class="sub-header">Publications</h2>
     <ul class="pt-list publication-list">
-    {% for year in site.data.publications %}
+    {% assign sorted_publication_years = (site.data.publications | sort: 'year') %}
+    {% for year in sorted_publication_years reversed %}
         <li>
             <h3>{{ year.year }}</h3>
             <ul>
@@ -52,7 +53,8 @@ title: Publications &amp; Talks | ptheywood.uk
 <section id="talks">
     <h2 class="sub-header">Talks</h2>
     <ul class="pt-list talk-list">
-    {% for year in site.data.talks %}
+    {% assign sorted_talk_years = (site.data.talks | sort: 'year') %}
+    {% for year in sorted_talk_years %}
         <li>
             <h3>{{ year.year }}</h3>
             <ul>
