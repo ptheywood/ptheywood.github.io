@@ -38,7 +38,7 @@
       event_url: "http://www.eguk.org.uk/CGVC2016/"
       title: "PED: Pedestrian Environment Designer"      
       note: 
-      pdf: 
+      pdf: './presentations/mcilveen-maddock-heywood-richmond-cgvc16-presentation.pdf'
       recording: 
 - year: 2015
   talks:
