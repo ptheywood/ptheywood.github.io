@@ -30,3 +30,10 @@
       bib: "./bib/shui2016using.bib"
       pdf: "http://diglib.eg.org/bitstream/handle/10.2312/cgvc20161301/087-094.pdf"
       note:
+    - authors: "Bradley R, Wright I, Swain D, Himlin R, Heywood P, Richmond P, Maswon M, Fletcher G, Guichard R"
+      title: "Accelerating Traffic Models Using GPU-Based Technology"
+      journal: "Proceedings of European Transport Conference 2016"
+      href: "http://abstracts.aetransport.org/paper/index/id/5125/confid/21"
+      bib:
+      pdf: "http://abstracts.aetransport.org/paper/download/id/5125"
+      note:
