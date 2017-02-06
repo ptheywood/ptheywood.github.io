@@ -57,7 +57,7 @@ a {
 
 /* Padding / font styling for general elements*/
 p, address {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 100;
   line-height: 140%;
   margin: 8px 0 12px 0;
@@ -77,11 +77,11 @@ address {
 
 /* hn stlying */
 h1 {
-  font-size: 3.4em;
+  font-size: 3.4rem;
   font-weight: 400;
 }
 h2 {
-  font-size: 2.0em;
+  font-size: 2.0rem;
   font-weight: 400;
 }
 /* Horizontal line via http://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
@@ -101,16 +101,16 @@ h2 {
   width: 50%;
 }
 .sub-header:before {
-  right: 0.5em;
+  right: 0.5rem;
   margin-left: -50%;
 }
 .sub-header:after {
-  left: 0.5em;
+  left: 0.5rem;
   margin-right: -50%;
 }
 
 h4.sub-header {
-  font-size:1.2em;
+  font-size:1.2rem;
   text-align: center;
   font-weight: bold;
 }
@@ -118,7 +118,7 @@ h4.sub-header {
 blockquote {
   padding: 2px 16px;
   margin: 16px 0 16px 0;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   border-left: 4px solid #34A3F1;
 }
 
@@ -141,7 +141,7 @@ blockquote {
 #header h2 {
   margin: 8px auto 8px auto;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 
 #header a {
@@ -155,7 +155,7 @@ main {
 }
 
 main h2 {
-  font-size: 2.0em;
+  font-size: 2.0rem;
   margin: 8px auto 16px auto;
 }
 
@@ -244,7 +244,7 @@ footer .copyright {
 
 .vertical-contact-list {
   list-style: none;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 140;
   line-height: 140%;
   margin: 8px 0 24px 0;
@@ -289,7 +289,7 @@ footer .copyright {
 }
 
 .demonstrating-list ul li {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 /******************
@@ -369,7 +369,7 @@ article > div .content-wrapper {
 
 .prev-next {
   margin-top: 32px;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 .prev-next > a {
   display: inline-block;
@@ -586,7 +586,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
 }
 @media (min-width: 768px) {
   h2 {
-    font-size: 3.1em;
+    font-size: 3.1rem;
   }
   main article p {
     text-align: left;
