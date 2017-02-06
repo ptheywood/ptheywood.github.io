@@ -683,6 +683,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   input[data-function*='swipe']:checked ~ .offcanvas-content {
     transform: none;
     transition: all .3s;
-    padding-left: 260px;
+    /*Disabled because this just seems to cause isses?*/
+    /*padding-left: 260px;*/
   }
 }
