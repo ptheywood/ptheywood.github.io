@@ -206,6 +206,10 @@ footer .copyright {
   margin: 0;
   padding: 0;
 }
+#footer ul>li>a>img {
+  width: 64px;
+}
+
 
 /******************
  * Page Specifics
