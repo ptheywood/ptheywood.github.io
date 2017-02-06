@@ -2,24 +2,29 @@
   alternative: p.heywood@sheffield.ac.uk
   url: mailto:p.heywood@sheffield.ac.uk
   icon: /img/font-awesome/envelope.svg
-
-- text: Github
-  alternative: github/ptheywood
-  url: https://github.com/ptheywood/
-  icon: /img/github/GitHub-Mark-64px.png
+  contact_order: 0
 
 - text: Twitter
   alternative: twitter/ptheywood
   url: https://twitter.com/ptheywood/
   icon: /img/twitter/Twitter_logo_blue.png
+  contact_order: 1
 
-
-- text: Bitbucket
-  alternative: bitbucket/ptheywood
-  url: https://bitbucket.org/ptheywood/
-  icon: /img/bitbucket/bitbucket_rgb_blue_symbol.svg
+- text: Github
+  alternative: github/ptheywood
+  url: https://github.com/ptheywood/
+  icon: /img/github/GitHub-Mark-64px.png
+  contact_order: 2
 
 - text: GitLab
   alternative: gitlab/ptheywood
   url: https://gitlab.com/ptheywood/
   icon: /img/gitlab/logo-square.svg
+  contact_order: 3
+
+- text: Bitbucket
+  alternative: bitbucket/ptheywood
+  url: https://bitbucket.org/ptheywood/
+  icon: /img/bitbucket/bitbucket_rgb_blue_symbol.svg
+  contact_order: 4
+
