@@ -258,7 +258,7 @@ footer .copyright {
   display: inline;
   vertical-align: middle;
   width: 24px;
-  margin: 0px 8px 0px 0px;
+  margin: 0 8px 0 0;
 }
 
 .iframe-container {
@@ -322,7 +322,7 @@ footer .copyright {
   padding: 8px 16px;
   background: #eee;
   border: 1px solid #ddd;
-  border-top: 0px;
+  border-top: 0;
   color: #333;
   text-align: left;
 }
@@ -397,12 +397,12 @@ article > div .content-wrapper {
  *****************/
 ul.pt-list {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
   margin: 0 auto;
 }
 ul.pt-list > li {
   list-style: none;
-  padding: 8px 0px;
+  padding: 8px 0;
   margin: 16px auto;
 }
 ul.pt-list > li h3 {
@@ -498,23 +498,23 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
 
 .offcanvas-content {
   flex: 1;
-  padding: 0px 24px;
+  padding: 0 24px;
   transform: translate3d(0, 0, 0);
   transition: transform .3s;
 }
 
 input[data-function*='swipe']:checked ~ .offcanvas-content {
-  transform: translate3d(260px, 0px, 0px);
+  transform: translate3d(260px, 0, 0);
 }
 input[data-function*='swipe']:checked ~ .offcanvas-sidebar {
-  transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0, 0);
 }
 input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   width: 100%;
 }
 
 .offcanvas-sidebar {
-  transform: translate3d(-260px, 0px, 0px);
+  transform: translate3d(-260px, 0, 0);
   position: fixed;
   width: 260px;
   background: #002b36;
@@ -630,7 +630,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
     text-align: right;
   }
   .vertical-contact-list li {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .vertical-contact-list li a {
     overflow: auto;
@@ -638,7 +638,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   .vertical-contact-list li a img {
     display: inline-block;
     width: 22px;
-    margin: 0px 0px 0px 4px;
+    margin: 0 0 0 4px;
     /*float: right;*/
   }
   .flex-inner {
@@ -665,7 +665,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
 @media (min-width: 900px) {
   .offcanvas-content {
     max-width: 1140px;
-    padding: 0px 1%;
+    padding: 0 1%;
     margin: 0 auto;
     order: 2;
   }
