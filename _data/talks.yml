@@ -6,7 +6,7 @@
       event_url: "http://www.gputechconf.com/"
       title: "Accelerating Transport System Micro-Simulations Using CUDA"
       note: 'Session S6404'
-      pdf: './presentations/heywood-gtc2016-presentation.pdf'
+      pdf: '/download/presentations/heywood-gtc2016-presentation.pdf'
       recording: "http://on-demand.gputechconf.com/gtc/2016/video/S6404.html"
     - authors: "Crangle J, Heywood P, Hadley D, Craig-Atkins E, Maddock S, Scott R, Wiles A, Hodgson T, Shui W"
       date: 2016-03-31
@@ -38,7 +38,7 @@
       event_url: "http://landor.co.uk/modellingworld/2016/conference.php"
       title: "Alternative GPU friendly assignment algorithms"
       note: 
-      pdf: "./presentations/richmond-heywood-mw2016-presentation.pdf"
+      pdf: "/download/presentations/richmond-heywood-mw2016-presentation.pdf"
       recording: 
     - authors: "McIlveen J, Maddock S, Heywood P, Richmond P"
       date: 2016-09-16
@@ -46,7 +46,7 @@
       event_url: "http://www.eguk.org.uk/CGVC2016/"
       title: "PED: Pedestrian Environment Designer"      
       note: 
-      pdf: './presentations/mcilveen-maddock-heywood-richmond-cgvc16-presentation.pdf'
+      pdf: '/download/presentations/mcilveen-maddock-heywood-richmond-cgvc16-presentation.pdf'
       recording: 
 - year: 2015
   talks:
@@ -64,7 +64,7 @@
       event_url: "http://www.padabs.org/"
       title: "Road Network Simulation using FLAME GPU"
       note: ''
-      pdf: './presentations/heywood-padabs15-presentation.pdf'
+      pdf: '/download/presentations/heywood-padabs15-presentation.pdf'
       recording:
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2015-09-16
@@ -72,7 +72,7 @@
       event_url: "http://cgvc15.cs.ucl.ac.uk/"
       title: "Visualising Real Time Large Scale Micro-Simulation of Transport Networks"
       note: ''
-      pdf: './presentations/heywood-cgvc15-presentation.pdf'
+      pdf: '/download/presentations/heywood-cgvc15-presentation.pdf'
       recording:
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2015-10-29
@@ -80,5 +80,5 @@
       event_url: "http://shef.ac.uk/dcs/research/groups/graphics"
       title: "Road Network Simulation using FLAME GPU"
       note: ''
-      pdf: './presentations/heywood-vrgraphics15-presentation.pdf'
+      pdf: '/download/presentations/heywood-vrgraphics15-presentation.pdf'
       recording:

@@ -1,0 +1,51 @@
+---
+layout: default
+title: Publications | ptheywood.uk
+---
+
+<section id="publications">
+    <h2 class="sub-header">Publications</h2>
+    <ul class="pt-list publication-list">
+    {% assign sorted_publication_years = (site.data.publications | sort: 'year') %}
+    {% for year in sorted_publication_years reversed %}
+        <li>
+            <h3>{{ year.year }}</h3>
+            <ul>
+            {% for publication in year.publications %}
+                <li>
+                    <h4>
+                        {% if publication.title %}
+                            "{{ publication.title }}"
+                        {% endif %}
+                    </h4>
+                    <h5>
+                        {% if publication.authors %}
+                            {{ publication.authors }}
+                        {% endif %}
+                    </h5>
+                    <p class="publication">
+                        {% if publication.journal %}
+                            {{ publication.journal }}
+                        {% endif %}
+                    </p>
+                    <p class="publication">
+                        {% if publication.note %}
+                            {{ publication.note }}
+                        {% endif %}
+                    </p>
+                    {% if publication.href %}
+                        <a class="button" href="{{ publication.href }}" target="_blank">View</a>
+                    {% endif %}
+                    {% if publication.pdf %}
+                        <a class="button" href="{{ publication.pdf }}" target="_blank">PDF</a>
+                    {% endif %}
+                    {% if publication.bib %}
+                        <a class="button" href="{{ publication.bib }}" target="_blank">bib</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</section>

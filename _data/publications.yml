@@ -4,8 +4,8 @@
       title: "Road Network Simulation using FLAME GPU"
       journal: "Euro-Par 2015: Parallel Processing Workshops, Volume 9523 of the series Lecture Notes in Computer Science pp 430-441"
       href: "http://www.springer.com/us/book/9783319273075"
-      bib: "./bib/heywood2015road.bib"
-      pdf: "./papers/road-network-simulation-using-flame-gpu.pdf"
+      bib: "/download/bib/heywood2015road.bib"
+      pdf: "/download/papers/road-network-simulation-using-flame-gpu.pdf"
       note: 'The final publication is available at <a href="//link.springer.com">link.springer.com</a>'
     - authors: "Heywood P, Richmond P, Maddock S"
       title: "Visualising Real Time Large Scale Micro-Simulation of Transport Networks (Extended Abstract)"
@@ -20,14 +20,14 @@
       title: "PED: Pedestrian Environment Designer"
       journal: "Computer Graphics & Visual Computing (CGVC) 2016"
       href: "http://diglib.eg.org/handle/10.2312/2630862"
-      bib: "./bib/mcilveen2016ped.bib"
+      bib: "/download/bib/mcilveen2016ped.bib"
       pdf: "http://diglib.eg.org/bitstream/handle/10.2312/cgvc20161304/105-112.pdf"
       note:
     - authors: "Shui W, Maddock S, Heywood P, Craig-Atkins E, Crangle J, Hadley D, Scott R"
       title: "Using Semi-automatic 3D Scene Reconstruction to Create a Digital Medieval Charnel Chapel"
       journal: "Computer Graphics & Visual Computing (CGVC) 2016"
       href: "http://diglib.eg.org/handle/10.2312/2630862"
-      bib: "./bib/shui2016using.bib"
+      bib: "/download/bib/shui2016using.bib"
       pdf: "http://diglib.eg.org/bitstream/handle/10.2312/cgvc20161301/087-094.pdf"
       note:
     - authors: "Bradley R, Wright I, Swain D, Himlin R, Heywood P, Richmond P, Maswon M, Fletcher G, Guichard R"

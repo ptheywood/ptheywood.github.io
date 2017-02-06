@@ -2,7 +2,13 @@
   url: "/"
 
 - text: "Publications"
-  url: "/publications-and-talks/"
+  url: "/publications/"
+  
+- text: "Talks"
+  url: "/talks/"
+
+- text: "Posters"
+  url: "/posters/"
 
 - text: "Demonstrating"
   url: "/demonstrating/"

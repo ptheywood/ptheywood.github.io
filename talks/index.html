@@ -1,0 +1,41 @@
+---
+layout: default
+title: Talks | ptheywood.uk
+---
+<section id="talks">
+    <h2 class="sub-header">Talks</h2>
+    <ul class="pt-list talk-list">
+    {% assign sorted_talk_years = (site.data.talks | sort: 'year') %}
+    {% for year in sorted_talk_years reversed %}
+        <li>
+            <h3>{{ year.year }}</h3>
+            <ul>
+                {% assign sorted_talks = (year.talks | sort: 'date') %}
+                {% for talk in sorted_talks reversed %}
+                <li>
+                    <h4>
+                        "{{ talk.title }}"
+                    </h4>
+                    <h5>
+                        {% if talk.authors %}
+                            {{ talk.authors }}
+                        <br />
+                        {% endif %}
+                        <time>{{ talk.date }}</time>
+                        -
+                        <a href="{{ talk.event_url}}" >{{ talk.event }}</a>
+                    </h5>
+                    <p>{{ talk.note }}</p>
+                    {% if talk.pdf %}
+                        <a class="button" href="{{ talk.pdf }}" target="_blank">PDF</a>
+                    {% endif %}
+                    {% if talk.recording %}
+                        <a class="button" href="{{ talk.recording }}" target="_blank">Watch Recording</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</section>
