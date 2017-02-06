@@ -1,7 +1,7 @@
 - text: Email
   alternative: p.heywood@sheffield.ac.uk
   url: mailto:p.heywood@sheffield.ac.uk
-  icon: /img/font-awesome/envelope_5ea9dd_64.png
+  icon: /img/font-awesome/envelope.svg
 
 - text: Github
   alternative: github/ptheywood
