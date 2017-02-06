@@ -42,12 +42,12 @@ body {
 html, body,
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
 p, span, a {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 pre, code, 
 pre code span,
 .highlight {
-  font-family: 'Source Code Pro', sans-serif;
+  font-family: 'Overpass Mono', sans-serif;
   font-size: 14px;
 }
 a {
