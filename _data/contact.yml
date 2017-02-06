@@ -7,19 +7,19 @@
 - text: Twitter
   alternative: twitter/ptheywood
   url: https://twitter.com/ptheywood/
-  icon: /img/twitter/Twitter_logo_blue.png
+  icon: /img/twitter/Twitter_logo_blue.svg
   contact_order: 1
 
 - text: Github
   alternative: github/ptheywood
   url: https://github.com/ptheywood/
-  icon: /img/github/GitHub-Mark-64px.png
+  icon: /img/github/github_mark.svg
   contact_order: 2
 
 - text: GitLab
   alternative: gitlab/ptheywood
   url: https://gitlab.com/ptheywood/
-  icon: /img/gitlab/logo-square.svg
+  icon: /img/gitlab/gitlab_logo_square.svg
   contact_order: 3
 
 - text: Bitbucket
