@@ -1,3 +1,13 @@
+- year: 2017
+  posters:
+    - authors: "Heywood P, Richmond P, Maddock S, Bradley R, Wright I, Swain D, Mawson M, Fletcher G, Guichard R, Himlin R"
+      date: "2017-05-08"
+      event: "GPU Technology Conference 2017"
+      event_url: "http://www.gputechconf.com/"
+      title: "Shortest Path Calculations for Low-Density High-Diameter Road Network Simulation"
+      note: "Poster P7196"
+      pdf: 
+
 - year: 2016
   posters:
     - authors: "Heywood P, Richmond P, Maddock S, Jung M"
