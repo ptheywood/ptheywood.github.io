@@ -1,5 +1,5 @@
 /******************
- * Core Styling 
+ * Core Styling
  *****************/
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
 p, span, a {
   font-family: 'Overpass', sans-serif;
 }
-pre, code, 
+pre, code,
 pre code span,
 .highlight {
   font-family: 'Overpass Mono', sans-serif;
@@ -272,8 +272,8 @@ footer .copyright {
   height: 0;
   overflow: hidden;
 }
-.iframe-container iframe, 
-.iframe-container object, 
+.iframe-container iframe,
+.iframe-container object,
 .iframe-container embed {
   position: absolute;
   top: 0;
@@ -416,7 +416,7 @@ ul.pt-list > li h3 {
 }
 ul.pt-list > li > ul {
   list-style: none;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 0;
 }
 ul.pt-list > li > ul > li {
   border-top: 1px solid #bbb;
@@ -560,7 +560,7 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
 /******************
  * Responsive styling
  *****************/
- 
+
 @media (max-width: 767px) {
   .sub-header:before, .sub-header:after {
     /*Disable horizontal line for post titless on small layout*/
@@ -570,10 +570,10 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
     display: none;
   }
   .show-phone {
-    display: block;  
+    display: block;
   }
   .show-phone-inline {
-    display: inline;  
+    display: inline;
   }
   /*Display 'show menu' link*/
   #navigation .show-menu {
@@ -663,6 +663,10 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   }
   .show-phone-inline {
     display: none;
+  }
+
+  ul.pt-list > li > ul {
+    padding: 0 0 0 40px;
   }
 }
 /* Switch content transform on really big screens */
