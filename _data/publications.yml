@@ -3,6 +3,7 @@
     - authors: "Heywood P, Richmond P, Maddock S"
       title: "Road Network Simulation using FLAME GPU"
       journal: "Euro-Par 2015: Parallel Processing Workshops, Volume 9523 of the series Lecture Notes in Computer Science pp 430-441"
+      date: 2015-08-24
       href: "http://www.springer.com/us/book/9783319273075"
       bib: "/download/bib/heywood2015road.bib"
       pdf: "/download/papers/road-network-simulation-using-flame-gpu.pdf"
@@ -10,6 +11,7 @@
     - authors: "Heywood P, Richmond P, Maddock S"
       title: "Visualising Real Time Large Scale Micro-Simulation of Transport Networks (Extended Abstract)"
       journal: "To appear in 'Proceedings of Computer Graphics and Visual Computing'"
+      date: 2015-09-17
       href: "http://diglib.eg.org/handle/10.2312/13226"
       bib: 
       pdf:
@@ -19,6 +21,7 @@
     - authors: "McIlveen J, Maddock S, Heywood P, Richmond P"
       title: "PED: Pedestrian Environment Designer"
       journal: "Computer Graphics & Visual Computing (CGVC) 2016"
+      date: 2016-09-15
       href: "http://diglib.eg.org/handle/10.2312/2630862"
       bib: "/download/bib/mcilveen2016ped.bib"
       pdf: "http://diglib.eg.org/bitstream/handle/10.2312/cgvc20161304/105-112.pdf"
@@ -26,6 +29,7 @@
     - authors: "Shui W, Maddock S, Heywood P, Craig-Atkins E, Crangle J, Hadley D, Scott R"
       title: "Using Semi-automatic 3D Scene Reconstruction to Create a Digital Medieval Charnel Chapel"
       journal: "Computer Graphics & Visual Computing (CGVC) 2016"
+      date: 2016-09-15
       href: "http://diglib.eg.org/handle/10.2312/2630862"
       bib: "/download/bib/shui2016using.bib"
       pdf: "http://diglib.eg.org/bitstream/handle/10.2312/cgvc20161301/087-094.pdf"
@@ -33,7 +37,26 @@
     - authors: "Bradley R, Wright I, Swain D, Himlin R, Heywood P, Richmond P, Maswon M, Fletcher G, Guichard R"
       title: "Accelerating Traffic Models Using GPU-Based Technology"
       journal: "Proceedings of European Transport Conference 2016"
+      date: 2016-10-05
       href: "http://abstracts.aetransport.org/paper/index/id/5125/confid/21"
       bib:
       pdf: "http://abstracts.aetransport.org/paper/download/id/5125"
       note:
+- year: 2017
+  publications:
+    - authors: "Heywood P, Maddock S, Brackstone M, Casas J, Garcia D, Richmond P"
+      title: "Data-parallel agent-based microscopic road network simulation using graphics processing units"
+      journal: "Simulation Modelling Practice and Theory"
+      date: 2017-11-04
+      href: "https://www.journals.elsevier.com/simulation-modelling-practice-and-theory"
+      bib: 
+      pdf: 
+      note: "Accepted for Publication 2017-11-04"
+    - authors: "Heywood P, Richmond P, Maddock S, Brackstone M, Casas J, Garcia D"
+      title: "Accelerating Transport Microsimulation: Demonstrating the Impact of Future Many-Core Simulations - Final Report"
+      journal: "Department for Transport - Transport Technology Research Innovation Grant (T-TRIG July 2016) Whitepaper"
+      date: 2017-01-01
+      href: 
+      bib: 
+      pdf: 
+      note: "To be published"
