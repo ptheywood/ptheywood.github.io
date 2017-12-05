@@ -7,6 +7,13 @@
       title: "Shortest Path Calculations for Low-Density High-Diameter Road Network Simulation"
       note: "Poster P7196"
       pdf: "http://on-demand.gputechconf.com/gtc/2017/posters/images/1920x1607/GTC_2017_Algorithms_AL_08_P7196_WEB.png"
+    - authors: "Heywood P, Richmond P, Maddock S, Jung M"
+      date: "2017-11-27"
+      event: "Agent Based Modelling (ABM 2017) mini-conference (sheffield)"
+      event_url: "http://agentbasedmodels.group.shef.ac.uk/2017/10/31/agent-based-modelling-abm-2017-mini-conference/"
+      title: "Accelerated Transport System Simulation using CUDA"
+      note: ""
+      pdf: "http://agentbasedmodels.group.shef.ac.uk/2017/11/30/posters/"
 
 - year: 2016
   posters:
