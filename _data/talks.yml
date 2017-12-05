@@ -1,3 +1,30 @@
+- year: 2017
+  talks:
+    - authors: "Chimeh M, Richmond P, Heywood P"
+      date: 2017-09-06
+      event: "European Conference on Artificial Life 2017"
+      event_url: "https://project.inria.fr/ecal2017/tutorials-2/"
+      title: "Simulating Complex Systems with FLAME GPU (Tutorial)"
+      note: 
+      pdf:
+      recording: 
+    - authors: "Heywood P, Richmond P"
+      date: 2017-11-08
+      event: "Highways UK 2017 Intelligent Infrastructure Challenge"
+      event_url: "http://www.highways-uk.com/huk/intelligent-infrastructure-hub"
+      title: "Improved UTMC through GPU-Accelerated Microscopic Road Network Simulation"
+      note: 
+      pdf: '/download/presentations/heywood-highways-uk-2017-iic.pdf'
+      recording: 
+    - authors: "Wright I, Heywood P"
+      date: 2017-11-16
+      event: "Saturn User Group Meeting(s) 2017"
+      event_url: "https://saturnsoftware2.co.uk/support"
+      title: "SATGPU - A Step Change in Model Runtimes"
+      note: 'Epsom UGM (2017-11-03) & Leeds UGM (2017-11-16)'
+      pdf: 'https://saturnsoftware2.co.uk/uploads/files/SATUGM17-SATGPU2.pdf'
+      recording: 
+
 - year: 2016
   talks:
     - authors: "Heywood P, Richmond P"
