@@ -48,10 +48,10 @@
       title: "Data-parallel agent-based microscopic road network simulation using graphics processing units"
       journal: "Simulation Modelling Practice and Theory"
       date: 2017-11-04
-      href: "https://www.journals.elsevier.com/simulation-modelling-practice-and-theory"
+      href: "https://www.sciencedirect.com/science/article/pii/S1569190X17301545"
       bib: 
       pdf: 
-      note: "Accepted for Publication 2017-11-04"
+      note: ""
     - authors: "Heywood P, Richmond P, Maddock S, Brackstone M, Casas J, Garcia D"
       title: "Accelerating Transport Microsimulation: Demonstrating the Impact of Future Many-Core Simulations - Final Report"
       journal: "Department for Transport - Transport Technology Research Innovation Grant (T-TRIG July 2016) Whitepaper"
