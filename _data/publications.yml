@@ -48,8 +48,8 @@
       title: "Data-parallel agent-based microscopic road network simulation using graphics processing units"
       journal: "Simulation Modelling Practice and Theory"
       date: 2017-11-04
-      href: "https://www.sciencedirect.com/science/article/pii/S1569190X17301545"
-      bib: 
+      href: "https://doi.org/10.1016/j.simpat.2017.11.002"
+      bib: "/download/bib/heywood2017data.bib"
       pdf: 
       note: ""
     - authors: "Heywood P, Richmond P, Maddock S, Brackstone M, Casas J, Garcia D"
