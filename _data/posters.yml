@@ -5,8 +5,8 @@
       event: "GPU Technology Conference 2018"
       event_url: "http://www.gputechconf.com/"
       title: "Data-Parallel Agent-Based Microscopic Road Network Simulation using GPUs"
-      note: "Poster P8215"
-      pdf: 
+      note: "Poster P8215 - Top 5 Finalist"
+      pdf: "/download/posters/heywood-gtc18-poster.pdf"
 - year: 2017
   posters:
     - authors: "Heywood P, Richmond P, Maddock S, Bradley R, Wright I, Swain D, Mawson M, Fletcher G, Guichard R, Himlin R"
