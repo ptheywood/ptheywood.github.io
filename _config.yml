@@ -16,7 +16,7 @@ permalink: /posts/:title
 markdown: kramdown
 highlighter: rouge
 
-ga_enabled: true
+ga_enabled: false
 
 kramdown:
   input: GFM
