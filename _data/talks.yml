@@ -1,3 +1,29 @@
+- year: 2018
+  talks:
+    - authors: "Heywood P"
+      date: 2018-04-30
+      event: "COM4521 Guest Lecture"
+      event_url: "http://paulrichmond.shef.ac.uk/teaching/COM4521/"
+      title: "Accelerating Road Network Simulations using GPUs"
+      note: 
+      pdf: '/download/presentations/heywood-com4521-2018.pdf'
+      recording: 
+    - authors: "Heywood P"
+      date: 2018-05-23
+      event: "Oxford e-Research Centre Many Core Seminar Series"
+      event_url: "http://www.oerc.ox.ac.uk/Peter-Heywood-Many-core"
+      title: "Accelerating Road Network Simulations using GPUs"
+      note: 
+      pdf: '/download/presentations/heywood-oerc-many-core-2018.pdf'
+      recording: 
+    - authors: "Heywood P, Richmond P"
+      date: 2018-06-14
+      event: "Northmost 03 Workshop"
+      event_url: "https://northmost.co.uk/"
+      title: "Improving Transport Simulation Performance using Graphics Processing Units"
+      note: 
+      pdf: '/download/presentations/heywood-northmost03-2018.pdf'
+      recording: 
 - year: 2017
   talks:
     - authors: "Chimeh M, Richmond P, Heywood P"
