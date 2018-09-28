@@ -16,15 +16,9 @@
   icon: /img/github/github_mark.svg
   contact_order: 2
 
-- text: Bitbucket
-  alternative: bitbucket/ptheywood
-  url: https://bitbucket.org/ptheywood/
-  icon: /img/bitbucket/bitbucket_rgb_blue_symbol.svg
-  contact_order: 3
-
 - text: GitLab
   alternative: gitlab/ptheywood
   url: https://gitlab.com/ptheywood/
   icon: /img/gitlab/gitlab_logo_square.svg
-  contact_order: 4
+  contact_order: 3
 
