@@ -1,3 +1,13 @@
+- year: 2019
+  talks:
+    - authors: "Heywood P, Richmond P, Maddock S, Chisenholm R, Pyle J"
+      date: 2019-03-19
+      event: "GPU Technology Conference 2019"
+      event_url: "http://www.gputechconf.com/"
+      title: "Large-Scale Road Network Simulations for Smart Cities"
+      note: 'Session S9387'
+      pdf: 
+      recording:
 - year: 2018
   talks:
     - authors: "Heywood P"
