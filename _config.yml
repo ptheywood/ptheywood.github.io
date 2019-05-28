@@ -9,7 +9,7 @@ exclude:
   - "_source_img"
   - Gemfile
   - Gemfile.lock
-  - vendor
+  - vendor/bundle
 keep_files: ['.git']
 timezone: Europe/London
 
