@@ -67,8 +67,8 @@
       title: "Parallel Pair-Wise Interaction for Multi-Agent Immune Systems Modelling"
       journal: "Bioinformatics and Biomedicine (BIBM), 2018 IEEE International Conference on"
       date: 2018-12-03
-      href: https://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1001586
-      bib:
+      href: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8621404
+      bib: "/download/bib/chimeh2018parallel.bib"
       pdf:
       note: CMISF Workshop (BIBM) 2018. To be published.
       doi: http://dx.doi.org/10.1109/BIBM.2018
