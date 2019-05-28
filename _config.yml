@@ -1,7 +1,15 @@
 source: .
 destination: ./_site
-include: ['.htaccess']
-exclude: ['VagrantFile', 'bower.json', 'readme.md', "_source_img"]
+include: 
+  - '.htaccess'
+exclude: 
+  - 'VagrantFile'
+  - 'bower.json' 
+  - 'readme.md'
+  - "_source_img"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 keep_files: ['.git']
 timezone: Europe/London
 
