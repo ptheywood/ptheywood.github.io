@@ -6,12 +6,12 @@ title: Publications | ptheywood.uk
 <section id="publications">
     <h2 class="sub-header">Publications</h2>
     <ul class="pt-list publication-list">
-    {% assign sorted_publication_years = (site.data.publications | sort: 'year') %}
+    {% assign sorted_publication_years = site.data.publications | sort: 'year' %}
     {% for year in sorted_publication_years reversed %}
         <li>
             <h3>{{ year.year }}</h3>
             <ul>
-             {% assign sorted_publication = (year.publications | sort: 'date') %}
+            {% assign sorted_publication = year.publications | sort: 'date' %}
             {% for publication in sorted_publication reversed %}
                 <li>
                     <h4>
