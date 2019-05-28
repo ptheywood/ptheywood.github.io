@@ -6,8 +6,8 @@ title: Contact | ptheywood.uk
 <section id="contact">
     <h2 class="sub-header">Contact</h2>
     <ul class="vertical-contact-list">
-        {% assign sorted_contact = (site.data.contact | sort: 'contact_order') %}
-        {% for contact in sorted_contact :%}
+        {% assign sorted_contact = site.data.contact | sort: 'contact_order' %}
+        {% for contact in sorted_contact %}
             <li>
                 <a href="{{ contact.url }}">
                     {{ contact.alternative }}

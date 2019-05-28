@@ -5,12 +5,12 @@ title: Posters | ptheywood.uk
 <section id="posters">
     <h2 class="sub-header">Posters</h2>
     <ul class="pt-list poster-list">
-    {% assign sorted_poster_years = (site.data.posters | sort: 'year') %}
+    {% assign sorted_poster_years = site.data.posters | sort: 'year' %}
     {% for year in sorted_poster_years reversed %}
         <li>
             <h3>{{ year.year }}</h3>
             <ul>
-                {% assign sorted_posters = (year.posters | sort: 'date') %}
+                {% assign sorted_posters = year.posters | sort: 'date' %}
                 {% for poster in sorted_posters reversed %}
                 <li>
                     <h4>

@@ -5,12 +5,12 @@ title: Talks | ptheywood.uk
 <section id="talks">
     <h2 class="sub-header">Talks</h2>
     <ul class="pt-list talk-list">
-    {% assign sorted_talk_years = (site.data.talks | sort: 'year') %}
+    {% assign sorted_talk_years = site.data.talks | sort: 'year' %}
     {% for year in sorted_talk_years reversed %}
         <li>
             <h3>{{ year.year }}</h3>
             <ul>
-                {% assign sorted_talks = (year.talks | sort: 'date') %}
+                {% assign sorted_talks = year.talks | sort: 'date' %}
                 {% for talk in sorted_talks reversed %}
                 <li>
                     <h4>

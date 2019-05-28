@@ -52,6 +52,7 @@
       bib: "/download/bib/heywood2017data.bib"
       pdf: 
       note: ""
+      doi: "https://doi.org/10.1016/j.simpat.2017.11.002"
     - authors: "Heywood P, Richmond P, Maddock S, Brackstone M, Casas J, Garcia D"
       title: "Accelerating Transport Microsimulation: Demonstrating the Impact of Future Many-Core Simulations - Final Report"
       journal: "Department for Transport - Transport Technology Research Innovation Grant (T-TRIG July 2016) Whitepaper"
@@ -66,8 +67,20 @@
       title: "Parallel Pair-Wise Interaction for Multi-Agent Immune Systems Modelling"
       journal: "Bioinformatics and Biomedicine (BIBM), 2018 IEEE International Conference on"
       date: 2018-12-03
-      href: https://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1001586
-      bib:
+      href: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8621404
+      bib: "/download/bib/chimeh2018parallel.bib"
       pdf:
       note: CMISF Workshop (BIBM) 2018. To be published.
       doi: http://dx.doi.org/10.1109/BIBM.2018
+- year: 2019
+  publications:
+    - authors: "Heywood P, Maddock S, Bradley R, Swain D, Wright I, Mawson M, Fletcher G and Guichard R, Himlin R and Richmond P"
+      title: "A data-parallel many-source shortest-path algorithm to accelerate macroscopic transport network assignment"
+      journal: "Transportation Research Part C: Emerging Technologies"
+      date: 2019-05-16
+      href: http://www.sciencedirect.com/science/article/pii/S0968090X18303152
+      bib: "/download/bib/heywood2019data.bib"
+      pdf:
+      note: 
+      doi: https://doi.org/10.1016/j.trc.2019.05.020
+    
