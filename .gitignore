@@ -10,4 +10,4 @@ serve/
 
 Gemfile.lock
 .bundle
-
+package-lock.json
