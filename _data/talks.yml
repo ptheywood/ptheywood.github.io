@@ -8,6 +8,14 @@
       note: 'Session S9387'
       pdf: '/download/presentations/heywood-gtc2019-presentation.pdf'
       recording:
+    - authors: "Heywood P, Kabiri Chimeh M"
+      date: 2019-05-29
+      event: "Planning the Future of Agent Simulation"
+      event_url:
+      title: "FLAME GPU"
+      note: 'Hosted at Keele University, hosted by Fiona Polack.'
+      pdf: 'https://ptheywood.uk/abm-keele/'
+      recording:
 - year: 2018
   talks:
     - authors: "Heywood P"
