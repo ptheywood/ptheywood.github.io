@@ -7,7 +7,7 @@ Jekyll powered personal / academic website.
 
 ### Install Dependencies
 
-1. Install ruby. 
+1. Install ruby. Testing
     ```
     sudo apt install ruby-full
     ```
