@@ -83,4 +83,12 @@
       pdf:
       note: 
       doi: https://doi.org/10.1016/j.trc.2019.05.020
-    
+    - authors: "Kabiri Chimeh M, Heywood P, Pennisi M, Pappalardo F, and Richmond P"
+      title: "Parallelisation strategies for agent based simulation of immune systems"
+      journal: "BMC Bioinformatics"
+      date: 2019-12-10
+      href: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3181-y
+      bib: "/download/bib/chimeh2019parallelisation.bib"
+      pdf:
+      note: 
+      doi: https://doi.org/10.1186/s12859-019-3181-y
