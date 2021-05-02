@@ -3,11 +3,11 @@
     - authors: "Heywood P, Richmond P, Maddock S, Chisenholm R, Pyle J"
       date: 2019-03-19
       event: "GPU Technology Conference 2019"
-      event_url: "http://www.gputechconf.com/"
+      event_url: "https://www.nvidia.com/en-us/gtc/"
       title: "Large-Scale Road Network Simulations for Smart Cities"
       note: 'Session S9387'
       pdf: '/download/presentations/heywood-gtc2019-presentation.pdf'
-      recording:
+      recording: "https://developer.nvidia.com/gtc/2019/video/s9387"
     - authors: "Heywood P, Kabiri Chimeh M"
       date: 2019-05-29
       event: "Planning the Future of Agent Simulation"
@@ -74,11 +74,11 @@
     - authors: "Heywood P, Richmond P"
       date: 2016-04-07
       event: "GPU Technology Conference 2016"
-      event_url: "http://www.gputechconf.com/"
+      event_url: "https://www.nvidia.com/en-us/gtc/"
       title: "Accelerating Transport System Micro-Simulations Using CUDA"
       note: 'Session S6404'
       pdf: '/download/presentations/heywood-gtc2016-presentation.pdf'
-      recording: "http://on-demand.gputechconf.com/gtc/2016/video/S6404.html"
+      recording: "https://on-demand.gputechconf.com/gtc/2016/video/S6404.html"
     - authors: "Crangle J, Heywood P, Hadley D, Craig-Atkins E, Maddock S, Scott R, Wiles A, Hodgson T, Shui W"
       date: 2016-03-31
       event: "Computer Applications & Quantative Methods in Archaeology (CAA) 2016"
