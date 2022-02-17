@@ -1,0 +1,27 @@
+name: Build
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      # Install Ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.3 # Check https://pages.github.com/versions/
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          gem update --system --no-document
+          gem update bundler --no-document
+          bundle config set path vendor/bundle
+          bundle install
+
+      # Build the website
+      - name: run jekyll
+        run: bundle exec jekyll build --drafts
