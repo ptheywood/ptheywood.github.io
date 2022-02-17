@@ -17,7 +17,8 @@ Jekyll powered personal / academic website.
     ```
 3. Install other dependencies with Bundler
     ```
-    bundler install --path vendor/bundle
+    bundle config set --local path 'vendor/bundle'
+    bundle install
     ```
 
 ### Update Dependencies

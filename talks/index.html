@@ -26,8 +26,11 @@ title: Talks | ptheywood.uk
                         <a href="{{ talk.event_url}}" >{{ talk.event }}</a>
                     </h5>
                     <p>{{ talk.note }}</p>
-                    {% if talk.pdf %}
-                        <a class="button" href="{{ talk.pdf }}" target="_blank">PDF</a>
+                    {% if talk.slides %}
+                        <a class="button" href="{{ talk.slides }}" target="_blank">Slides</a>
+                    {% endif %}
+                    {% if talk.src %}
+                        <a class="button" href="{{ talk.src }}" target="_blank">Source</a>
                     {% endif %}
                     {% if talk.recording %}
                         <a class="button" href="{{ talk.recording }}" target="_blank">Watch Recording</a>

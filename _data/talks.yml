@@ -1,3 +1,13 @@
+- year: 2022
+  talks:
+    - authors: "Heywood P"
+      date: 2022-02-17
+      event: "Lunchbytes: High Performance Computing (HPC) at Sheffield and Beyond"
+      event_url: "https://rse.shef.ac.uk/events/lunchbytes-2022-02-17.html"
+      title: "HPC Beyond Sheffield: JADE and Bede Presentation"
+      note: 
+      slides: "https://ptheywood.uk/hpc-beyond-sheffield-jade-and-bede-presentation"
+      src: "https://github.com/ptheywood/hpc-beyond-sheffield-jade-and-bede-presentation"
 - year: 2019
   talks:
     - authors: "Heywood P, Richmond P, Maddock S, Chisenholm R, Pyle J"
@@ -6,7 +16,7 @@
       event_url: "https://www.nvidia.com/en-us/gtc/"
       title: "Large-Scale Road Network Simulations for Smart Cities"
       note: 'Session S9387'
-      pdf: '/download/presentations/heywood-gtc2019-presentation.pdf'
+      slides: '/download/presentations/heywood-gtc2019-presentation.pdf'
       recording: "https://developer.nvidia.com/gtc/2019/video/s9387"
     - authors: "Heywood P, Kabiri Chimeh M"
       date: 2019-05-29
@@ -14,7 +24,7 @@
       event_url:
       title: "FLAME GPU"
       note: 'Hosted at Keele University, hosted by Fiona Polack.'
-      pdf: 'https://ptheywood.uk/abm-keele/'
+      slides: 'https://ptheywood.uk/abm-keele/'
       recording:
 - year: 2018
   talks:
@@ -24,7 +34,7 @@
       event_url: "http://paulrichmond.shef.ac.uk/teaching/COM4521/"
       title: "Accelerating Road Network Simulations using GPUs"
       note: 
-      pdf: '/download/presentations/heywood-com4521-2018.pdf'
+      slides: '/download/presentations/heywood-com4521-2018.pdf'
       recording: 
     - authors: "Heywood P"
       date: 2018-05-23
@@ -32,7 +42,7 @@
       event_url: "http://www.oerc.ox.ac.uk/Peter-Heywood-Many-core"
       title: "Accelerating Road Network Simulations using GPUs"
       note: 
-      pdf: '/download/presentations/heywood-oerc-many-core-2018.pdf'
+      slides: '/download/presentations/heywood-oerc-many-core-2018.pdf'
       recording: 
     - authors: "Heywood P, Richmond P"
       date: 2018-06-14
@@ -40,7 +50,7 @@
       event_url: "https://northmost.co.uk/"
       title: "Improving Transport Simulation Performance using Graphics Processing Units"
       note: 
-      pdf: '/download/presentations/heywood-northmost03-2018.pdf'
+      slides: '/download/presentations/heywood-northmost03-2018.pdf'
       recording: 
 - year: 2017
   talks:
@@ -50,7 +60,7 @@
       event_url: "https://project.inria.fr/ecal2017/tutorials-2/"
       title: "Simulating Complex Systems with FLAME GPU (Tutorial)"
       note: 
-      pdf:
+      slides:
       recording: 
     - authors: "Heywood P, Richmond P"
       date: 2017-11-08
@@ -58,7 +68,7 @@
       event_url: "http://www.highways-uk.com/huk/intelligent-infrastructure-hub"
       title: "Improved UTMC through GPU-Accelerated Microscopic Road Network Simulation"
       note: 
-      pdf: '/download/presentations/heywood-highways-uk-2017-iic.pdf'
+      slides: '/download/presentations/heywood-highways-uk-2017-iic.pdf'
       recording: 
     - authors: "Wright I, Heywood P"
       date: 2017-11-16
@@ -66,7 +76,7 @@
       event_url: "https://saturnsoftware2.co.uk/support"
       title: "SATGPU - A Step Change in Model Runtimes"
       note: 'Epsom UGM (2017-11-03) & Leeds UGM (2017-11-16)'
-      pdf: 'https://saturnsoftware2.co.uk/uploads/files/SATUGM17-SATGPU2.pdf'
+      slides: 'https://saturnsoftware2.co.uk/uploads/files/SATUGM17-SATGPU2.pdf'
       recording: 
 
 - year: 2016
@@ -77,7 +87,7 @@
       event_url: "https://www.nvidia.com/en-us/gtc/"
       title: "Accelerating Transport System Micro-Simulations Using CUDA"
       note: 'Session S6404'
-      pdf: '/download/presentations/heywood-gtc2016-presentation.pdf'
+      slides: '/download/presentations/heywood-gtc2016-presentation.pdf'
       recording: "https://on-demand.gputechconf.com/gtc/2016/video/S6404.html"
     - authors: "Crangle J, Heywood P, Hadley D, Craig-Atkins E, Maddock S, Scott R, Wiles A, Hodgson T, Shui W"
       date: 2016-03-31
@@ -85,7 +95,7 @@
       event_url: "http://2016.caaconference.org/"
       title: "The Digital Ossuary: Rothwell (Northamptonshire, UK)"
       note: 
-      pdf:
+      slides:
       recording:
     - authors: "Crangle J, Heywood P, Hadley D, Craig-Atkins E, Maddock S, Scott R, Wiles A, Hodgson T, Shui W"
       date: 2016-03-21
@@ -93,7 +103,7 @@
       event_url: "http://www.rothwellcharnelchapel.group.shef.ac.uk/"
       title: "The Digital Ossuary: Rothwell (Northamptonshire, UK)"
       note: 
-      pdf:
+      slides:
       recording:
     - authors: "Heywood P"
       date: 2016-05-09
@@ -101,7 +111,7 @@
       event_url: "http://paulrichmond.shef.ac.uk/teaching/COM4521/"
       title: "Accelerating Transport Demand Assignment using GPUs"
       note: 
-      pdf: 
+      slides: 
       recording: 
     - authors: "Richmond P, Heywood P"
       date: 2016-06-02
@@ -109,7 +119,7 @@
       event_url: "http://landor.co.uk/modellingworld/2016/conference.php"
       title: "Alternative GPU friendly assignment algorithms"
       note: 
-      pdf: "/download/presentations/richmond-heywood-mw2016-presentation.pdf"
+      slides: "/download/presentations/richmond-heywood-mw2016-presentation.pdf"
       recording: 
     - authors: "McIlveen J, Maddock S, Heywood P, Richmond P"
       date: 2016-09-16
@@ -117,7 +127,7 @@
       event_url: "http://www.eguk.org.uk/CGVC2016/"
       title: "PED: Pedestrian Environment Designer"      
       note: 
-      pdf: '/download/presentations/mcilveen-maddock-heywood-richmond-cgvc16-presentation.pdf'
+      slides: '/download/presentations/mcilveen-maddock-heywood-richmond-cgvc16-presentation.pdf'
       recording: 
 - year: 2015
   talks:
@@ -127,7 +137,7 @@
       event_url: "http://emit.manchester.ac.uk/"
       title: "Complex system simulations on the GPU"
       note: 'Presented on behalf of <a href="http://www.paulrichmond.staff.shef.ac.uk" target="_blank">Dr Paul Richmond</a>'
-      pdf:
+      slides:
       recording:
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2015-08-24
@@ -135,7 +145,7 @@
       event_url: "http://www.padabs.org/"
       title: "Road Network Simulation using FLAME GPU"
       note: ''
-      pdf: '/download/presentations/heywood-padabs15-presentation.pdf'
+      slides: '/download/presentations/heywood-padabs15-presentation.pdf'
       recording:
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2015-09-16
@@ -143,7 +153,7 @@
       event_url: "http://cgvc15.cs.ucl.ac.uk/"
       title: "Visualising Real Time Large Scale Micro-Simulation of Transport Networks"
       note: ''
-      pdf: '/download/presentations/heywood-cgvc15-presentation.pdf'
+      slides: '/download/presentations/heywood-cgvc15-presentation.pdf'
       recording:
     - authors: "Heywood P, Richmond P, Maddock S"
       date: 2015-10-29
@@ -151,5 +161,5 @@
       event_url: "http://shef.ac.uk/dcs/research/groups/graphics"
       title: "Road Network Simulation using FLAME GPU"
       note: ''
-      pdf: '/download/presentations/heywood-vrgraphics15-presentation.pdf'
+      slides: '/download/presentations/heywood-vrgraphics15-presentation.pdf'
       recording:
