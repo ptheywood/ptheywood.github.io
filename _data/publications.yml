@@ -95,22 +95,22 @@
 - year: 2022
   publications:
     - authors: "Richmond P, Leach M, Heywood P, Pappalardo F, Russo G and Pennisi M"
-    - title: "UISS-GPU: Accelerated In-Silico Tuberculosis Vaccine Trials Using FLAME GPU"
-    - Journal: "2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
-    - date: 2022-12-06
-    - href: https://ieeexplore.ieee.org/abstract/document/9995159
-    - bib: "/download/bib/richmond2022uiss.bib"
-    - pdf:
-    - note:
-    - doi: "https://doi.org/10.1109/BIBM55620.2022.9995159"
+      title: "UISS-GPU: Accelerated In-Silico Tuberculosis Vaccine Trials Using FLAME GPU"
+      Journal: "2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+      date: 2022-12-06
+      href: https://ieeexplore.ieee.org/abstract/document/9995159
+      bib: "/download/bib/richmond2022uiss.bib"
+      pdf:
+      note:
+      doi: "https://doi.org/10.1109/BIBM55620.2022.9995159"
 - year: 2023
   publications:
     - authors: "Richmond P, Chisholm R, Heywood P, Chimeh MK, and Leach M"
-    - title: "FLAME GPU 2: A framework for flexible and performant agent based simulation on GPUs"
-    - Journal: "Software: Practice and Experience"
-    - date: 2023-05-16
-    - href: https://doi.org/10.1002/spe.3207
-    - bib: "/download/bib/richmond2023flame.bib"
-    - pdf:
-    - note:
-    - doi: "https://doi.org/10.1002/spe.3207"
+      title: "FLAME GPU 2: A framework for flexible and performant agent based simulation on GPUs"
+      Journal: "Software: Practice and Experience"
+      date: 2023-05-16
+      href: https://doi.org/10.1002/spe.3207
+      bib: "/download/bib/richmond2023flame.bib"
+      pdf:
+      note:
+      doi: "https://doi.org/10.1002/spe.3207"
