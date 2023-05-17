@@ -1,0 +1,14 @@
+@article{richmond2023flame,
+author = {Richmond, Paul and Chisholm, Robert and Heywood, Peter and Chimeh, Mozhgan Kabiri and Leach, Matthew},
+title = {FLAME GPU 2: A framework for flexible and performant agent based simulation on GPUs},
+journal = {Software: Practice and Experience},
+volume = {n/a},
+number = {n/a},
+pages = {},
+keywords = {agent based modelling, GPUs, large scale simulation},
+doi = {https://doi.org/10.1002/spe.3207},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3207},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/spe.3207},
+abstract = {Abstract Agent based modelling (ABM) offers a powerful abstraction for scientific study in a broad range of domains. The use of agent based simulators encourages good software engineering design such as separation of concerns, that is, the uncoupling of the model description from its implementation detail. A major limitation in current approaches to ABM simulation is that of the trade off between simulator flexibility and performance. It is common that highly optimised simulations, such as those which target graphics processing units (GPU) hardware, are implemented as standalone software. This work presents a software framework (FLAME GPU 2) which balances flexibility with performance for general purpose ABM. Methods for ensuring high computational efficacy are demonstrated by, minimising data movement, and ensuring high device utilisation by exploiting opportunities for concurrent code execution within a model and through the use of ensembles of simulations. A novel hierarchical sub-modelling approach is also presented which can be used to model certain types of recursive behaviours. This feature is shown to be essential in providing a mechanism to resolve competition for resources between agents within a parallel environment which would otherwise introduce race conditions. To understand the performance characteristics of the software, a benchmark model with millions of agents is used to explore the use of simulation ensembles and to parametrically investigate concurrent code execution within a model. Performance speedups are demonstrated of 3.5×\$\$ \times \$\$ and 10×\$\$ \times \$\$ respectively over a baseline GPU implementation. Our hierarchical sub-modelling approach is used to demonstrate the implementation of a recursive algorithm to resolve competition of agent movement which occurs as a result of agent desire to simultaneously occupy discrete areas high in a ‘resource’. The algorithm is used to implement a classical socio-economics model, Sugarscape, with populations of up to 16M agents.}
+}
+

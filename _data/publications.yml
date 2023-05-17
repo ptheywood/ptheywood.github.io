@@ -74,7 +74,7 @@
       doi: http://dx.doi.org/10.1109/BIBM.2018
 - year: 2019
   publications:
-    - authors: "Heywood P, Maddock S, Bradley R, Swain D, Wright I, Mawson M, Fletcher G and Guichard R, Himlin R and Richmond P"
+    - authors: "Heywood P, Maddock S, Bradley R, Swain D, Wright I, Mawson M, Fletcher G, Guichard R, Himlin R and Richmond P"
       title: "A data-parallel many-source shortest-path algorithm to accelerate macroscopic transport network assignment"
       journal: "Transportation Research Part C: Emerging Technologies"
       date: 2019-05-16
@@ -83,7 +83,7 @@
       pdf:
       note: 
       doi: https://doi.org/10.1016/j.trc.2019.05.020
-    - authors: "Kabiri Chimeh M, Heywood P, Pennisi M, Pappalardo F, and Richmond P"
+    - authors: "Chimeh MK, Heywood P, Pennisi M, Pappalardo F, and Richmond P"
       title: "Parallelisation strategies for agent based simulation of immune systems"
       journal: "BMC Bioinformatics"
       date: 2019-12-10
@@ -92,3 +92,25 @@
       pdf:
       note: 
       doi: https://doi.org/10.1186/s12859-019-3181-y
+- year: 2022
+  publications:
+    - authors: "Richmond P, Leach M, Heywood P, Pappalardo F, Russo G and Pennisi M"
+    - title: "UISS-GPU: Accelerated In-Silico Tuberculosis Vaccine Trials Using FLAME GPU"
+    - Journal: "2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+    - date: 2022-12-06
+    - href: https://ieeexplore.ieee.org/abstract/document/9995159
+    - bib: "/download/bib/richmond2022uiss.bib"
+    - pdf:
+    - note:
+    - doi: "https://doi.org/10.1109/BIBM55620.2022.9995159"
+- year: 2023
+  publications:
+    - authors: "Richmond P, Chisholm R, Heywood P, Chimeh MK, and Leach M"
+    - title: "FLAME GPU 2: A framework for flexible and performant agent based simulation on GPUs"
+    - Journal: "Software: Practice and Experience"
+    - date: 2023-05-16
+    - href: https://doi.org/10.1002/spe.3207
+    - bib: "/download/bib/richmond2023flame.bib"
+    - pdf:
+    - note:
+    - doi: "https://doi.org/10.1002/spe.3207"
