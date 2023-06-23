@@ -1,3 +1,13 @@
+- year: 2023
+  talks:
+    - authors: "Heywood P"
+      date: 2023-06-21
+      event: "ExaTEPP workshop (June 2023)"
+      event_url: "https://indico.cern.ch/event/1287030/"
+      title: "GPU Profiling with Celeritas"
+      note: 
+      slides: "https://ptheywood.uk/2023-06-22-gpu-profiling-with-celeritas/"
+      src: "https://github.com/ptheywood/2023-06-22-gpu-profiling-with-celeritas"
 - year: 2022
   talks:
     - authors: "Heywood P"
