@@ -92,6 +92,17 @@
       pdf:
       note: 
       doi: https://doi.org/10.1186/s12859-019-3181-y
+- year: 2021
+  publications:
+    - authors: "Heywood P"
+      title: "GPU Accelerated Simulation of Transport Systems"
+      Journal: "White Rose eTheses Online"
+      date: 2023-06-19
+      href: https://etheses.whiterose.ac.uk/29971/
+      bib: "/download/bib/wreo29971.bib"
+      pdf:
+      note:
+      doi:
 - year: 2022
   publications:
     - authors: "Richmond P, Leach M, Heywood P, Pappalardo F, Russo G and Pennisi M"

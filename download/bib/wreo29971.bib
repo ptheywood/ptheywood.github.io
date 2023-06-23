@@ -1,0 +1,24 @@
+@unpublished{wreo29971,
+           month = {February},
+           title = {GPU Accelerated Simulation of Transport Systems},
+          school = {University of Sheffield},
+          author = {Peter Heywood},
+            year = {2021},
+        keywords = {GPU, CUDA, complex systems, road network simulation, shortest path},
+             url = {https://etheses.whiterose.ac.uk/29971/},
+        abstract = {Computer modelling and simulation of road networks are a vital tool used to evaluate, design and manage road network infrastructure.
+Road network simulations are however computationally expensive, with simulation runtime imposing limits on the scale and quantity of simulations performed within a reasonable time frame.
+This thesis examines the appropriateness of many-core processing architectures (such as GPUs) for the acceleration of microscopic and macroscopic road network simulation, and the potential impact on the choice of modelling approach.
+
+Fine-grained agent-based microscopic simulations of individual vehicles are parallelised using GPUs, achieving high performance through a novel graph-based communication strategy for data-parallel simulations. 
+A minimal benchmark model and scalable road network are defined and used experimentally to evaluate performance compared to Aimsun, a commercial simulation tool for multi-core processors.
+Performance improvements of up to 67x are demonstrated for large scale simulations.
+
+High-level macroscopic simulations model network flow rather than individual vehicles.
+Although less computationally demanding than microscopic models, simulation runtimes can still be significant, often due to the calculation of many shortest paths.
+A novel Many-Source Shortest Path (MSSP) algorithm is proposed to concurrently find multiple shortest paths through sparse transport networks using GPUs.
+This is embedded within a commercial multi-core CPU macroscopic simulation tool, SATURN, and the performance evaluated on large-scale real-world road networks, demonstrating assignment performance improvements of up to 8.6x when comparing multi-processor GPU and CPU implementations.
+
+Finally, the impact of the performance improvements to both modelling techniques are evaluated using a common benchmark model and the relative improvements demonstrated by the benchmarking of each approach using different transport networks.
+These results suggest that GPUs will allow modellers to shift towards using finer-grained simulations for a broader range of modelling tasks.}
+}
