@@ -5,7 +5,6 @@
       event: "ExaTEPP workshop (January 2024)"
       event_url: "https://indico.cern.ch/event/1351992/"
       title: "Progress report: Profiling Celeritas on Nvidia GPUs"
-      note:
       slides: "https://ptheywood.uk/2024-01-23-progress-report-profiling-celeritas-on-nvidia-gpus"
       src: "https://github.com/ptheywood/2024-01-23-progress-report-profiling-celeritas-on-nvidia-gpus"
 - year: 2023
@@ -15,7 +14,6 @@
       event: "ExaTEPP workshop (June 2023)"
       event_url: "https://indico.cern.ch/event/1287030/"
       title: "GPU Profiling with Celeritas"
-      note: 
       slides: "https://ptheywood.uk/2023-06-22-gpu-profiling-with-celeritas/"
       src: "https://github.com/ptheywood/2023-06-22-gpu-profiling-with-celeritas"
 - year: 2022
@@ -25,7 +23,6 @@
       event: "Lunchbytes: High Performance Computing (HPC) at Sheffield and Beyond"
       event_url: "https://rse.shef.ac.uk/events/lunchbytes-2022-02-17.html"
       title: "HPC Beyond Sheffield: JADE and Bede Presentation"
-      note: 
       slides: "https://ptheywood.uk/hpc-beyond-sheffield-jade-and-bede-presentation"
       src: "https://github.com/ptheywood/hpc-beyond-sheffield-jade-and-bede-presentation"
 - year: 2019
