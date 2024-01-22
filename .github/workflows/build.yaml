@@ -12,12 +12,13 @@ jobs:
       # Install Ruby
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7.3 # Check https://pages.github.com/versions/
+          ruby-version: 2.7.4 # Check https://pages.github.com/versions/
 
       # Install dependencies
       - name: Install dependencies
         run: |
-          gem update --system --no-document
+          # disabled as this breaks ci...
+          # gem update --system --no-document
           gem update bundler --no-document
           bundle config set path vendor/bundle
           bundle install
