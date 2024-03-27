@@ -1,6 +1,13 @@
 - year: 2024
   talks:
     - authors: "Heywood P"
+      date: 2024-03-27
+      event: "GridPP51 & SWIFT-HEP07"
+      event_url: "https://indico.cern.ch/event/1366954/contributions/5871406/"
+      title: "Profiling Celeritas"
+      slides: "https://ptheywood.uk/2024-03-27-profiling-celeritas/#/title-slide"
+      src: "https://github.com/ptheywood/2024-03-27-profiling-celeritas"
+    - authors: "Heywood P"
       date: 2024-01-23
       event: "ExaTEPP workshop (January 2024)"
       event_url: "https://indico.cern.ch/event/1351992/"
