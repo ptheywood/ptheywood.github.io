@@ -7,6 +7,18 @@
       title: "Profiling Celeritas"
       slides: "https://ptheywood.uk/2024-03-27-profiling-celeritas/#/title-slide"
       src: "https://github.com/ptheywood/2024-03-27-profiling-celeritas"
+    - authors: "Panellists: Alistair Basden, Bill Ayres, Emma Barnes, Pete Heywood, Phil Hasnip, Christopher Woods"
+      date: 2024-03-20
+      event: "N8 CIR DRI Retreat 2024"
+      event_url: "https://n8cir.org.uk/training-and-events/dri-retreat-2024/facilitation/"
+      title: "Panel: What lies ahead for DRI tech?"
+      recording:
+    - authors: "Panellists: Emma Barnes, Pete Heywood, Peter Hill, Sam Bland, Simon Burbridge, Simon Hood"
+      date: 2024-03-20
+      event: "N8 CIR DRI Retreat 2024"
+      event_url: "https://n8cir.org.uk/training-and-events/dri-retreat-2024/facilitation/"
+      title: "Panel: DRI system components"
+      recording:
     - authors: "Heywood P"
       date: 2024-01-23
       event: "ExaTEPP workshop (January 2024)"
@@ -25,6 +37,12 @@
       src: "https://github.com/ptheywood/2023-06-22-gpu-profiling-with-celeritas"
 - year: 2022
   talks:
+    - authors: "Chair: Marion Weinzierl. Panellists: Andrew Edmondson, Pete Heywood, Mike Payne, Richard Regan"
+      date: 2022-03-29
+      event: "N8 CIR DRI Retreat 2022"
+      event_url: "https://n8cir.org.uk/training-and-events/dri-retreat-2022/engagement/"
+      title: "Panel: Usability"
+      recording: https://youtu.be/ED_2BmwQVoY
     - authors: "Heywood P"
       date: 2022-02-17
       event: "Lunchbytes: High Performance Computing (HPC) at Sheffield and Beyond"
