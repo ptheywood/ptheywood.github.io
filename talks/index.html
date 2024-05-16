@@ -21,9 +21,19 @@ title: Talks | ptheywood.uk
                             {{ talk.authors }}
                         <br />
                         {% endif %}
+                        {% if talk.date %}
                         <time>{{ talk.date }}</time>
+                        {% endif %}
+                        {% if talk.authors && talks.event %}
                         -
-                        <a href="{{ talk.event_url}}" >{{ talk.event }}</a>
+                        {% endif %}
+                        {% if talk.event %}
+                            {% if talk.event_url %}
+                                <a href="{{ talk.event_url}}" >{{ talk.event }}</a>
+                            {% else %}
+                                <a>{{ talk.event }}</a>
+                            {% endif %}
+                        {% endif %}
                     </h5>
                     <p>{{ talk.note }}</p>
                     {% if talk.slides %}

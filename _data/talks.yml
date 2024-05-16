@@ -1,6 +1,14 @@
 - year: 2024
   talks:
     - authors: "Heywood P"
+      date: 2024-05-17
+      # Slides for a meeting, no propper event
+      event: ""
+      event_url: ""
+      title: "N8 CIR Bede: GH200 pilot"
+      slides: "https://ptheywood.uk/bede-gh200-open-pilot-slides"
+      src: "https://github.com/ptheywood/bede-gh200-open-pilot-slides"
+    - authors: "Heywood P"
       date: 2024-03-27
       event: "GridPP51 & SWIFT-HEP07"
       event_url: "https://indico.cern.ch/event/1366954/contributions/5871406/"
