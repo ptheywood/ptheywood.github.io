@@ -8,6 +8,12 @@
       title: "N8 CIR Bede: GH200 pilot"
       slides: "https://ptheywood.uk/bede-gh200-open-pilot-slides"
       src: "https://github.com/ptheywood/bede-gh200-open-pilot-slides"
+    - authors: "Alan Real, Peter Heywood"
+      date: 2024-04-09
+      event: "ResearchComputing@Sheffield 2024"
+      event_url: "https://drive.google.com/drive/u/0/folders/1YPctycoYDaxZX4aqAqdCiQYQD9lgAtq_"
+      title: "Update on Bede / NICE"
+      slides: "https://docs.google.com/presentation/d/1N_oOZmDGwUd5EgiLlWyhOVcWwE_C9dJR/"
     - authors: "Heywood P"
       date: 2024-03-27
       event: "GridPP51 & SWIFT-HEP07"
