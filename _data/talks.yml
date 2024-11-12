@@ -1,6 +1,13 @@
 - year: 2024
   talks:
     - authors: "Heywood P"
+      date: 2024-11-12
+      event: "SWIFT-HEP #8 Joint with ExaTEPP"
+      event_url: "https://indico.cern.ch/event/1466097/"
+      title: "VecGeom surface_model profiling"
+      slides: "https://ptheywood.uk/2024-11-12-vecgeom-surface-model-profiling"
+      src: "https://github.com/ptheywood/2024-11-12-vecgeom-surface-model-profiling"
+    - authors: "Heywood P"
       date: 2024-05-17
       # Slides for a meeting, no propper event
       event: ""
