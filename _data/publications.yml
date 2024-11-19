@@ -125,3 +125,14 @@
       pdf:
       note:
       doi: "https://doi.org/10.1002/spe.3207"
+- year: 2024
+  publications:
+    - authors: "Smilovitskiy M, Olmez S, Richmond P, Chisholm R, Heywood P, Cabrejas A, van den Berghe S and Kobayashi S"
+      title: "Overcoming Computational Complexity: A Scalable Agent-Based Model of Traffic Activity Using FLAME-GPU"
+      Journal: "Advances in Practical Applications of Agents, Multi-Agent Systems, and Digital Twins: The PAAMS Collection (PAAMS 2024)"
+      date: 2024-11-19
+      href: https://doi.org/10.1007/978-3-031-70415-4_21
+      bib: "/download/bib/smilovitskiy2024overcoming.bib"
+      pdf:
+      note:
+      doi: "https://doi.org/10.1007/978-3-031-70415-4_21"
