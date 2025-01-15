@@ -1,3 +1,11 @@
+- year: 2025
+  talks:
+    - authors: "Chair: Martin Callaghan; Panellists: Jianping Meng, Keming Yang, Stephen Mander, Peter Heywood"
+      date: 2025-01-15
+      event: "N8 CIR DRI Retreat 2025"
+      event_url: "https://n8cir.org.uk/training-and-events/dri-retreat-2025/programme/"
+      title: "Panel: The impact of AI and machine learning on DRI workflows"
+      recording:
 - year: 2024
   talks:
     - authors: "Heywood P"
@@ -155,7 +163,8 @@
     - authors: "Crangle J, Heywood P, Hadley D, Craig-Atkins E, Maddock S, Scott R, Wiles A, Hodgson T, Shui W"
       date: 2016-03-31
       event: "Computer Applications & Quantative Methods in Archaeology (CAA) 2016"
-      event_url: "http://2016.caaconference.org/"
+      event_url: "https://caa2016a.sched.com/event/6Rvk/s06-08-the-digital-ossuary-rothwell-northamptonshire-uk"
+      other_event_url: "http://2016.caaconference.org/"
       title: "The Digital Ossuary: Rothwell (Northamptonshire, UK)"
       note: 
       slides:
