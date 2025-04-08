@@ -1,5 +1,12 @@
 - year: 2025
   talks:
+    - authors: "Heywood P"
+      date: 2025-04-11
+      event: "GridPP53 & SWIFT-HEP09"
+      event_url: "https://indico.cern.ch/event/1476120/"
+      title: "Benchmarking Celeritas"
+      slides: "https://ptheywood.uk/2025-04-11-benchmarking-celeritas/"
+      src: "https://github.com/ptheywood/2025-04-11-benchmarking-celeritas"
     - authors: "Chair: Martin Callaghan; Panellists: Jianping Meng, Keming Yang, Stephen Mander, Peter Heywood"
       date: 2025-01-15
       event: "N8 CIR DRI Retreat 2025"
