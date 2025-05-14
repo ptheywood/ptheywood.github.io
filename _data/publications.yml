@@ -23,8 +23,7 @@
       journal: "Computer Graphics & Visual Computing (CGVC) 2016"
       date: 2016-09-15
       href: "http://diglib.eg.org/handle/10.2312/2630862"
-      bib: "/download/bib/mcilveen2016ped.bib"
-      pdf: "http://diglib.eg.org/bitstream/handle/10.2312/cgvc20161304/105-112.pdf"
+      bib: "/download/bib/m>.org/bitstream/handle/10.2312/cgvc20161304/105-112.pdf"
       note:
     - authors: "Shui W, Maddock S, Heywood P, Craig-Atkins E, Crangle J, Hadley D, Scott R"
       title: "Using Semi-automatic 3D Scene Reconstruction to Create a Digital Medieval Charnel Chapel"
@@ -136,3 +135,14 @@
       pdf:
       note:
       doi: "https://doi.org/10.1007/978-3-031-70415-4_21"
+- year: 2025
+  publications:
+    - authors: "Smilovitskiy M, Olmez S, Richmond P, Chisholm R, Heywood P, Cabrejas A, van den Berghe S and Kobayashi S"
+      title: "FLAME-GPU for Traffic Systems: A Scalable Agent-Based Simulation Framework"
+      Journal: "Systems"
+      date: 2025-05-14
+      href: https://doi.org/10.3390/systems13050376
+      bib: "/download/bib/smilovitskiy2025flame.bib"
+      pdf:
+      note:
+      doi: "https://doi.org/10.3390/systems13050376"
