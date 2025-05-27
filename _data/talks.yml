@@ -12,7 +12,7 @@
       event: "N8 CIR DRI Retreat 2025"
       event_url: "https://n8cir.org.uk/training-and-events/dri-retreat-2025/programme/"
       title: "Panel: The impact of AI and machine learning on DRI workflows"
-      recording:
+      recording: https://www.youtube.com/watch?v=PrXvAFDVM0c
 - year: 2024
   talks:
     - authors: "Heywood P"
@@ -48,13 +48,13 @@
       event: "N8 CIR DRI Retreat 2024"
       event_url: "https://n8cir.org.uk/training-and-events/dri-retreat-2024/facilitation/"
       title: "Panel: What lies ahead for DRI tech?"
-      recording:
+      recording: https://www.youtube.com/watch?v=o9idEM1Rooo
     - authors: "Panellists: Emma Barnes, Pete Heywood, Peter Hill, Sam Bland, Simon Burbridge, Simon Hood"
       date: 2024-03-20
       event: "N8 CIR DRI Retreat 2024"
       event_url: "https://n8cir.org.uk/training-and-events/dri-retreat-2024/facilitation/"
       title: "Panel: DRI system components"
-      recording:
+      recording: https://www.youtube.com/watch?v=0fki5vYha_s
     - authors: "Heywood P"
       date: 2024-01-23
       event: "ExaTEPP workshop (January 2024)"
