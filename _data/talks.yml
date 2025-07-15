@@ -1,5 +1,13 @@
 - year: 2025
   talks:
+    - authors: "Chisholm R, FitzJohn R, Heywood P"
+      date: 2025-09-10
+      event: RSECon25
+      event_url: https://virtual.oxfordabstracts.com/event/75166/submission/12
+      title: "Reasonable Performance Computing SIG (SIG-RPC): Help Identify and Document Performance Traps in Research Software (Workshop)"
+      slides:
+      src:
+      recording:
     - authors: "Heywood P"
       date: 2025-04-11
       event: "GridPP53 & SWIFT-HEP09"
