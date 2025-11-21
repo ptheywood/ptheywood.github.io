@@ -472,9 +472,13 @@ ul.talk-list > li > ul > li {
 }
 
 /******************
- * Utility classes
+ * Misc 
  *****************/
 
+/* Some extra margin above the mugshot on the homepage */
+.mugshot {
+  margin-top: 3em;
+}
 
 /******************
  * New nav based on  http://codepen.io/rbardtke/pen/nfkdb/?editors=110
