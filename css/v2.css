@@ -1,7 +1,24 @@
 /******************
  * Core Styling
  *****************/
-*, *:before, *:after {
+:root {
+  --offwhite: #f9f9f9;
+  --almostblack: #25282a;
+  --light-grey: #D6D6D6;
+  --dark-grey: #666666;
+  --primary: #00674F;
+  --primary-lighter: #3EBB9E;
+  --primary-darker: #0A3C30;
+
+  --sidebar-bg: #0A3C30;
+
+  --error-dark: #6F0909;
+  --error-light: #88312E;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+ *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -11,8 +28,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
-  color: #222;
+  background: var(--offwhite);
+  color: var(--almostblack);
 }
 
 /* Pushed-down footer vie flexbox, the main element occupies any spare space vertically*/
@@ -42,17 +59,17 @@ body {
 html, body,
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
 p, span, a {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 pre, code,
 pre code span,
 .highlight {
-  font-family: 'Overpass Mono', sans-serif;
+  font-family: "Source Code Pro", monospace;
   font-size: 14px;
 }
 a {
   text-decoration: none;
-  color: #268bd2;
+  color: var(--primary);
 }
 
 /* Padding / font styling for general elements*/
@@ -92,7 +109,7 @@ h2 {
 }
 .sub-header:before,
 .sub-header:after {
-  background-color: #000;
+  background-color: var(--almostblack);
   content: "";
   display: inline-block;
   height: 1px;
@@ -119,14 +136,14 @@ blockquote {
   padding: 2px 16px;
   margin: 16px 0 16px 0;
   font-size: 1.3rem;
-  border-left: 4px solid #34A3F1;
+  border-left: 4px solid var(--primary);
 }
 
 /******************
  * Header
  *****************/
 .header {
-  color: #222;
+  color: var(--almostblack);
   text-align: center;
 }
 
@@ -134,7 +151,7 @@ blockquote {
   line-height: 1;
   margin: 24px auto 4px auto;
   font-variant: small-caps;
-  color: #268bd2;
+  color: var(--primary);
   text-align: center;
 }
 
@@ -144,15 +161,9 @@ blockquote {
   font-size: 1.6rem;
 }
 
-#header a {
-  color: #6F0909;
-}
 /******************
  * General Content
  *****************/
-main {
-
-}
 
 main h2 {
   font-size: 2.0rem;
@@ -171,7 +182,7 @@ main p {
  * Footer
  *****************/
 footer {
-  color: #DFDFDF;
+  color: var(--light-grey);
   padding: 16px 16px 20px 8px;
 }
 footer .separator-top {
@@ -181,7 +192,7 @@ footer .copyright {
     color: #888;
 }
 #footer {
-  border-top: 1px solid #D6D6D6;
+  border-top: 1px solid var(--light-grey);
   margin-top: 48px;
   text-align: center;
 }
@@ -223,15 +234,15 @@ footer .copyright {
   font-size: 140%;
   font-weight: bold;
   padding: 12px 0 8px 24px;
-  border-left: 5px solid #6F0909;
-  color: #88312E;
+  border-left: 5px solid var(--error-dark);
+  color: var(--error-light);
   margin-bottom: 16px;
 }
 .error-page p {
   font-size: 124%;
 }
 .error-page p.ascii {
-  color: #6F0909;
+  color: var(--error-dark);
   font-size: 600%;
   padding: 24px;
   text-align: center;
@@ -302,13 +313,12 @@ footer .copyright {
 .post-nav a.heading {
   display: block;
   padding: 8px 16px;
-  color: #444;
-  /*border-bottom: 1px solid #777;*/
+  color: var(--dark-grey);
   font-weight: bold;
 }
 .post-nav a.heading:focus ,
 .post-nav a.heading:hover {
-  background: #f5f5f5;
+  background: var(--offwhite);
 }
 
 .post-nav ul {
@@ -324,28 +334,28 @@ footer .copyright {
 .post-nav ul > li > a {
   display: block;
   padding: 8px 16px;
-  background: #eee;
-  border: 1px solid #ddd;
+  background: var(--light-grey);
+  border: 1px solid var(--light-grey);
   border-top: 0;
-  color: #333;
+  color: var(--dark-grey);
   text-align: left;
 }
 .post-nav ul > li:first-child > a {
   border-radius: 4px 4px 0 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--light-grey);
 }
 .post-nav ul > li:last-child > a {
   border-radius: 0 0 4px 4px;
 }
 .post-nav ul > li > a:focus ,
 .post-nav ul > li > a:hover {
-  background-color: #ddd;
+  background-color: var(--light-grey);
 }
 .post-nav ul > li.active > a ,
 .post-nav ul > li.active > a:focus ,
 .post-nav ul > li.active > a:hover {
-  background-color: #2B6994;
-  color: #eee;
+  background-color: var(--primary);
+  color: var(--light-grey);
 }
 
 /******************
@@ -378,15 +388,15 @@ article > div .content-wrapper {
 .prev-next > a {
   display: inline-block;
   padding: 4px 8px;
-  background: #34A3F1;
+  background: var(--primary);
   color: #eee;
-  border: 1px solid #1E7DBF;
+  border: 1px solid var(--primary-darker);
   margin-left: -4px;
 }
 .prev-next > a:focus ,
 .prev-next > a:hover {
-  background: #2D8CCE;
-  color: #f5f5f5;
+  background: var(--primary-lighter);
+  color: var(--offwhite);
 }
 .prev-next > a:first-child {
   border-top-left-radius: 4px;
@@ -412,7 +422,7 @@ ul.pt-list > li {
 ul.pt-list > li h3 {
   font-size: 20px;
   margin: 4px 0;
-  color: #303030;
+  color: var(--almostblack);
 }
 ul.pt-list > li > ul {
   list-style: none;
@@ -452,9 +462,9 @@ ul.pt-list li .button {
   text-shadow:none;
 }
 ul.pt-list li .button:hover {
-  color: #eee8d5;
-  border-color: #002b36;
-  background: #268bd2;
+  color: var(--offwhite);
+  border-color: var(--sidebar-bg);
+  background: var(--primary);
 }
 
 ul.talk-list > li > ul > li {
@@ -490,7 +500,7 @@ label[data-function*='swipe'] {
   height: 24px;
   font: 24px/24px fontawesome;
   text-align: center;
-  color: #002b36;
+  color: var(--sidebar-bg);
   cursor: pointer;
   transform: translate3d(0, 0, 0);
   transition: transform .3s;
@@ -521,8 +531,8 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   transform: translate3d(-260px, 0, 0);
   position: fixed;
   width: 260px;
-  background: #002b36;
-  color: #f5f5f5;
+  background: var(--sidebar-bg);
+  color: var(--offwhite);
   left: 0;
   height: 100%;
   transition: all .3s;
@@ -535,14 +545,14 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
 }
 .menu ul li {
   list-style: none;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid var(--almostblack);
 }
 .menu ul li.active {
-  background: #268bd2;
+  background: var(--primary);
 }
 
 .menu ul li a {
-  color: #fdf6e3;
+  color: var(--offwhite);
   display: block;
   text-decoration: none;
   padding: 16px;
@@ -550,11 +560,12 @@ input[data-function*='swipe']:checked ~ .offcanvas-sidebar .menu li {
   text-align: right;
 }
 .menu ul li a:hover {
-  color: #eee8d5;
-  background: #073642;
+  color: var(--offwhite);
+  background: var(--primary);
 }
 .menu ul li.active a:hover {
-  background: #267BD2;
+  color: var(--almostblack);
+  background: var(--primary-lighter);
 }
 
 /******************
