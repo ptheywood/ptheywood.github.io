@@ -4,12 +4,6 @@
   icon: /img/font-awesome/envelope.svg
   contact_order: 0
 
-- text: Twitter
-  alternative: twitter/ptheywood
-  url: https://twitter.com/ptheywood/
-  icon: /img/twitter/Twitter_logo_blue.svg
-  contact_order: 1
-
 - text: Github
   alternative: github/ptheywood
   url: https://github.com/ptheywood/
