@@ -3,16 +3,25 @@
   url: mailto:p.heywood@sheffield.ac.uk
   icon: /img/font-awesome/envelope.svg
   contact_order: 0
+  footer: true
 
 - text: Github
   alternative: github/ptheywood
   url: https://github.com/ptheywood/
   icon: /img/github/github_mark.svg
-  contact_order: 2
+  contact_order: 1
+  footer: true
 
 - text: GitLab
   alternative: gitlab/ptheywood
   url: https://gitlab.com/ptheywood/
   icon: /img/gitlab/gitlab_logo_square.svg
-  contact_order: 3
+  contact_order: 2
+  footer: false
 
+- text: "ORCID iD: 0000-0001-9277-8394"
+  alternative: 0000-0001-9277-8394
+  url: "https://orcid.org/0000-0001-9277-8394"
+  icon: /img/orcid/ORCID-iD_icon_vector.svg
+  contact_order: 3
+  footer: true

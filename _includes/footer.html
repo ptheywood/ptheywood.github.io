@@ -1,11 +1,13 @@
 <footer id="footer">
     <ul class="social-media">
         {% for contact in site.data.contact %}
+            {% if contact.footer %}
             <li>
                 <a href="{{ contact.url }}">
                     <img src="{{ site.baseurl }}{{ contact.icon }}" alt="{{ contact.text }}" />
                 </a>
             </li>
+            {% endif %}
         {% endfor %}
     </ul>
 
