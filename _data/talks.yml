@@ -1,3 +1,21 @@
+- year: 2026
+  talks:
+    - authors: "Chairs: Atkinson J, Heywood P"
+      date: 2026-09-09
+      event: RSECon26
+      event_url: https://virtual.oxfordabstracts.com/event/76908/session/233930
+      title: "Reasonable Performance Computing SIG (SIG-RPC): Help Identify and Document Performance Traps in Research Software (Workshop)"
+      slides:
+      src:
+      recording:
+    - authors: "Richmond P, Heywood P"
+      date: 2026-11-27
+      event: FLAME GPU Living Benchmarks Tutorial and Hackathon (The James Hutton Institute, 2026-11-27 to 2026-11-29)
+      event_url: https://flamegpu.com/events/hutton
+      title: "The James Hutton Institute FLAME GPU Tutorial and Hackathon: Introduction to FLAME GPU"
+      slides: "https://drive.google.com/file/d/1ZYK1ONElmkirQB2FA5faQtkWpfaCejEm/view"
+      src:
+      recording:
 - year: 2025
   talks:
     - authors: "Chisholm R, FitzJohn R, Heywood P"
