@@ -5,14 +5,14 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Install Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3.4 # Check https://pages.github.com/versions/ for the current Ruby version used by gh pages.
+          ruby-version: 3.3.4
 
       # Install dependencies
       - name: Install dependencies
