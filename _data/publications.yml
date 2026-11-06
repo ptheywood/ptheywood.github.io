@@ -157,6 +157,15 @@
       doi: "https://doi.org/10.1016/j.simpat.2025.103205"
 - year: 2026
   publications:
+    - authors: "Heywood, P., Richmond, P., & Costanzo D."
+      title: "SHAREing mini project 003 - Celeritas code assessment"
+      journal:
+      date: 2026-03-25
+      href: "https://shareing-dri.github.io/tasks/003_celeritas/"
+      bib:
+      pdf: "https://shareing-dri.github.io/assets/documents/SHAREing-mini-project-003--celeritas-code-assessment.html"
+      note: "Published online 2026-03-25"
+      doi:
     - authors: "Leach M, Heywood P, Fletcher A. G. and Richmond P"
       title: "GPU acceleration of cell-based simulations in Chaste using FLAME GPU 2"
       journal: "Mathematics in Medical and Life Sciences"
