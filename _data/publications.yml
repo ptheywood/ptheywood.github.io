@@ -155,3 +155,14 @@
       pdf:
       note:
       doi: "https://doi.org/10.1016/j.simpat.2025.103205"
+- year: 2026
+  publications:
+    - authors: "Leach M, Heywood P, Fletcher A. G. and Richmond P"
+      title: "GPU acceleration of cell-based simulations in Chaste using FLAME GPU 2"
+      journal: "Mathematics in Medical and Life Sciences"
+      date: 2026-11-04
+      href: "https://doi.org/10.1080/29937574.2026.2754441"
+      bib: "/download/bib/leach2026gpu.bib"
+      pdf:
+      note: "Received 10 Apr 2026, Accepted 12 Oct 2026, Published online: 04 Nov 2026"
+      doi: "https://doi.org/10.1080/29937574.2026.2754441"
